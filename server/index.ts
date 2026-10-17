@@ -14,7 +14,6 @@ export function serverConfiguration(env:NodeJS.ProcessEnv=process.env):ServerCon
   if(!host||!(isIP(host)||/^(?=.{1,253}$)[a-z\d](?:[a-z\d-]*[a-z\d])?(?:\.[a-z\d](?:[a-z\d-]*[a-z\d])?)*$/i.test(host)))throw new Error('HOST must be a valid IP address or hostname without a scheme, path or port.');
   if(!/^\d+$/.test(rawPort)||!Number.isSafeInteger(Number(rawPort))||Number(rawPort)<1||Number(rawPort)>65535)throw new Error('PORT must be an integer from 1 to 65535.');
   if(!databasePath.trim()||databasePath.includes('\0'))throw new Error('DATABASE_PATH must be a nonempty SQLite file path (or :memory: for isolated tests).');
-  if(!['127.0.0.1','localhost','::1'].includes(host)&&(env.API_TOKEN?.length??0)<32)throw new Error('Non-loopback deployment requires API_TOKEN of at least 32 characters and HTTPS for workspace sign-in. See docs/deployment.md.');
   return{host,port:Number(rawPort),databasePath};
 }
 

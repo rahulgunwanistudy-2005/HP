@@ -2,7 +2,6 @@ import express,{type Request,type Response,type NextFunction} from 'express';
 import {z} from 'zod';
 import {existsSync} from 'node:fs';
 import {resolve} from 'node:path';
-import {timingSafeEqual} from 'node:crypto';
 import {Store,now,uid,type RecordData} from './db.ts';
 import {Repository,sensitivity} from './repository.ts';
 import {ResearchQueue} from './research.ts';
@@ -11,7 +10,7 @@ import {presentation} from './workspace.ts';
 import {brief,printBrief,opportunitiesCsv} from './exports.ts';
 import {registerAuthoring} from './authoring.ts';
 import {ReconciliationService} from './reconciliation.ts';
-import {matchesAccessKey,hasSession,writeSession,clearSession,LoginAttempts} from './auth.ts';
+
 
 const dims=z.object({evidence:z.number().int().min(0).max(4).nullable(),fit:z.number().int().min(0).max(4).nullable(),timing:z.number().int().min(0).max(4).nullable(),scale:z.number().int().min(0).max(4).nullable(),access:z.number().int().min(0).max(4).nullable(),feasibility:z.number().int().min(0).max(4).nullable()}).partial().strict();
 const weightSchema=z.object({evidence:z.number().int().min(0).max(100),fit:z.number().int().min(0).max(100),timing:z.number().int().min(0).max(100),scale:z.number().int().min(0).max(100),access:z.number().int().min(0).max(100),feasibility:z.number().int().min(0).max(100)}).strict().refine(w=>Object.values(w).reduce((a,b)=>a+b,0)===100,'Weights must sum to 100');
@@ -24,36 +23,23 @@ const parse=<T>(schema:z.ZodType<T>,body:unknown):T=>{const result=schema.safePa
 const found=<T>(x:T|undefined):T=>{if(!x)throw new ApiError(404,'NOT_FOUND','Record not found');return x;};
 function paginate(items:RecordData[],q:Request['query']){const page=parse(z.coerce.number().int().min(1).max(100000).default(1),q.page),pageSize=parse(z.coerce.number().int().min(1).max(100).default(50),q.pageSize);return{items:items.slice((page-1)*pageSize,page*pageSize),total:items.length,page,pageSize};}
 function contains(value:unknown,query:unknown){return !query||String(value??'').toLowerCase().includes(String(query).toLowerCase());}
-function equalToken(a:string,b:string){const left=Buffer.from(a),right=Buffer.from(b);return left.length===right.length&&timingSafeEqual(left,right);}
-
 export function createApp(store:Store,queue=new ResearchQueue(store)){
   const app=express(),repo=new Repository(store),reconciliation=new ReconciliationService(store);app.disable('x-powered-by');app.use(express.json({limit:'100kb'}));
   if(process.env.RENDER==='true')app.set('trust proxy',1);
-  const loginAttempts=new LoginAttempts();
   app.use((req,res,next)=>{
     res.set({'X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer','X-Frame-Options':'DENY','Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'"});
     if(req.path.startsWith('/api/')){
       res.set('Cache-Control','no-store');
-      const host=req.hostname;
-      if(!['localhost','127.0.0.1','::1','[::1]'].includes(host)&&!process.env.API_TOKEN)return next(new ApiError(403,'LOCAL_ONLY','Non-loopback API access requires API_TOKEN and HTTPS for workspace sign-in.'));
-      const authEndpoint=['/api/auth/login','/api/auth/session'].includes(req.path);
-      if(process.env.API_TOKEN&&!authEndpoint&&!equalToken(req.get('authorization')?.replace(/^Bearer /,'')??'',process.env.API_TOKEN)&&!hasSession(req,process.env.API_TOKEN))return next(new ApiError(401,'UNAUTHORIZED','Sign in with the workspace access key.'));
       const origin=req.get('origin');
       if(!['GET','HEAD','OPTIONS'].includes(req.method)&&origin){let u:URL;try{u=new URL(origin);}catch{return next(new ApiError(403,'ORIGIN_BLOCKED','Invalid request origin'));}const sameOrigin=u.host===req.get('host')&&u.protocol===`${req.protocol}:`,devOrigin=process.env.NODE_ENV!=='production'&&['http://localhost:5173','http://127.0.0.1:5173'].includes(u.origin),configured=(process.env.CLIENT_ORIGINS??'').split(',').filter(Boolean).includes(u.origin);if(!['http:','https:'].includes(u.protocol)||!sameOrigin&&!devOrigin&&!configured)return next(new ApiError(403,'ORIGIN_BLOCKED','Cross-site mutation is blocked'));}
     }next();
   });
   app.get('/healthz',(_req,res)=>res.set('Cache-Control','no-store').json({status:'ok'}));
-  app.get('/api/auth/session',(req,res)=>res.json({authenticationRequired:Boolean(process.env.API_TOKEN),authenticated:!process.env.API_TOKEN||hasSession(req,process.env.API_TOKEN)}));
-  app.post('/api/auth/login',(req,res)=>{
-    const key=process.env.API_TOKEN;if(!key)return res.json({authenticated:true});
-    const input=parse(z.object({key:z.string().min(1).max(1024)}).strict(),req.body),ip=req.ip??'unknown';
-    if(loginAttempts.blocked(ip))throw new ApiError(429,'LOGIN_LIMITED','Too many unsuccessful attempts. Try again in 15 minutes.');
-    if(!matchesAccessKey(input.key,key)){loginAttempts.failed(ip);throw new ApiError(401,'UNAUTHORIZED','The workspace access key is incorrect.');}
-    loginAttempts.reset(ip);writeSession(res,key,req.secure||process.env.NODE_ENV==='production');res.json({authenticated:true});
-  });
-  app.post('/api/auth/logout',(_req,res)=>{clearSession(res,process.env.NODE_ENV==='production');res.json({authenticated:false});});
+  app.get('/api/auth/session',(_req,res)=>res.json({authenticationRequired:false,authenticated:true}));
+  app.post('/api/auth/login',(_req,res)=>res.json({authenticated:true}));
+  app.post('/api/auth/logout',(_req,res)=>res.json({authenticated:false}));
   app.get('/api/health',(_req,res)=>res.json({status:'ok',database:'sqlite',mode:'local single-user',aiProvider:'none',scheduledRefreshEnabled:false,time:now()}));
-  app.get('/api/bootstrap',(_req,res)=>{const data=repo.bootstrap();data.policy={...data.policy,sensitivity:sensitivity(repo)};res.json({...data,authenticationRequired:Boolean(process.env.API_TOKEN)});});
+  app.get('/api/bootstrap',(_req,res)=>{const data=repo.bootstrap();data.policy={...data.policy,sensitivity:sensitivity(repo)};res.json({...data,authenticationRequired:false});});
   app.get('/api/accounts',(req,res)=>res.json(paginate(repo.accounts().filter(a=>contains(`${a.name} ${a.summary}`,req.query.search)&&(!req.query.industry||a.industry===req.query.industry)&&(!req.query.eligibility||a.eligibility.status===req.query.eligibility)),req.query)));
   app.get('/api/accounts/:id',(req,res)=>res.json(found(repo.account(String(req.params.id)))));
   app.patch('/api/accounts/:id',(req,res)=>{const id=String(req.params.id),a=found(repo.accountBase(id)),patch=parse(z.object({purchasingOrganization:z.string().min(2).max(2000).optional(),legalEntity:z.string().min(2).max(500).optional()}).strict().refine(x=>Object.keys(x).length>0,'Provide at least one change'),req.body);const updated:RecordData={...a,...patch,updatedAt:now(),editedAt:now()};delete updated.facilities;delete updated.relationships;store.run('UPDATE accounts SET data=? WHERE id=?',JSON.stringify(updated),id);repo.snapshots();res.json(repo.account(id));});
