@@ -1,0 +1,6 @@
+
+> hp-account-intelligence@1.0.0 build
+> tsc --noEmit && vite build
+
+server/db.ts(27,117): error TS2345: Argument of type '{ syncUrl: string | undefined; authToken: string | undefined; syncPeriod: number; readYourWrites: boolean; offline: boolean; } | { timeout: number; }' is not assignable to parameter of type 'Options | undefined'.
+  Object literal may only specify known properties, and 'authToken' does not exist in type 'Options'.

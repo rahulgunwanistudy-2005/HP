@@ -1,0 +1,177 @@
+
+> hp-account-intelligence@1.0.0 test
+> node --import tsx --test tests/*.test.ts
+
+▶ deep mounted API audit: authoring, boundaries, evidence review, refresh, exports and protections
+  ✔ all empty, unknown, malformed and cross-origin mutations fail consistently without changing records (1068.862625ms)
+  ✔ mounted create and edit routes persist all authorable record types (2647.468667ms)
+  ✔ real queue API distinguishes cache from force-refresh and accepts a complete audited factual review (2599.508792ms)
+  ✔ same-account sourced procurement and amendments survive unrelated opportunity edits (847.362375ms)
+  ✔ all export formats retain authored content and reject unsupported formats or absent records (7052.004167ms)
+  ✔ Bearer auth, explicit read-only mode and origin checks apply to mounted authoring endpoints (688.104167ms)
+✔ deep mounted API audit: authoring, boundaries, evidence review, refresh, exports and protections (15248.329167ms)
+✔ well-known NAT64 supports public targets while private embedded destinations remain blocked (3.023208ms)
+✔ all text adapters parse in bounded child processes and discard executable HTML (1762.905042ms)
+✔ reviewed corpus preserves evidence relationships, real event clusters, unknown authorities and scope exclusion (574.865333ms)
+✔ analyst notes, action progress and score snapshots survive a new database connection (1814.781416ms)
+✔ account exports retain hypotheses, scope, source chronology, limitations and action stop conditions (551.383083ms)
+✔ API end-to-end: validation, territory recomputation, persistence, review, jobs, cancellation and exports (10666.737ms)
+✔ expanded directory has thirty sourced new prospects, balanced across six operating markets (7762.9255ms)
+✔ undated profiles remain hypotheses, while KBank has the correct dated post-move scope (853.502125ms)
+✔ group relationship is visible without treating SM and BDO as independent corroboration or one buyer (4370.009291ms)
+✔ ASEAN scope upgrade preserves prior boundary, notes and edited work, and never overwrites a later scope change (2438.901959ms)
+✔ expansion preserves source capture age and never turns retrieval time into publication time (8.844375ms)
+✔ authoring creates accounts, facilities, factual/hypothetical events and opportunities without changing seed files (1634.006083ms)
+✔ authoring rejects cross-account relationships, unsupported products and fabricated values; permits explicit scope exclusions (1597.656542ms)
+✔ reviewed facility and event edits preserve stable ids and synchronize opportunity context (2046.382792ms)
+✔ buyer role and action content are persisted with stable ids; source-backed named buyers require explicit support (1800.188292ms)
+✔ procurement extension requires reviewed source and amendment, and expired status cannot become active (5413.459792ms)
+✔ authoring preserves runtime context links and rejects superseded procurement and buyer sources (2745.299916ms)
+✔ invalid mutations leave no partial records or score snapshots and authored content survives reopen (905003.68825ms)
+✔ authoring HTTP routes provide consistent validation errors and persist all record types (4991.637291ms)
+✔ USA and Canada reference accounts leave active lists without deleting historical data or Singapore operations (2317.497125ms)
+✔ every active account has a documented entity and sourced buying route without fabricating deal authority (1708.849291ms)
+✔ buyer enrichment preserves evidence timestamps, immutable versions, notes, actions and analyst-edited fields (469.266875ms)
+✔ report edition is 15 October while audit / machine-readable source chronology remains actual (402.564167ms)
+✔ published construction procurement role stays context and cannot verify a bank endpoint buyer or buying trigger (874.7315ms)
+✔ mounted active workspace and report exports exclude archived references while preserving raw audit dates (2427.390667ms)
+✔ an unverified territory cannot turn perfect fit and an open notice into pursuit eligibility (5.318042ms)
+✔ operating-location eligibility follows the opportunity facility, independently of parent HQ (0.516125ms)
+✔ an unbound global initiative does not inherit a matching subsidiary facility (0.494917ms)
+✔ purchasing location remains unknown until evidenced, while an explicit HQ rule is separate (0.229959ms)
+✔ explicit country exclusions also apply to the deployment facility (0.182334ms)
+✔ unknown score dimensions receive zero without redistributing their weights (3.197292ms)
+✔ a claimed quantity cannot be scored when scope is explicitly unknown (0.346709ms)
+✔ score recomputation is reproducible and does not mutate the opportunity (3.168292ms)
+✔ a new retrieval does not refresh an old event, and unknown dates remain unknown (0.482083ms)
+✔ display source-family labels retain category-specific freshness policies (0.291875ms)
+✔ expired and already awarded notices cannot be promoted by high numeric scores (0.471042ms)
+✔ active procurement needs recent explicit verification and an assessed route (0.310292ms)
+✔ a material reviewed contradiction caps evidence and suspends active classification for review (0.254625ms)
+✔ a changed source requires review before it can support active purchasing (0.190958ms)
+✔ a duplicate from the same origin does not manufacture independent corroboration (0.382291ms)
+✔ readiness tiers rank before scores, with deterministic ties (19.302709ms)
+✔ entity resolution preserves subsidiary and duplicate-domain uncertainty (1.239416ms)
+✔ duplicate event labels cluster while distinct accounts, dates and facilities stay separate (0.790875ms)
+✔ CSV formula protection handles formula markers hidden behind whitespace (0.203875ms)
+✔ source HTML cannot carry executable markup into text or printable HTML (2.890125ms)
+✔ SSRF protection rejects private, reserved and mapped address literals (17.52125ms)
+✔ public URL validation rejects credentials, unsupported ports, schemes and internal names (0.793667ms)
+✔ DNS checks reject empty and mixed public/private results without using the network (1.402167ms)
+✔ feed parsing rejects DTD and entity declarations before expansion (20.900125ms)
+✔ RSS item dates remain distinct from feed updates and descriptions are plain text (3.707625ms)
+✔ malformed JSON fails explicitly and extraction is bounded (8.449084ms)
+✔ a partially failed research run persists honest counts and unreviewed candidate claims (19.1735ms)
+✔ cancellation during retrieval cannot store a success or a generated claim (4.937584ms)
+✔ source changes preserve event age, append provenance and force document and claim review (3.652625ms)
+✔ interrupted running jobs are recovered as partial without inventing new results (2.697542ms)
+✔ brief and CSV exports support new empty authored accounts and retain account-only sources (1623.269667ms)
+✔ exports distinguish contradiction, context and supersession, notice amendments and all chronology (1.923875ms)
+✔ curated source supersession survives hydrated evidence and is visible in exported history (462.419708ms)
+✔ reviewed seed refresh preserves authored edits, buyer and action content, source reviews and relationships (2506.458792ms)
+✔ seed refresh updates untouched curated facts, appends immutable versions, and is repeatable without data loss (980.364125ms)
+✔ workspace sessions expire, reject tampering and rotate with the owner key (5.071084ms)
+✔ hosted sign-in protects data, exports and writes while allowing a minimal health probe (2789.525083ms)
+✔ Vercel relay preserves authentication and export headers without exposing a server access key (7.337875ms)
+✔ HQ exclusion follows location basis and cannot override an included operating facility (1.869208ms)
+✔ country-qualified sites still enforce configured locality restrictions and unknown locations (0.571333ms)
+✔ any-site, all-sites and primary-site operating rules are executable and conservative (0.368917ms)
+✔ nurture cannot override stopped, product, route or geography exclusions (1.561916ms)
+✔ superseded and materially contradicted sources suspend readiness without erasing history (0.937208ms)
+✔ context-only changes cannot refresh or demote a reviewed current buying fact (0.372042ms)
+✔ country-specific locality exclusions do not block unrelated countries with unknown localities (0.38175ms)
+✔ explicit aliases participate in entity suggestions while subsidiary uncertainty is preserved (3.722333ms)
+✔ potential account relevance remains separate from confirmed deployment-site pursuit (0.34975ms)
+✔ current TNB Research notice establishes one unit and real contacts without inventing budget or bidder eligibility (1195.744583ms)
+✔ reconciliation advances current Micron and Sunway facts while keeping long-horizon Changi and undated profiles conservative (1550.296708ms)
+✔ quantity and budget facts withdraw when controlling evidence is rejected or superseded (482.382417ms)
+✖ reviewed updates are idempotent and retain authored notes, completed actions and immutable evidence versions (3058.48425ms)
+✔ PTT monetary evidence stays a committed-package budget and cannot become a fresh order or a zero-value award (2129.773375ms)
+✔ unrelated non-Latin legal names cannot collapse to a false exact entity match (3.624042ms)
+✔ different non-Latin events at the same site and date retain distinct event identities (2.011042ms)
+✔ merging an unbound event cannot silently move an existing country-bound opportunity to another site (32.817542ms)
+✔ supersession chronology does not compare a publication date with a future business milestone (6.81975ms)
+✔ same-announcement relationships also update the independence-group metric (10.111625ms)
+✔ source relationship revocation and reviewed reactivation preserve source facts and history (10.965458ms)
+✔ merge site attribution keeps the persisted event duplicate key synchronized (10.80925ms)
+✔ undo never erases a later source-event fact edit (10.795666ms)
+✔ review invalidation propagates through a factual event to its dependent opportunity (18.481666ms)
+✔ event reconciliation suggests duplicates, preserves source facts, and undoes mappings after unrelated qualification edits (1189.476292ms)
+✔ merge rejects entity and facility mismatches and undo refuses to overwrite a later event edit (3769.517333ms)
+✔ supersession and contradiction remain traceable and same-announcement evidence cannot inflate independence (1000.692167ms)
+✔ schema migrations are versioned and opening an existing store preserves facts (39.414ms)
+✔ HTML extraction prefers substantive main content and handles metadata attribute order (22.018917ms)
+✔ multiple articles do not hide a later amendment and modification is not publication (4.793583ms)
+✔ publication metadata preserves uncertainty and labelled time elements are supported (3.13275ms)
+✔ JSON primitives and null are valid documents and unsupported title types never leak objects (2.413834ms)
+✔ Atom chooses alternate links and keeps update time distinct from initial publication (17.182375ms)
+✔ malformed feed XML fails explicitly and namespaced content is retained as text (5.915583ms)
+✔ source character encoding is explicit rather than silently corrupting non-UTF8 text (3.176709ms)
+✔ robots wildcard anchors and percent-encoded unreserved characters are enforced (3.657583ms)
+✔ redirect targets are access-checked before requesting and private targets are never requested (64.766291ms)
+✔ Retry-After cannot be shortened against the source rate limit (0.751791ms)
+✔ pre-aborted parsing and ignored async work are bounded (36.909083ms)
+✔ PDF physical page references and technical dates survive extraction (3573.921916ms)
+✔ PDF extraction honestly reports the sixty-page bound (986.392334ms)
+✔ queued cancellation accounts for every requested URL without a connector failure (20.691541ms)
+✔ canceling an extension that ignores its signal releases the worker without storing late success (9.09725ms)
+✔ job execution timeout bounds an uncooperative retriever and persists failure (19.128458ms)
+✔ cache reuse exposes source age and pending review, while force refresh actually calls retrieval (15.405584ms)
+✔ future cache timestamps do not suppress a real source recheck (7.384125ms)
+✔ redirect aliases share one document identity and do not duplicate candidate claims (7.197125ms)
+✔ queue validates account, bounded public URLs and canonical duplicate requests (4.929792ms)
+✔ changed metadata and cancellation hints never overwrite reviewed source facts or event dates (5.033708ms)
+✔ Unicode passage matching cannot treat an empty ASCII normalization as a match (9.228334ms)
+✔ first full-source comparison is a new baseline rather than a false unchanged finding (5.736583ms)
+✔ PDF passage selection retains its page while boilerplate-only documents produce no factual claim (7.219ms)
+✔ server configuration validates port, host, public token and durable database settings without starting anything (14.035791ms)
+✖ invalid server and development configuration exits nonzero before claiming readiness (904251.686542ms)
+✔ occupied API port fails startup and dev supervision nonzero with no false ready message (4557.182917ms)
+✔ successful startup reports only the actual listener, serves health and gracefully releases its port (1205.845834ms)
+ℹ tests 125
+ℹ suites 0
+ℹ pass 123
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 927277.379791
+
+✖ failing tests:
+
+test at tests/qualification-progress.test.ts:1:4275
+✖ reviewed updates are idempotent and retain authored notes, completed actions and immutable evidence versions (3058.48425ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   _metadata: {
+  +     duration: 0.000001667
+  +   },
+      data: '{"id":"micron-fab-2026","url":"https://investors.micron.com/news/press-release/2026/Micron-Breaks-Ground-on-Advanced-Wafer-Fabrication-Facility-in-Singapore-01-26-2026/default.aspx","canonicalUrl":"https://investors.micron.com/news/press-release/2026/Micron-Breaks-Ground-on-Advanced-Wafer-Fabrication-Facility-in-Singapore-01-26-2026/default.aspx","title":"Micron Breaks Ground on Advanced Wafer Fabrication Facility in Singapore","publisher":"Micron Technology","family":"company_newsroom","origin":"Micron Technology","publishedAt":"2026-01-26","eventDate":"2026-01-27","retrievedAt":"2026-10-16","passage":"Wafer output is scheduled to begin in the second half of calendar 2028","claim":"The announced Singapore fab targets wafer output in H2 2028 and describes co-located R&D. The same release updates meaningful HBM supply contribution to 2027.","section":"Opening paragraphs and project update","limitations":"Investor-site heading is 26 January US time; Singapore dateline/event is 27 January. Forward-looking plans, not verified completion or a device order.","language":"en","translationStatus":"original","extractionMethod":"manual public-source review","reviewStatus":"reviewed","claimType":"source-supported factual claim","eventId":"micron-singapore-fab-2026","eventMilestone":"2028-H2","temporalScope":"Construction programme announced January 2026; forecast output H2 2028","reviewedAt":"2026-10-16T16:27:45Z","retrievalDatePrecision":"day; exact individual fetch timestamp not retained","sourceFamilyLabel":"Company newsrooms","accountId":"micron","independenceGroup":"Micron Technology","independenceAssessment":"Conservative grouping: same corporate group, buyer notice platform or shared project announcement does not create independent corroboration.","originalReviewStatus":"analyst-reviewed-source-support","retrievalStatus":"manually imported","fingerprint":"9e493ba6679d2bbc9b41e8373c7f5cf3255ef4e8c207dfa5a7d38a35a4c8ee60","fingerprintScope":"supporting_extract"}',
+      document_id: 'micron-fab-2026',
+      fingerprint: '9e493ba6679d2bbc9b41e8373c7f5cf3255ef4e8c207dfa5a7d38a35a4c8ee60',
+      id: 'micron-fab-2026-v1',
+      retrieved_at: '2026-10-16',
+  
+      at TestContext.<anonymous> (/Users/rahul/HP/tests/qualification-progress.test.ts:34:629)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { id: 'micron-fab-2026-v1', document_id: 'micron-fab-2026', fingerprint: '9e493ba6679d2bbc9b41e8373c7f5cf3255ef4e8c207dfa5a7d38a35a4c8ee60', retrieved_at: '2026-10-16', run_id: null, data: '{"id":"micron-fab-2026","url":"https://investors.micron.com/news/press-release/2026/Micron-Breaks-Ground-on-Advanced-Wafer-Fabrication-Facility-in-Singapore-01-26-2026/default.aspx","canonicalUrl":"https://investors.micron.com/news/press-release/2026/Micron-Breaks-Ground-on-Advanced-Wafer-Fabrication-Facility-in-Singapore-01-26-2026/default.aspx","title":"Micron Breaks Ground on Advanced Wafer Fabrication Facility in Singapore","publisher":"Micron Technology","family":"company_newsroom","origin":"Micron Technology","publishedAt":"2026-01-26","eventDate":"2026-01-27","retrievedAt":"2026-10-16","passage":"Wafer output is scheduled to begin in the second half of calendar 2028","claim":"The announced Singapore fab targets wafer output in H2 2028 and describes co-located R&D. The same release updates meaningful HBM supply contribution to 2027.","section":"Opening paragraphs and project update","limitations":"Investor-site heading is 26 January US time; Singapore dateline/event is 27 January. Forward-looking plans, not verified completion or a device order.","language":"en","translationStatus":"original","extractionMethod":"manual public-source review","reviewStatus":"reviewed","claimType":"source-supported factual claim","eventId":"micron-singapore-fab-2026","eventMilestone":"2028-H2","temporalScope":"Construction programme announced January 2026; forecast output H2 2028","reviewedAt":"2026-10-16T16:27:45Z","retrievalDatePrecision":"day; exact individual fetch timestamp not retained","sourceFamilyLabel":"Company newsrooms","accountId":"micron","independenceGroup":"Micron Technology","independenceAssessment":"Conservative grouping: same corporate group, buyer notice platform or shared project announcement does not create independent corroboration.","originalReviewStatus":"analyst-reviewed-source-support","retrievalStatus":"manually imported","fingerprint":"9e493ba6679d2bbc9b41e8373c7f5cf3255ef4e8c207dfa5a7d38a35a4c8ee60","fingerprintScope":"supporting_extract"}', _metadata: { duration: 0.000001667 } },
+    expected: { id: 'micron-fab-2026-v1', document_id: 'micron-fab-2026', fingerprint: '9e493ba6679d2bbc9b41e8373c7f5cf3255ef4e8c207dfa5a7d38a35a4c8ee60', retrieved_at: '2026-10-16', run_id: null, data: '{"id":"micron-fab-2026","url":"https://investors.micron.com/news/press-release/2026/Micron-Breaks-Ground-on-Advanced-Wafer-Fabrication-Facility-in-Singapore-01-26-2026/default.aspx","canonicalUrl":"https://investors.micron.com/news/press-release/2026/Micron-Breaks-Ground-on-Advanced-Wafer-Fabrication-Facility-in-Singapore-01-26-2026/default.aspx","title":"Micron Breaks Ground on Advanced Wafer Fabrication Facility in Singapore","publisher":"Micron Technology","family":"company_newsroom","origin":"Micron Technology","publishedAt":"2026-01-26","eventDate":"2026-01-27","retrievedAt":"2026-10-16","passage":"Wafer output is scheduled to begin in the second half of calendar 2028","claim":"The announced Singapore fab targets wafer output in H2 2028 and describes co-located R&D. The same release updates meaningful HBM supply contribution to 2027.","section":"Opening paragraphs and project update","limitations":"Investor-site heading is 26 January US time; Singapore dateline/event is 27 January. Forward-looking plans, not verified completion or a device order.","language":"en","translationStatus":"original","extractionMethod":"manual public-source review","reviewStatus":"reviewed","claimType":"source-supported factual claim","eventId":"micron-singapore-fab-2026","eventMilestone":"2028-H2","temporalScope":"Construction programme announced January 2026; forecast output H2 2028","reviewedAt":"2026-10-16T16:27:45Z","retrievalDatePrecision":"day; exact individual fetch timestamp not retained","sourceFamilyLabel":"Company newsrooms","accountId":"micron","independenceGroup":"Micron Technology","independenceAssessment":"Conservative grouping: same corporate group, buyer notice platform or shared project announcement does not create independent corroboration.","originalReviewStatus":"analyst-reviewed-source-support","retrievalStatus":"manually imported","fingerprint":"9e493ba6679d2bbc9b41e8373c7f5cf3255ef4e8c207dfa5a7d38a35a4c8ee60","fingerprintScope":"supporting_extract"}' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/startup.test.ts:1:2952
+✖ invalid server and development configuration exits nonzero before claiming readiness (904251.686542ms)
+  Error: Startup test child did not terminate within 8 seconds
+      at Timeout._onTimeout (/Users/rahul/HP/tests/startup.test.ts:11:507)
+      at listOnTimeout (node:internal/timers:635:17)
+      at process.processTimers (node:internal/timers:571:7)

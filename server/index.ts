@@ -3,12 +3,13 @@ import {isIP} from 'node:net';
 import type {Server} from 'node:http';
 import {resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {Store} from './db.ts';
+import {Store,databaseSettings} from './db.ts';
 import {seed} from './repository.ts';
 import {createApp} from './app.ts';
 
 export type ServerConfiguration={host:string;port:number;databasePath:string};
 export function serverConfiguration(env:NodeJS.ProcessEnv=process.env):ServerConfiguration {
+  databaseSettings(env);
   const host=env.HOST?.trim().toLowerCase()??'127.0.0.1',rawPort=env.PORT?.trim()??'3001',databasePath=env.DATABASE_PATH??'storage/intelligence.sqlite';
   if(!host||!(isIP(host)||/^(?=.{1,253}$)[a-z\d](?:[a-z\d-]*[a-z\d])?(?:\.[a-z\d](?:[a-z\d-]*[a-z\d])?)*$/i.test(host)))throw new Error('HOST must be a valid IP address or hostname without a scheme, path or port.');
   if(!/^\d+$/.test(rawPort)||!Number.isSafeInteger(Number(rawPort))||Number(rawPort)<1||Number(rawPort)>65535)throw new Error('PORT must be an integer from 1 to 65535.');
