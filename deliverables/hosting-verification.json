@@ -1,0 +1,24 @@
+{
+  "status": "prepared; cloud deployment not yet verified",
+  "checkedAt": "2026-10-17",
+  "automatedTests": {
+    "passed": 125,
+    "failed": 0,
+    "skipped": 0
+  },
+  "build": "passed",
+  "cleanRegistryInstall": "passed",
+  "cleanBuild": "passed",
+  "dataValidation": "passed",
+  "browserChecks": {
+    "incorrectKeyRejected": true,
+    "signInLoadsWorkspace": true,
+    "sessionSurvivesReload": true,
+    "signOutReturnsToSignIn": true
+  },
+  "hosting": {
+    "vercel": "configuration prepared; account connection required",
+    "render": "configuration prepared; paid persistent resource requires approval"
+  },
+  "database": "Local working database preserved; cloud seed includes reviewed data. Local runtime history has not been migrated."
+}

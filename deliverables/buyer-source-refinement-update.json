@@ -1,0 +1,32 @@
+{
+  "result": "Reviewed seed synchronized without deleting records",
+  "report": {
+    "inserted": 5,
+    "updated": 5,
+    "preserved": 739,
+    "relationshipConflicts": [
+      "epac-incremental-print/epac-hp-agreement-2026: kept analyst contradicts",
+      "changi-construction-print/changi-tunnel-award-2025: kept analyst contradicts",
+      "changi-afisms-excluded/changi-afisms-notice: kept analyst contradicts",
+      "dreamworks-workstation-review/dreamworks-lenovo-2025: kept analyst contradicts"
+    ],
+    "at": "2026-10-17T08:11:47.963Z"
+  },
+  "metrics": {
+    "accounts": 35,
+    "territoryProspects": 35,
+    "screenedProspects": 30,
+    "deepAccounts": 5,
+    "screenedAccounts": 50,
+    "reviewedOpportunities": 37,
+    "opportunities": 37,
+    "uniqueEvents": 36,
+    "sourceFamilies": 8,
+    "publisherOrigins": 44,
+    "independentOrigins": 34,
+    "staleFindings": 9,
+    "unresolvedBuyers": 113,
+    "failedRuns": 3,
+    "activeProcurement": 0
+  }
+}

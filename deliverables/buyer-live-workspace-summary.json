@@ -1,0 +1,67 @@
+{
+  "actualRecordedAt": "2026-10-17T08:18:39.573Z",
+  "presentation": {
+    "reportDate": "2026-10-15",
+    "label": "15 Oct",
+    "basis": "User-selected presentation edition. Actual collection and audit timestamps remain in Research operations and machine-readable evidence records."
+  },
+  "territory": {
+    "name": "ASEAN-6 · Major Southeast Asian economies",
+    "verificationStatus": "verified",
+    "countries": [
+      "ID",
+      "MY",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
+    ],
+    "subregions": [],
+    "exclusions": [],
+    "languages": [
+      "en",
+      "id",
+      "ms",
+      "fil",
+      "th",
+      "vi"
+    ],
+    "eligibilityBasis": "operating_location",
+    "operatingRuleMode": "any_reviewed_site",
+    "operatingRule": "Require reviewed evidence of a relevant operating office, facility or domestic operating footprint in Indonesia, Malaysia, the Philippines, Singapore, Thailand or Vietnam. Parent HQ alone cannot localize a global initiative. Purchasing organization, HP account ownership and route-to-supply eligibility require separate qualification.",
+    "verificationBasis": "User clarified the region as the major ASEAN economies on 17 October 2026; implemented as the six priority markets ID, MY, PH, SG, TH and VN. This is a sales priority scope, not a claim that ASEAN has only six members.",
+    "membershipSource": "https://asean.org/member-states/",
+    "scopeConfirmedAt": "2026-10-17",
+    "configuredBy": "User-authorized territory clarification",
+    "id": "primary",
+    "version": 2,
+    "updatedAt": "2026-10-17T07:07:37.107Z"
+  },
+  "metrics": {
+    "accounts": 35,
+    "territoryProspects": 35,
+    "screenedProspects": 30,
+    "deepAccounts": 5,
+    "screenedAccounts": 50,
+    "reviewedOpportunities": 37,
+    "opportunities": 37,
+    "uniqueEvents": 36,
+    "sourceFamilies": 8,
+    "publisherOrigins": 44,
+    "independentOrigins": 34,
+    "staleFindings": 9,
+    "unresolvedBuyers": 113,
+    "failedRuns": 3,
+    "activeProcurement": 0
+  },
+  "activeBuyerProfiles": 35,
+  "archivedAccountIds": [
+    "epac",
+    "dreamworks"
+  ],
+  "activeEvidenceDocuments": 49,
+  "totalRetainedDocumentVersions": 76,
+  "researchRuns": 7,
+  "analystNotes": 1,
+  "foreignKeyViolations": 0
+}

@@ -1,0 +1,48 @@
+
+> hp-account-intelligence@1.0.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ well-known NAT64 supports public targets while private embedded destinations remain blocked (2.299208ms)
+✔ all text adapters parse in bounded child processes and discard executable HTML (709.55525ms)
+✔ reviewed corpus preserves evidence relationships, real event clusters, unknown authorities and scope exclusion (22.784666ms)
+✔ analyst notes, action progress and score snapshots survive a new database connection (48.531417ms)
+✔ account exports retain hypotheses, scope, source chronology, limitations and action stop conditions (17.600042ms)
+✔ API end-to-end: validation, territory recomputation, persistence, review, jobs, cancellation and exports (279.186042ms)
+✔ an unverified territory cannot turn perfect fit and an open notice into pursuit eligibility (2.368084ms)
+✔ operating-location eligibility follows the opportunity facility, independently of parent HQ (0.213875ms)
+✔ an unbound global initiative does not inherit a matching subsidiary facility (0.310625ms)
+✔ purchasing location remains unknown until evidenced, while an explicit HQ rule is separate (0.142584ms)
+✔ explicit country exclusions also apply to the deployment facility (0.11475ms)
+✔ unknown score dimensions receive zero without redistributing their weights (0.214042ms)
+✔ a claimed quantity cannot be scored when scope is explicitly unknown (0.136459ms)
+✔ score recomputation is reproducible and does not mutate the opportunity (1.088959ms)
+✔ a new retrieval does not refresh an old event, and unknown dates remain unknown (0.26775ms)
+✔ display source-family labels retain category-specific freshness policies (0.1985ms)
+✔ expired and already awarded notices cannot be promoted by high numeric scores (0.254583ms)
+✔ active procurement needs recent explicit verification and an assessed route (0.163542ms)
+✔ a material reviewed contradiction caps evidence and suspends active classification for review (0.142459ms)
+✔ a changed source requires review before it can support active purchasing (0.115917ms)
+✔ a duplicate from the same origin does not manufacture independent corroboration (0.186375ms)
+✔ readiness tiers rank before scores, with deterministic ties (13.418417ms)
+✔ entity resolution preserves subsidiary and duplicate-domain uncertainty (0.359416ms)
+✔ duplicate event labels cluster while distinct accounts, dates and facilities stay separate (0.24075ms)
+✔ CSV formula protection handles formula markers hidden behind whitespace (0.20325ms)
+✔ source HTML cannot carry executable markup into text or printable HTML (0.693625ms)
+✔ SSRF protection rejects private, reserved and mapped address literals (11.369ms)
+✔ public URL validation rejects credentials, unsupported ports, schemes and internal names (0.371833ms)
+✔ DNS checks reject empty and mixed public/private results without using the network (0.686958ms)
+✔ feed parsing rejects DTD and entity declarations before expansion (2.389041ms)
+✔ RSS item dates remain distinct from feed updates and descriptions are plain text (0.872875ms)
+✔ malformed JSON fails explicitly and extraction is bounded (1.246041ms)
+✔ a partially failed research run persists honest counts and unreviewed candidate claims (6.376708ms)
+✔ cancellation during retrieval cannot store a success or a generated claim (1.971583ms)
+✔ source changes preserve event age, append provenance and force document and claim review (1.851125ms)
+✔ interrupted running jobs are recovered as partial without inventing new results (1.592334ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1542.735667

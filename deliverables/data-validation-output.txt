@@ -1,0 +1,118 @@
+
+> hp-account-intelligence@1.0.0 validate:data
+> node --import tsx scripts/validate-data.ts
+
+{
+  "validatedAt": "2026-10-16T17:06:08.090Z",
+  "mode": "deterministic corpus integrity; not independently measured predictive accuracy",
+  "accounts": 7,
+  "deepAccounts": 7,
+  "screenedAccounts": 24,
+  "reviewedOpportunities": 9,
+  "opportunities": 9,
+  "uniqueEvents": 8,
+  "sourceFamilies": 9,
+  "publisherOrigins": 15,
+  "independentOrigins": 8,
+  "staleFindings": 12,
+  "unresolvedBuyers": 30,
+  "failedRuns": 0,
+  "activeProcurement": 0,
+  "logicalDocuments": 20,
+  "uniqueCanonicalUrls": 19,
+  "productFamilies": 9,
+  "productSources": 14,
+  "evidenceRelationships": 26,
+  "qualificationActions": 36,
+  "buyerRoleRecords": 30,
+  "foreignKeyViolations": 0,
+  "sensitivity": [
+    {
+      "label": "Evidence +5 / timing −5",
+      "weights": {
+        "evidence": 30,
+        "fit": 20,
+        "timing": 15,
+        "scale": 15,
+        "access": 10,
+        "feasibility": 10
+      },
+      "leader": "Qualify engineering workstation requirements for Singapore expansion",
+      "leaderAccount": "Micron Technology",
+      "leadingIds": [
+        "micron-engineering",
+        "thk-print-procurement",
+        "sunway-endpoints"
+      ],
+      "changed": false,
+      "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+    },
+    {
+      "label": "Scale +5 / fit −5",
+      "weights": {
+        "evidence": 25,
+        "fit": 15,
+        "timing": 20,
+        "scale": 20,
+        "access": 10,
+        "feasibility": 10
+      },
+      "leader": "Qualify engineering workstation requirements for Singapore expansion",
+      "leaderAccount": "Micron Technology",
+      "leadingIds": [
+        "micron-engineering",
+        "thk-print-procurement",
+        "sunway-endpoints"
+      ],
+      "changed": false,
+      "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+    },
+    {
+      "label": "Access +5 / evidence −5",
+      "weights": {
+        "evidence": 20,
+        "fit": 20,
+        "timing": 20,
+        "scale": 15,
+        "access": 15,
+        "feasibility": 10
+      },
+      "leader": "Qualify engineering workstation requirements for Singapore expansion",
+      "leaderAccount": "Micron Technology",
+      "leadingIds": [
+        "micron-engineering",
+        "thk-print-procurement",
+        "sunway-endpoints"
+      ],
+      "changed": false,
+      "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+    },
+    {
+      "label": "Timing +10 / scale −10",
+      "weights": {
+        "evidence": 25,
+        "fit": 20,
+        "timing": 30,
+        "scale": 5,
+        "access": 10,
+        "feasibility": 10
+      },
+      "leader": "Verify eligibility for the five-year MFP equipment and service tender",
+      "leaderAccount": "Thye Hua Kwan Moral Charities",
+      "leadingIds": [
+        "thk-print-procurement",
+        "micron-engineering",
+        "epac-incremental-print"
+      ],
+      "changed": true,
+      "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+    }
+  ],
+  "notes": [
+    "All evidence links resolve inside the correct account.",
+    "Supporting passages checked for metadata, maximum source quote budget, chronology and explicit limitations.",
+    "No private buyers, invented quantities, prices or win probabilities.",
+    "One in-scope open notice; no territory- and supply-qualified active pursuit.",
+    "Source support reviewed by project analysts; this integrity script cannot establish truth independently."
+  ]
+}

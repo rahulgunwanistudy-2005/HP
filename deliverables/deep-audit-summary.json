@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-17T06:18:57.052196+00:00",
+  "tests": {
+    "passed": 106,
+    "failed": 0,
+    "skipped": 0,
+    "durationMs": 5652.50275,
+    "command": "RUN_HTTP_TESTS=1 npm test"
+  },
+  "build": "passed TypeScript and Vite production build",
+  "dependencyTree": "npm ls --depth=0 passed",
+  "reviewedCorpus": "validate:data passed",
+  "briefExport": "7 account Markdown and printable briefs regenerated",
+  "browser": "desktop1440x1000 and mobile390x844; no page overflow; principal authoring/review/reconciliation/research/export flows exercised",
+  "dataPreservation": "11 working record tables match pre-audit backup",
+  "url": "http://127.0.0.1:3001/",
+  "limitsReference": "docs/deep-audit.md"
+}

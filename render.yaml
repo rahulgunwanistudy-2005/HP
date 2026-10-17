@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: hp-account-intelligence-api
+    runtime: node
+    plan: starter
+    region: singapore
+    branch: main
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm run start:hosted
+    healthCheckPath: /healthz
+    autoDeployTrigger: commit
+    disk:
+      name: intelligence-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: 24.19.0
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: DATABASE_PATH
+        value: /var/data/intelligence.sqlite
+      - key: API_TOKEN
+        generateValue: true
+      - key: CLIENT_ORIGINS
+        sync: false
+      - key: RESEARCH_ENABLED
+        value: "true"

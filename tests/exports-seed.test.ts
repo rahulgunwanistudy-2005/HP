@@ -1,0 +1,49 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {Store,now} from '../server/db.ts';
+import {seed,Repository} from '../server/repository.ts';
+import {AuthoringService} from '../server/authoring.ts';
+import {brief,printBrief,opportunitiesCsv} from '../server/exports.ts';
+import {synchronizeReviewedSeed} from '../scripts/update-reviewed-seed.ts';
+
+const fixture=()=>{const store=new Store(':memory:');seed(store);return{store,repo:new Repository(store),authoring:new AuthoringService(store)};};
+
+test('brief and CSV exports support new empty authored accounts and retain account-only sources',()=>{
+  const {store,repo,authoring}=fixture();try{const account=authoring.createAccount({name:'FICTIONAL EXPORT ACCOUNT',domain:'fictional-export.example',industry:'Fixture',summary:'Fictional fixture only'});const empty=brief(account,repo.territory());assert.match(empty,/Analyst research record/);assert.match(empty,/No opportunity hypotheses recorded/);assert.match(empty,/No facilities recorded/);assert.doesNotMatch(empty,/undefined|\[object Object\]/);assert.ok(opportunitiesCsv([]).startsWith('\uFEFF'));assert.match(opportunitiesCsv([{}]),/unresolved/i);
+    const event=authoring.createEvent({accountId:account.id,title:'FICTIONAL no-date event'});const opportunity=authoring.createOpportunity({accountId:account.id,eventId:event.id,title:'FICTIONAL empty hypothesis',productId:'workstations'});const exported=brief(repo.account(account.id)!,repo.territory());assert.match(exported,/No linked source documents/);assert.match(exported,/No buying roles identified/);assert.match(exported,/No qualification actions recorded/);assert.doesNotMatch(exported,/undefined|\[object Object\]/);assert.match(opportunitiesCsv([opportunity]),/procurement_deadline/);
+    const realAccount=repo.account('micron')!,linked=new Set(realAccount.opportunities.flatMap((o:any)=>o.documents.map((d:any)=>d.id))),extra=realAccount.documents.find((d:any)=>!linked.has(d.id));if(extra)assert.ok(brief(realAccount,repo.territory()).includes(extra.url));
+  }finally{store.close();}
+});
+
+test('exports distinguish contradiction, context and supersession, notice amendments and all chronology',()=>{
+  const document={id:'fictional-source',title:'Fictional source title',url:'https://fixture.example/notice',family:'procurement',origin:'Fictional publisher',publishedAt:'2026-01-01',eventDate:'2026-01-02',retrievedAt:'2026-01-03',liveRetrievedAt:'2026-01-04',reviewedAt:'2026-01-05',reviewStatus:'reviewed',supersededBy:['fictional-replacement'],passage:'Fictional passage only',claim:'Fictional source-supported fact',limitations:'Fictional fixture'};
+  const opportunity={id:'fixture-op',title:'Fictional hypothesis',productFamily:'workstations',documents:[document],evidenceIds:[],contradictionIds:[document.id],contextIds:[],procurement:{explicit:true,status:'superseded',noticeId:'FIXTURE-001',deadline:'2026-12-31T12:00:00Z',verifiedAt:'2026-10-17T00:00:00Z',amendment:'Fictional deadline amendment',supersedingEvidenceId:'fictional-replacement',history:[{status:'open',deadline:'2026-11-30T12:00:00Z',verifiedAt:'2026-10-16',noticeId:'FIXTURE-001'}]},buyers:[],actions:[],notes:[],unknowns:[],confirm:[],weaken:[],disprove:[]};
+  const output=brief({name:'FICTIONAL export record',opportunities:[opportunity],documents:[],facilities:[]},{name:'Unverified test boundary'});assert.match(output,/contradicts hypothesis/);assert.match(output,/SUPERSEDED by fictional-replacement/);assert.match(output,/Fictional deadline amendment/);assert.match(output,/Prior notice states/);for(const expected of ['2026-01-01','2026-01-02','2026-01-03','2026-01-04','2026-01-05','2026-11-30','2026-12-31'])assert.ok(output.includes(expected),expected);
+  const table=opportunitiesCsv([opportunity]);assert.match(table,/contradicts hypothesis/);assert.match(table,/SUPERSEDED/);assert.match(table,/Fictional deadline amendment/);assert.match(table,/FIXTURE-001/);assert.match(table,/2026-11-30/);
+  const context=brief({name:'Fictional',opportunities:[{...opportunity,contradictionIds:[],contextIds:[document.id]}]},{name:'Fixture'});assert.match(context,/context only/);
+  assert.doesNotMatch(brief({name:'Fictional',documents:[{...document,supersededBy:[]}],opportunities:[]},{name:'Fixture'}),/SUPERSEDED/);
+  assert.match(printBrief({name:'<script>fixture()</script>',summary:'<img src=x onerror=fixture()>',opportunities:[]},{name:'Fictional'}),/&lt;script&gt;/);assert.doesNotMatch(printBrief({name:'<script>fixture()</script>',opportunities:[]},{name:'Fixture'}),/<script>fixture/);
+});
+
+test('curated source supersession survives hydrated evidence and is visible in exported history',()=>{
+  const {store,repo}=fixture();try{const document=repo.documents('micron').find(d=>d.id==='micron-hbm-2025')!;assert.ok(Array.isArray(document.supersededBy)&&document.supersededBy.includes('micron-fab-2026'),'the original reviewed controlling-source link must remain material after hydration');assert.match(brief(repo.account('micron')!,repo.territory()),/SUPERSEDED by micron-fab-2026/);}finally{store.close();}
+});
+
+test('reviewed seed refresh preserves authored edits, buyer and action content, source reviews and relationships',()=>{
+  const {store:target,repo,authoring}=fixture(),reviewed=new Store(':memory:');seed(reviewed);
+  try{
+    const originalOpportunity=repo.opportunity('micron-engineering')!,buyer=originalOpportunity.buyers[0],action=originalOpportunity.actions[0];
+    authoring.updateAccount('micron',{summary:'FICTIONAL analyst-edited summary retained during refresh',purchasingOrganization:'FICTIONAL analyst purchasing context'});authoring.updateOpportunity(originalOpportunity.id,{title:'FICTIONAL analyst-edited opportunity retained during refresh',requirement:'FICTIONAL analyst-edited requirement',dimensions:{timing:1}});authoring.updateBuyer(buyer.id,{role:'FICTIONAL analyst-edited buyer role'});authoring.updateAction(action.id,{title:'FICTIONAL analyst-edited action',question:'FICTIONAL analyst qualification question',status:'done'});
+    const facility=target.list('facilities','WHERE account_id=?','micron')[0];authoring.updateFacility(facility.id,{name:'FICTIONAL analyst-edited site name'});
+    const d=target.get('documents','micron-fab-2026')!,reviewedDocument={...d,reviewStatus:'reviewed',claim:'FICTIONAL analyst-reviewed claim retained',reviewNote:'FICTIONAL analyst review basis',reviewedAt:now()};target.run('UPDATE documents SET data=? WHERE id=?',JSON.stringify(reviewedDocument),d.id);
+    const claim=target.list('claims','WHERE document_id=?',d.id)[0];target.run('UPDATE claims SET data=? WHERE id=?',JSON.stringify({...claim,wording:'FICTIONAL analyst-reviewed claim retained'}),claim.id);
+    target.run('DELETE FROM opportunity_evidence WHERE opportunity_id=? AND document_id=?',originalOpportunity.id,d.id);target.run('INSERT INTO opportunity_evidence VALUES (?,?,?)',originalOpportunity.id,d.id,'context');
+    const versionBefore=target.list('document_versions').length,notesBefore=target.list('analyst_notes').length,accountsBefore=target.list('accounts').length;const report=synchronizeReviewedSeed(target,reviewed);
+    assert.ok(report.preserved>0);assert.equal(repo.account('micron')!.summary,'FICTIONAL analyst-edited summary retained during refresh');assert.equal(repo.opportunity(originalOpportunity.id)!.title,'FICTIONAL analyst-edited opportunity retained during refresh');assert.equal(repo.opportunity(originalOpportunity.id)!.requirement,'FICTIONAL analyst-edited requirement');assert.equal(target.get('buyer_roles',buyer.id)!.role,'FICTIONAL analyst-edited buyer role');assert.equal(target.get('actions',action.id)!.question,'FICTIONAL analyst qualification question');assert.equal(target.get('actions',action.id)!.status,'done');assert.equal(target.get('facilities',facility.id)!.name,'FICTIONAL analyst-edited site name');assert.equal(target.get('documents',d.id)!.claim,'FICTIONAL analyst-reviewed claim retained');assert.equal(target.get('claims',claim.id)!.wording,'FICTIONAL analyst-reviewed claim retained');assert.equal(target.one('SELECT relationship FROM opportunity_evidence WHERE opportunity_id=? AND document_id=?',originalOpportunity.id,d.id).relationship,'context');assert.equal(target.list('document_versions').length,versionBefore);assert.equal(target.list('analyst_notes').length,notesBefore);assert.equal(target.list('accounts').length,accountsBefore);assert.equal(target.all('PRAGMA foreign_key_check').length,0);
+  }finally{target.close();reviewed.close();}
+});
+
+test('seed refresh updates untouched curated facts, appends immutable versions, and is repeatable without data loss',()=>{
+  const {store:target}=fixture(),reviewed=new Store(':memory:');seed(reviewed);try{const id='micron-fab-2026',document=reviewed.get('documents',id)!,oldVersion=target.get('document_versions',`${id}-v1`)!;reviewed.run('UPDATE documents SET data=? WHERE id=?',JSON.stringify({...document,limitations:'FICTIONAL improved reviewed limitation, not new research'}),id);const beforeVersions=target.list('document_versions').length,first=synchronizeReviewedSeed(target,reviewed);assert.ok(first.updated>0);assert.equal(target.get('documents',id)!.limitations,'FICTIONAL improved reviewed limitation, not new research');assert.equal(target.list('document_versions').length,beforeVersions+1);assert.deepEqual(target.get('document_versions',`${id}-v1`),oldVersion);const counts={accounts:target.list('accounts').length,notes:target.list('analyst_notes').length,versions:target.list('document_versions').length};synchronizeReviewedSeed(target,reviewed);assert.equal(target.list('accounts').length,counts.accounts);assert.equal(target.list('analyst_notes').length,counts.notes);assert.equal(target.list('document_versions').length,counts.versions);assert.equal(target.all('PRAGMA foreign_key_check').length,0);
+  }finally{target.close();reviewed.close();}
+});

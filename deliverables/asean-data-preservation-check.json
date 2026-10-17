@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-17T07:10:20.883Z",
+  "tables": {
+    "accounts": {
+      "before": 7,
+      "after": 37,
+      "missingIds": 0
+    },
+    "facilities": {
+      "before": 12,
+      "after": 42,
+      "missingIds": 0
+    },
+    "documents": {
+      "before": 21,
+      "after": 52,
+      "missingIds": 0
+    },
+    "document_versions": {
+      "before": 44,
+      "after": 75,
+      "missingIds": 0
+    },
+    "opportunities": {
+      "before": 9,
+      "after": 39,
+      "missingIds": 0
+    },
+    "actions": {
+      "before": 36,
+      "after": 156,
+      "missingIds": 0
+    },
+    "analyst_notes": {
+      "before": 1,
+      "after": 1,
+      "missingIds": 0
+    },
+    "research_runs": {
+      "before": 7,
+      "after": 7,
+      "missingIds": 0
+    }
+  },
+  "actionStatusesPreserved": true,
+  "priorDocumentVersionsPreserved": true,
+  "priorNotesPreserved": true,
+  "priorResearchRunsPreserved": true
+}

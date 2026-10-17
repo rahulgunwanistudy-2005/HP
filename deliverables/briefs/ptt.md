@@ -1,0 +1,241 @@
+# PTT — HP account brief
+
+Report edition: 2026-10-15 · presentation date selected by the user; actual research chronology remains in Research operations
+Analyst research record · Territory: confirmed · ASEAN-6 · Major Southeast Asian economies
+
+> An evidenced relevant operating facility satisfies the selected country and locality rules. Contracting entity, HP ownership and channel authorization remain separate unknowns.
+> All opportunities below are qualification hypotheses unless an explicit procurement notice is cited. No HP pursuit eligibility, account ownership, revenue or win probability is implied.
+
+## Account and purchasing context
+PTT's company profile describes its Thai energy role and operating businesses. Potential HP fit: corporate and energy-business meeting collaboration; buying intent remains unverified.
+
+- Parent HQ: TH
+- Documented company / buying entity: PTT Public Company Limited
+- Purchasing organization: Material and Commercial Procurement Division, Strategic Procurement and Administration Department.
+- Purchasing country: Unresolved
+- Account fact review: reviewed
+- Discovery: ASEAN-6 country-stratified primary-source screening; company profiles, operating-office pages and exchange disclosures reviewed.
+- Selection rationale: The primary source establishes a relevant TH operating context. Qualify corporate and energy-business meeting collaboration as a conditional HP fit; the source does not report a purchase.
+
+## Evidenced facilities
+
+### Who buys?
+Operating entity: PTT Public Company Limited
+Purchasing function / role: Material and Commercial Procurement Division, Strategic Procurement and Administration Department.
+Supplier process: The official procurement-unit directory identifies the division responsible for goods and services for PTT Head Office and the Innovation Institute. Use the appropriate procurement unit and notice-specific vendor process.
+Official buying / company route: https://procurement.pttplc.com/en/page/index/1025
+HP technical role to engage: Corporate workplace IT / meeting-room owner (Qualification role; an individual and delegated authority are not inferred.)
+Entity and scope: This published division matches a corporate workplace / meeting-room hypothesis. Gas, NGV and project divisions have different responsibilities and must not be treated as the same buying office.
+Contract check: Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.
+- Material and Commercial Procurement Division: +66 2 537 2066 — Published purchasing-unit telephone for head-office goods and services.
+Official sources:
+- https://www.pttplc.com/en/about
+- https://procurement.pttplc.com/en/page/index/1025
+- Thailand corporate energy operating context; office to qualify · city unresolved, TH · subregion unresolved · Reviewed operating context; equipment deployment and purchasing scope unverified · primary status unconfirmed · review reviewed · evidence ptt-profile-2026
+
+## Opportunities
+
+### Retain PTT’s committed 450-notebook lease as a sourced budget reference
+**Hypothesis · Committed procurement reference · commercial-pcs**
+Readiness: Watchlist; research assessment: Watchlist; provisional score 63.75/100 (provisional-v1); confidence Low.
+
+Business event: PTT notebook lease PO4111000495 already issued (2026-10-01).
+Potential requirement: 450 notebooks leased for 36 months in a package already committed to PTT Digital Solutions. No additional uncommitted notebook or HP Poly scope is established.
+Reasoning: The published contract report resolves actual package quantity, lease duration, procurement unit, selected supplier and budget. It is useful incumbent and renewal context; the issued PO means this package must not be pursued as a fresh open order.
+Why investigate now: Record the committed package and identify an evidence-based future review window. Obtain the actual service dates before assigning a renewal date; 36 months from the PO date is not assumed to be the contract end.
+Purchasing evidence: Issued PO for a 450-notebook, 36-month lease; this is committed scope, not an open bid. Published package budget THB24.61 million is retained as a historical budget reference.
+Procurement status: awarded · explicit notice yes · notice Project69069404739 / PO4111000495
+Deadline: unresolved · verified 2026-10-17T11:33:33.891Z
+Verification basis: Live official Thai report row and selection modal checked. Contract/PO already created, PO dated 1 October 2026. Budget and reference price are distinct from the unreliable displayed 0.00 contract amount.
+Amendment: none recorded · replacement notice evidence none recorded
+Procurement evidence: ptt-notebook-contract-69069404739
+Scale: 450 notebooks over 36 months. Published budget THB24,610,000 and reference price THB23,000,000. Already committed scope; device brand, delivery sites, tax basis and verified contract amount are not established.
+Commercial value: THB24,610,000 published package budget for the committed 36-month lease; not HP pipeline, forecast or the awarded amount.
+Route to investigate: Record incumbent context and request a permitted future review only after the actual contract/service dates and accountable procurement owner are established. No outreach or commercial action performed.
+
+Buyers and authority:
+
+Opportunity-specific buyer:
+- Entity: PTT Public Company Limited
+- Purchasing route: Published materials procurement unit: ส่วนจัดหาพัสดุ (จพ.จบญ.). Selected supplier: บริษัท พีทีที ดิจิตอล โซลูชั่น จำกัด (PTT Digital Solutions); this supplier is not the customer buyer.
+- Process: The official procurement report identifies a completed selection and issued PO for this notebook lease. General future supplier processes remain available through PTT Vendor Management, subject to relevant category approval.
+- Scope: Committed 450-notebook / 36-month package only. Existing PTT Poly collaboration hypothesis is a separate category with no quantity or budget inherited. Deployment sites remain undisclosed.
+- Approval check: Published procurement unit and selected supplier do not identify a future package signatory or HP approval. Verify actual service dates and a legitimate future sourcing window.
+
+Qualification findings:
+This purchasing package is already committed or closed. Retain its sourced scope and commercial context; do not count it as open pipeline.
+- Established — Company / buyer context: PTT Public Company Limited. Committed 450-notebook / 36-month package only. Existing PTT Poly collaboration hypothesis is a separate category with no quantity or budget inherited. Deployment sites remain undisclosed. Sources: https://procurement.pttplc.com/th/procurementreportnew?menuId=5
+- Established — Dated event / milestone: PTT notebook lease PO4111000495 already issued · 2026-10-01. The event establishes only its stated scope; it does not independently establish a new device order. Sources: https://procurement.pttplc.com/th/procurementreportnew?menuId=5
+- Established — Public purchasing process: The official procurement report identifies a completed selection and issued PO for this notebook lease. General future supplier processes remain available through PTT Vendor Management, subject to relevant category approval.. Published process access does not establish bidder registration, delegated approval or HP authorization. Sources: https://procurement.pttplc.com/th/procurementreportnew?menuId=5
+- Established — Purchasing notice: Project69069404739 / PO4111000495; recorded awarded; deadline not published. Purchasing window closed, canceled or superseded. Sources: https://procurement.pttplc.com/th/procurementreportnew?menuId=5
+- Established — Equipment quantity: 450 notebooks. Already committed 36-month lease, project 69069404739 only; not uncommitted demand. Sources: https://procurement.pttplc.com/th/procurementreportnew?menuId=5
+- Established — Published package budget: THB 24,610,000 published package budget. Published budget column for project 69069404739 is THB24,610,000; reference price is THB23,000,000. Already committed 450-notebook / 36-month package. Selection modal displays 0.00 for the contract amount; no reliable awarded amount established. This is not addressable HP revenue. Sources: https://procurement.pttplc.com/th/procurementreportnew?menuId=5
+- Open — Awarded contract amount: The public selection record displays 0.00; a reliable awarded value is not established. Next: Obtain the actual executed contract amount or corrected public record. Do not substitute the budget or reference price.
+- Open — Approval and supply eligibility: Published procurement unit and selected supplier do not identify a future package signatory or HP approval. Verify actual service dates and a legitimate future sourcing window. Next: No open bid route for this already-committed package. PTT Digital Solutions is the selected supplier; HP brand and bidder authorization are not established.
+Review basis: Live PTT report resolves 450 notebooks, 36-month term, procurement unit, selected supplier and THB24.61m published budget. PO4111000495 already issued. The contract amount shown as 0.00 remains unresolved; budget/reference price are not substituted for it. No new open pursuit or lease expiry date inferred.
+- Published materials procurement unit · Project69069404739 contract procurement; individual signatory not established · PTT — ส่วนจัดหาพัสดุ (จพ.จบญ.) · unresolved; Job role is a qualification target; purchasing authority unverified
+- Workplace standards / future review owner · Future uncommitted endpoint requirements, independent of issued PO · PTT Public Company Limited · unresolved; Job role is a qualification target; purchasing authority unverified
+
+Barriers:
+- Package is already committed to the published selected supplier.
+- Budget is not the awarded amount; the public contract value is displayed as 0.00 and remains unresolved.
+- No automatic transfer of notebook quantity/budget into the separate HP Poly meeting-room hypothesis.
+
+Unknowns:
+- Verified contract amount: public modal displays 0.00 and is not treated as a reliable award value
+- Equipment brands/configurations, delivery locations and actual lease service start/end dates
+- Future uncommitted scope, next review window and HP account/supplier eligibility
+
+Evidence:
+- [PTT project 69069404739: 450-notebook lease, budget and issued PO](https://procurement.pttplc.com/th/procurementreportnew?menuId=5) · contract_award · PTT
+  Relationship: supports underlying event / requirement; HP opportunity remains a hypothesis
+  Chronology: published unknown · event 2026-10-01 · report edition 2026-10-15; actual retrieved / reviewed timestamps are retained in Research operations · review reviewed
+  Passage: “เช่าใช้ Computer Notebook จำนวน 450 เครื่องระยะเวลา 36 เดือน”
+  Claim: The official PTT contract report lists project 69069404739: lease of 450 notebooks for 36 months, published budget THB24,610,000 and reference price THB23,000,000. The selected supplier is บริษัท พีทีที ดิจิตอล โซลูชั่น จำกัด (PTT Digital Solutions). Selection details show PO4111000495 dated 1 October 2569 BE (1 October 2026), status contract/PO already created. The contract-amount field displays 0.00 THB; this does not establish a genuine zero-value contract.
+  Limits: Manual reading of the live Thai-language public report and selection-details modal. Budget is a published package budget, not the awarded contract amount or HP addressable revenue. Tax basis, detailed device brands, locations, exact service start/end dates and contract value remain unestablished. The already-issued PO is not an open procurement opportunity.
+
+Readiness gates:
+- HP Inc. product fit: pass — Plausible workload identified; exact requirements remain to qualify.
+- Territory eligibility: unknown — This opportunity is not attributed to a specific evidenced deployment location. An account facility cannot localize a global initiative.
+- Procurement status: blocked — Purchasing window closed, canceled or superseded.
+- Route to supply: unknown — No open bid route for this already-committed package. PTT Digital Solutions is the selected supplier; HP brand and bidder authorization are not established.
+- Evidence review: pass — Supporting passages reviewed; inference remains a hypothesis.
+
+Score inputs (unknown = 0, no renormalization):
+- Evidence strength: 3/4 × weight 25 = 18.75 points. Reviewed primary plus complementary context; supporting evidence and limitations shown below.
+- HP product fit: 3/4 × weight 20 = 15 points. Explicit relevant workflow; supporting evidence and limitations shown below.
+- Timing and milestones: 1/4 × weight 20 = 5 points. Historical / future beyond qualification horizon; supporting evidence and limitations shown below.
+- Supported scale: 4/4 × weight 15 = 15 points. Explicit relevant equipment quantities; supporting evidence and limitations shown below.
+- Buyer and procurement access: 3/4 × weight 10 = 7.5 points. Verified purchasing organization; supporting evidence and limitations shown below.
+- Commercial feasibility: 1/4 × weight 10 = 2.5 points. Route hypothesized; supporting evidence and limitations shown below.
+
+Qualification status: nurture
+- Analyst (actual timestamp in Research operations): Published company supplier process assessed separately from HP eligibility and financial approval. No equipment demand, quantities or budget inferred.
+
+0–90-day advancement plan (no close-date promise):
+- **0–15: Confirm actual service term and future category owner** [pending]
+  Role: PTT materials procurement / workplace IT owner. Intended outcome: A sourced contract timeline without an invented expiry
+  Resolve: What are the actual lease service start/end dates, the approved notebook standard and next permitted review window?
+  Progress if: Buyer or published contract establishes dates and responsible category owner
+  Stop if: Keep as committed reference if no future uncommitted need is evidenced
+- **16–90: Monitor only a documented future review opportunity** [pending]
+  Role: Authorized account owner and relevant procurement function. Intended outcome: New independent qualification record only if supported
+  Resolve: Is there separate uncommitted scope or a buyer-approved review that an eligible HP route can address?
+  Progress if: New scope, authorization, requirements and sourcing window are evidenced
+  Stop if: Do not bid against or count the already-issued PO as fresh pipeline
+
+Confirm if:
+- A buyer confirms future uncommitted scope and actual service dates, independently of this issued PO.
+Weaken if:
+- The existing provider and lease cover the whole intended scope with no review window.
+Disprove if:
+- No additional scope exists or HP cannot meet a future approved sourcing requirement.
+
+### Qualify corporate and energy-business meeting collaboration for PTT
+**Hypothesis · Acquisition hypothesis · poly-collaboration**
+Readiness: Watchlist; research assessment: Watchlist; provisional score 27.5/100 (provisional-v1); confidence Low.
+
+Business event: PTT: operating-context fit hypothesis (date unknown).
+Potential requirement: Potential corporate and energy-business meeting collaboration; actual applications, standards, quantity and purchase timing remain to qualify.
+Reasoning: The primary source establishes a relevant TH operating context. Qualify corporate and energy-business meeting collaboration as a conditional HP fit; the source does not report a purchase. Exclude process-control systems, trading execution platforms and HPE infrastructure; room ownership and procurement route remain unknown.
+Why investigate now: Standing operating-context fit only. No dated refresh, project trigger or current open procurement is established; confirm a legitimate review window before advancing.
+Purchasing evidence: No open purchasing notice is established by these reviewed sources.
+Procurement status: unknown · explicit notice not established · notice identifier unresolved
+Deadline: unresolved · verified not recorded
+Verification basis: No current notice recheck basis recorded.
+Amendment: none recorded · replacement notice evidence none recorded
+Procurement evidence: No dedicated notice evidence recorded; see linked sources and limitations.
+Scale: Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.
+Commercial value: Value unquantified
+Route to investigate: Unresolved
+
+Buyers and authority:
+
+Qualification findings:
+Only standing company / operating context is established; no dated equipment project or buying window is evidenced.
+- Established — Company / buyer context: PTT Public Company Limited. This published division matches a corporate workplace / meeting-room hypothesis. Gas, NGV and project divisions have different responsibilities and must not be treated as the same buying office. Sources: https://www.pttplc.com/en/about, https://procurement.pttplc.com/en/page/index/1025
+- Established — Public purchasing process: The official procurement-unit directory identifies the division responsible for goods and services for PTT Head Office and the Innovation Institute. Use the appropriate procurement unit and notice-specific vendor process.. Published process access does not establish bidder registration, delegated approval or HP authorization. Sources: https://www.pttplc.com/en/about, https://procurement.pttplc.com/en/page/index/1025
+- Open — Equipment scope: No equipment quantity established by the reviewed sources. Next: Obtain a buyer-approved bill of materials, room list or site inventory. Do not convert headcount, beds or project capex into devices.
+- Open — Equipment budget: No equipment budget established in the reviewed sources. Next: Obtain the approved package budget or a buyer-approved priced bill of materials. Public list prices are not the customer budget.
+- Open — Approval and supply eligibility: Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment. Next: Validate account ownership, seller credentials, regional configuration and service coverage for this exact scope.
+Review basis: A separate 450-notebook, 36-month contract has an issued PO and published THB24.61m budget. It is context only for this account; none of its quantity, budget or timing is transferred to the HP Poly meeting-room hypothesis.
+- Technical standards / workplace IT owner · Thailand corporate energy operating context; office to qualify; corporate and energy-business meeting collaboration · PTT · unresolved; Job role is a qualification target; purchasing authority unverified
+- Category procurement manager · Legal entity, supplier approval and contract route · PTT; local versus group delegation unverified · unresolved; Job role is a qualification target; purchasing authority unverified
+- Local operational sponsor / economic approver · Business requirement, approval and budget · PTT; actual operator to qualify · unresolved; Job role is a qualification target; purchasing authority unverified
+
+Barriers:
+- Exclude process-control systems, trading execution platforms and HPE infrastructure; room ownership and procurement route remain unknown.
+- Buying authority, incumbent terms, HP ownership, supply authorization and local service coverage remain unresolved.
+
+Unknowns:
+- Exclude process-control systems, trading execution platforms and HPE infrastructure; room ownership and procurement route remain unknown.
+- Current installed fleet, quantities, budget, contract expiry and sourcing timetable.
+- Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage.
+
+Evidence:
+- [PTT Public Company Limited](https://www.pttplc.com/en/about) · investment_agency · PTT
+  Relationship: supports underlying event / requirement; HP opportunity remains a hypothesis
+  Chronology: published unknown · event unknown · report edition 2026-10-15; actual retrieved / reviewed timestamps are retained in Research operations · review reviewed
+  Passage: “Ensuring long-term energy security by procuring adequate high quality energy supply at fair prices”
+  Claim: PTT's company profile describes its Thai energy role and operating businesses.
+  Limits: Source supports company and operating-context facts only. HP requirement, quantities, budget, buyer authority and an open buying window are not established. Exclude process-control systems, trading execution platforms and HPE infrastructure; room ownership and procurement route remain unknown.
+- [PTT project 69069404739: 450-notebook lease, budget and issued PO](https://procurement.pttplc.com/th/procurementreportnew?menuId=5) · contract_award · PTT
+  Relationship: context only
+  Chronology: published unknown · event 2026-10-01 · report edition 2026-10-15; actual retrieved / reviewed timestamps are retained in Research operations · review reviewed
+  Passage: “เช่าใช้ Computer Notebook จำนวน 450 เครื่องระยะเวลา 36 เดือน”
+  Claim: The official PTT contract report lists project 69069404739: lease of 450 notebooks for 36 months, published budget THB24,610,000 and reference price THB23,000,000. The selected supplier is บริษัท พีทีที ดิจิตอล โซลูชั่น จำกัด (PTT Digital Solutions). Selection details show PO4111000495 dated 1 October 2569 BE (1 October 2026), status contract/PO already created. The contract-amount field displays 0.00 THB; this does not establish a genuine zero-value contract.
+  Limits: Manual reading of the live Thai-language public report and selection-details modal. Budget is a published package budget, not the awarded contract amount or HP addressable revenue. Tax basis, detailed device brands, locations, exact service start/end dates and contract value remain unestablished. The already-issued PO is not an open procurement opportunity.
+
+Readiness gates:
+- HP Inc. product fit: pass — Plausible workload identified; exact requirements remain to qualify.
+- Territory eligibility: pass — An evidenced relevant operating facility satisfies the selected country and locality rules. Contracting entity, HP ownership and channel authorization remain separate unknowns.
+- Procurement status: unknown — No verified open purchasing notice. Business events are not purchase intent.
+- Route to supply: unknown — Proposed route only; HP ownership, authorization and regional availability unverified.
+- Evidence review: pass — Supporting passages reviewed; inference remains a hypothesis.
+
+Score inputs (unknown = 0, no renormalization):
+- Evidence strength: 2/4 × weight 25 = 12.5 points. Single relevant primary source; supporting evidence and limitations shown below.
+- HP product fit: 2/4 × weight 20 = 10 points. Plausible workload; supporting evidence and limitations shown below.
+- Timing and milestones: 0/4 × weight 20 = 0 points. Unknown / expired; supporting evidence and limitations shown below.
+- Supported scale: unknown/4 × weight 15 = 0 points. Unknown; zero points, no renormalization.
+- Buyer and procurement access: 2/4 × weight 10 = 5 points. Published supplier process; supporting evidence and limitations shown below.
+- Commercial feasibility: unknown/4 × weight 10 = 0 points. Unknown; zero points, no renormalization.
+
+Qualification status: unreviewed
+- Analyst (actual timestamp in Research operations): A separate 450-notebook, 36-month contract has an issued PO and published THB24.61m budget. It is context only for this account; none of its quantity, budget or timing is transferred to the HP Poly meeting-room hypothesis.
+- Analyst (actual timestamp in Research operations): Baseline comparison recorded after the research update, using the saved pre-review backup. Original opportunity facts and evidence relationships are retained here for audit; earlier source versions and analyst notes remain intact.
+
+0–90-day advancement plan (no close-date promise):
+- **0–15: Validate operating entity and owner** [pending]
+  Role: PTT local workplace / operations sponsor. Intended outcome: One evidenced operating scope and accountable qualification owner
+  Resolve: Which Thai corporate workplace team owns collaboration rooms and can confirm a review cycle?
+  Progress if: The owner confirms the entity, scope and permission for requirements discovery.
+  Stop if: Stop if the entity is outside territory, scope is not locally owned, or no owner can validate a need.
+- **16–30: Qualify workload and current contract** [pending]
+  Role: PTT technical standards owner. Intended outcome: Documented requirements, incumbent position and a genuine review window
+  Resolve: For corporate and energy-business meeting collaboration, what applications, security controls, equipment ownership and contract dates govern a possible change?
+  Progress if: A real need and an available review window are confirmed with relevant workload evidence.
+  Stop if: Stop if no need exists, scope is already committed, or the proposed HP family fails prerequisites.
+- **31–60: Confirm buying route and evaluate fit** [pending]
+  Role: PTT category procurement with technical owner. Intended outcome: Verified buying authority and an approved, relevant evaluation plan
+  Resolve: Which legal entity can buy, what supplier approvals apply, and what agreed test would establish product and service fit?
+  Progress if: HP ownership, authorized supply route and local servicing are verified and the buyer permits evaluation.
+  Stop if: Stop if supplier access is unavailable, authority cannot be established, or evaluation fails requirements.
+- **61–90: Agree a supported next decision** [pending]
+  Role: PTT local economic approver / budget owner. Intended outcome: Evidence-based bid decision, dated recheck, or documented stop
+  Resolve: Is there an approved sourcing decision with defined scope and budget, or should this remain on the watchlist?
+  Progress if: The buyer confirms an open, authorized buying process with a supported commercial scope.
+  Stop if: Stop active pursuit if timing, budget, compliance or service feasibility is unconfirmed; record a justified recheck.
+
+Confirm if:
+- A local owner validates an actual requirement for corporate and energy-business meeting collaboration.
+- A future sourcing window, authority and approved supply route are verified.
+Weaken if:
+- Incumbent contract covers the scope and has no review window.
+- The workflow is outsourced or served by remote infrastructure with no local equipment gap.
+Disprove if:
+- The accountable buyer confirms there is no requirement.
+- The actual workflow is outside HP Inc. scope or the entity is outside the configured territory.
+
+## Limits
+Coverage is a small purposive public-source sample. Global events are not automatically local site requirements. Sources can be outdated, changed or inaccessible. Retained extracts are supporting passages, not complete archived documents. No private contacts, prices, discounts, margins, installed-base counts or purchase probabilities are inferred. Shared facilities and bundles must not be summed into pipeline totals.

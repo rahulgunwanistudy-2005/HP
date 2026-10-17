@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-17T11:45:15.755Z",
+  "presentation": {
+    "reportDate": "2026-10-15",
+    "label": "15 Oct",
+    "basis": "User-selected presentation edition. Actual collection and audit timestamps remain in Research operations and machine-readable evidence records."
+  },
+  "metrics": {
+    "accounts": 35,
+    "territoryProspects": 35,
+    "screenedProspects": 30,
+    "deepAccounts": 5,
+    "screenedAccounts": 50,
+    "reviewedOpportunities": 39,
+    "opportunities": 39,
+    "uniqueEvents": 38,
+    "sourceFamilies": 9,
+    "publisherOrigins": 46,
+    "independentOrigins": 34,
+    "staleFindings": 12,
+    "unresolvedBuyers": 116,
+    "failedRuns": 3,
+    "activeProcurement": 0
+  },
+  "readiness": {
+    "Triggered qualification": 5,
+    "Strategic fit": 1,
+    "Watchlist": 32,
+    "Blocked or excluded": 1
+  },
+  "researchRuns": [
+    {
+      "id": "run-c900f87c-fa28-49e8-a300-04a987e2604a",
+      "state": "failed"
+    },
+    {
+      "id": "run-5af91571-78e6-450b-926a-ca8c413e7515",
+      "state": "completed"
+    },
+    {
+      "id": "run-c44a2aab-03aa-4fdd-ad07-ca559369c5bd",
+      "state": "completed"
+    },
+    {
+      "id": "run-ec3b2a75-1a0c-45c2-adec-ad7960172418",
+      "state": "completed"
+    },
+    {
+      "id": "run-af519f12-0066-49a9-ac79-31a89000f4e0",
+      "state": "completed"
+    },
+    {
+      "id": "run-c920227a-0d32-4981-bdd9-d656d1a572c0",
+      "state": "failed"
+    },
+    {
+      "id": "run-e6532d05-3aae-415d-b37a-94dafac79543",
+      "state": "failed"
+    }
+  ],
+  "qualificationVersion": "gate-resolution-2026-10-17-v3"
+}

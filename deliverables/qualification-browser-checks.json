@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-17T11:48:36.728Z",
+  "checks": [
+    {
+      "name": "Micron engineering",
+      "passed": true
+    },
+    {
+      "name": "Sunway",
+      "passed": true
+    },
+    {
+      "name": "DBS",
+      "passed": true
+    },
+    {
+      "name": "THK",
+      "passed": true
+    },
+    {
+      "name": "TNB Research quantity and qualification",
+      "passed": true
+    },
+    {
+      "name": "TNB Research published contacts and authority limits",
+      "passed": true
+    },
+    {
+      "name": "PTT committed budget and uncertain award amount",
+      "passed": true
+    }
+  ],
+  "consoleErrors": []
+}

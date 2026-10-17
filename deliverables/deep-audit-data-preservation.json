@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-10-17T06:13:21.190Z",
+  "workingDatabase": "storage/intelligence.sqlite",
+  "auditDatabase": "storage/audit-2026-10-17.sqlite",
+  "comparisons": [
+    {
+      "table": "accounts",
+      "before": 7,
+      "after": 7,
+      "unchanged": true
+    },
+    {
+      "table": "facilities",
+      "before": 12,
+      "after": 12,
+      "unchanged": true
+    },
+    {
+      "table": "documents",
+      "before": 21,
+      "after": 21,
+      "unchanged": true
+    },
+    {
+      "table": "document_versions",
+      "before": 44,
+      "after": 44,
+      "unchanged": true
+    },
+    {
+      "table": "opportunities",
+      "before": 9,
+      "after": 9,
+      "unchanged": true
+    },
+    {
+      "table": "buyer_roles",
+      "before": 30,
+      "after": 30,
+      "unchanged": true
+    },
+    {
+      "table": "actions",
+      "before": 36,
+      "after": 36,
+      "unchanged": true
+    },
+    {
+      "table": "analyst_notes",
+      "before": 1,
+      "after": 1,
+      "unchanged": true
+    },
+    {
+      "table": "research_runs",
+      "before": 7,
+      "after": 7,
+      "unchanged": true
+    },
+    {
+      "table": "territories",
+      "before": 1,
+      "after": 1,
+      "unchanged": true
+    },
+    {
+      "table": "scoring_policies",
+      "before": 1,
+      "after": 1,
+      "unchanged": true
+    }
+  ],
+  "allPreserved": true
+}

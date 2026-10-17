@@ -9,3 +9,9 @@ test-results/
 .vercel/
 .env.*
 !.env.example
+
+# Downloadable source archives are generated locally; GitHub already provides source downloads.
+deliverables/*-source.zip
+
+# Browser review images stay in the local handoff.
+deliverables/screenshots/

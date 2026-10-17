@@ -1,0 +1,144 @@
+# The LEGO Group — HP account brief
+
+Report edition: 2026-10-15 · presentation date selected by the user; actual research chronology remains in Research operations
+Research demonstration · Territory: confirmed · ASEAN-6 · Major Southeast Asian economies
+
+> An evidenced relevant operating facility satisfies the selected country and locality rules. Contracting entity, HP ownership and channel authorization remain separate unknowns.
+> All opportunities below are qualification hypotheses unless an explicit procurement notice is cited. No HP pursuit eligibility, account ownership, revenue or win probability is implied.
+
+## Account and purchasing context
+Manufacturer whose Vietnam factory opened in April 2025 and whose regional distribution centre opened in September 2025. Those openings are historical; new endpoint sourcing is unverified.
+
+- Parent HQ: DK
+- Documented company / buying entity: LEGO Manufacturing Vietnam (LMV)
+- Purchasing organization: LEGO Group Procurement works with the Vietnam factory's relevant IT / operations requisitioner.
+- Purchasing country: Unresolved
+- Account fact review: reviewed
+- Discovery: Manufacturing footprint screening through original LEGO factory and distribution-centre announcements.
+- Selection rationale: Retained as a stale trigger example and to keep distribution operations with their documented logistics operator. Workforce or factory size is not an endpoint quantity.
+
+## Evidenced facilities
+
+### Who buys?
+Operating entity: LEGO Manufacturing Vietnam (LMV)
+Purchasing function / role: LEGO Group Procurement works with the Vietnam factory's relevant IT / operations requisitioner.
+Supplier process: The official supplier page identifies Coupa for supplier collaboration and sourcing invitations from LEGO Procurement. It explicitly says manufacturing and distribution purchase orders are not generated in Coupa; confirm the Vietnam factory PO process with the issuing team.
+Official buying / company route: https://www.lego.com/nl-nl/aboutus/suppliers
+HP technical role to engage: Workplace IT / endpoint standards owner (Qualification role; an individual and delegated authority are not inferred.)
+Entity and scope: LMV is the operating entity named by LEGO's factory disclosures. The regional distribution centre is operated by Kuehne+Nagel and must not inherit LMV's buying authority.
+Contract check: Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.
+Official sources:
+- https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam
+- https://www.lego.com/nl-nl/aboutus/suppliers
+- https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam
+- LEGO Manufacturing Vietnam · Binh Duong (as named in 2025 source), VN · subregion unresolved · Factory opened April 2025; source geography retained as of event · primary status unconfirmed · review legacy reviewed source record · evidence see account sources; individual attribution to verify
+- Vietnam Regional Distribution Centre · Dong Nai, VN · subregion unresolved · RDC opened September 2025; Kuehne+Nagel operator · primary status unconfirmed · review legacy reviewed source record · evidence see account sources; individual attribution to verify
+
+## Opportunities
+
+### Recheck operating-site endpoint gaps after historical Vietnam openings
+**Hypothesis · Expansion / renewal hypothesis · commercial-pcs**
+Readiness: Watchlist; research assessment: Watchlist; provisional score 33.75/100 (provisional-v1); confidence Low.
+
+Business event: Factory and regional distribution-centre openings in 2025 (2025-09-10).
+Potential requirement: Potential administrative endpoint gaps or a future refresh at operating sites; no replacement date, installed base or uncommitted requirement is known.
+Reasoning: The physical operating sites justify a narrowly scoped review. Because the sites already opened, the original expansion trigger is stale. Separate LEGO factory requirements from Kuehne+Nagel-operated RDC requirements.
+Why investigate now: The reviewed opening sources do not establish a current purchase window. Recheck 2026 implementation status and retain as watchlist until a buyer validates a gap.
+Purchasing evidence: No current explicit purchasing evidence found in the reviewed sources.
+Procurement status: unknown · explicit notice not established · notice identifier unresolved
+Deadline: unresolved · verified 2026-10-16T16:27:45Z
+Verification basis: No current notice recheck basis recorded.
+Amendment: none recorded · replacement notice evidence none recorded
+Procurement evidence: No dedicated notice evidence recorded; see linked sources and limitations.
+Scale: Two distinct sites are documented; endpoint quantities and scope are unknown. Do not combine factory and RDC into a single fleet estimate.
+Commercial value: Value unquantified
+Route to investigate: Vietnam enterprise partner or global framework only after entity, account ownership and standards are assessed; RDC may belong to a different customer relationship.
+
+Buyers and authority:
+
+Qualification findings:
+The supporting event is dated or undated beyond the freshness policy; no current equipment buying window is established.
+- Established — Company / buyer context: LEGO Manufacturing Vietnam (LMV). LMV is the operating entity named by LEGO's factory disclosures. The regional distribution centre is operated by Kuehne+Nagel and must not inherit LMV's buying authority. Sources: https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam, https://www.lego.com/nl-nl/aboutus/suppliers, https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam
+- Established — Dated event / milestone: Factory and regional distribution-centre openings in 2025 · 2025-09-10. The event establishes only its stated scope; it does not independently establish a new device order. Sources: https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam, https://www.lego.com/en-us/aboutus/news/2025/september/kuehne-nagel-and-the-lego-group-open-new-regional-distribution-centre-in-vietnam-to-support-asia-pacific-growth
+- Established — Public purchasing process: The official supplier page identifies Coupa for supplier collaboration and sourcing invitations from LEGO Procurement. It explicitly says manufacturing and distribution purchase orders are not generated in Coupa; confirm the Vietnam factory PO process with the issuing team.. Published process access does not establish bidder registration, delegated approval or HP authorization. Sources: https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam, https://www.lego.com/nl-nl/aboutus/suppliers, https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam
+- Open — Equipment scope: No equipment quantity established by the reviewed sources. Next: Obtain a buyer-approved bill of materials, room list or site inventory. Do not convert headcount, beds or project capex into devices.
+- Open — Equipment budget: No equipment budget established in the reviewed sources. Next: Obtain the approved package budget or a buyer-approved priced bill of materials. Public list prices are not the customer budget.
+- Open — Approval and supply eligibility: Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment. Next: Validate account ownership, seller credentials, regional configuration and service coverage for this exact scope.
+- Factory IT / workplace lead · LEGO factory endpoints · LEGO Manufacturing Vietnam; authority unresolved · unresolved; Job role is a qualification target; purchasing authority unverified
+- Regional procurement category owner · Factory equipment standard and sourcing · The LEGO Group · unresolved; Job role is a qualification target; purchasing authority unverified
+- RDC IT owner · Distribution-centre endpoint operations · Kuehne+Nagel; separate purchasing organization · unresolved; Job role is a qualification target; purchasing authority unverified
+
+Barriers:
+- Opening events are historical and devices may already be installed.
+- RDC operator is a separate purchasing organization.
+- No installed base, contract term or renewal date is public.
+
+Unknowns:
+- Current fleet and service owner
+- Any unmet post-opening workflow
+- Contracting entity and procurement framework
+- Actual 2026 rollout status
+
+Evidence:
+- [The LEGO Group opens new state-of-the-art factory in Vietnam](https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam) · company_newsroom · The LEGO Group
+  Relationship: supports underlying event / requirement; HP opportunity remains a hypothesis
+  Chronology: published 2025-04-09 · event 2025-04-09 · report edition 2026-10-15; actual retrieved / reviewed timestamps are retained in Research operations · review reviewed
+  Passage: “celebrated the grand opening of LEGO Manufacturing Vietnam in Binh Duong province, southern Vietnam”
+  Claim: LEGO opened its Vietnam factory in April 2025; buildings include office, moulding, packing and warehouse spaces.
+  Limits: Historical opening is more than 18 months old at review. IT sourcing may predate opening; administrative place names are retained as stated in the 2025 source.
+- [Kuehne+Nagel and the LEGO Group open new regional distribution centre in Vietnam](https://www.lego.com/en-us/aboutus/news/2025/september/kuehne-nagel-and-the-lego-group-open-new-regional-distribution-centre-in-vietnam-to-support-asia-pacific-growth) · company_newsroom · Joint LEGO / Kuehne+Nagel announcement
+  Relationship: supports underlying event / requirement; HP opportunity remains a hypothesis
+  Chronology: published 2025-09-10 · event 2025-09-10 · report edition 2026-10-15; actual retrieved / reviewed timestamps are retained in Research operations · review reviewed
+  Passage: “Kuehne+Nagel will manage end-to-end logistics operations for the RDC”
+  Claim: The jointly announced Vietnam RDC has a separate logistics operator. The release forecasts further operations and market expansion in 2026.
+  Limits: Joint announcement, one shared origin. Forecast 2026 milestones require a later implementation check; no endpoint standard or equipment purchase is disclosed.
+
+Readiness gates:
+- HP Inc. product fit: pass — Plausible workload identified; exact requirements remain to qualify.
+- Territory eligibility: pass — An evidenced relevant operating facility satisfies the selected country and locality rules. Contracting entity, HP ownership and channel authorization remain separate unknowns.
+- Procurement status: unknown — No verified open purchasing notice. Business events are not purchase intent.
+- Route to supply: unknown — Proposed route only; HP ownership, authorization and regional availability unverified.
+- Evidence review: pass — Supporting passages reviewed; inference remains a hypothesis.
+
+Score inputs (unknown = 0, no renormalization):
+- Evidence strength: 2/4 × weight 25 = 12.5 points. Single relevant primary source; supporting evidence and limitations shown below.
+- HP product fit: 2/4 × weight 20 = 10 points. Plausible workload; supporting evidence and limitations shown below.
+- Timing and milestones: 0/4 × weight 20 = 0 points. Unknown / expired; supporting evidence and limitations shown below.
+- Supported scale: 1/4 × weight 15 = 3.75 points. One disclosed workload/site; supporting evidence and limitations shown below.
+- Buyer and procurement access: 2/4 × weight 10 = 5 points. Published supplier process; supporting evidence and limitations shown below.
+- Commercial feasibility: 1/4 × weight 10 = 2.5 points. Route hypothesized; supporting evidence and limitations shown below.
+
+Qualification status: unreviewed
+- Analyst (actual timestamp in Research operations): Baseline comparison recorded after the research update, using the saved pre-review backup. Original opportunity facts and evidence relationships are retained here for audit; earlier source versions and analyst notes remain intact.
+
+0–90-day advancement plan (no close-date promise):
+- **0–15: Recheck the completed openings** [pending]
+  Role: Factory IT / regional programme owner. Intended outcome: A current implementation status
+  Resolve: Are both sites fully equipped and which post-opening issues remain?
+  Progress if: A current source or owner validates an unresolved issue.
+  Stop if: Stop if equipment deployment is complete with no material gap.
+- **16–30: Separate factory and RDC purchasing** [pending]
+  Role: LEGO procurement and RDC operator IT. Intended outcome: Two clear ownership decisions
+  Resolve: Which entity owns each endpoint requirement and contract?
+  Progress if: The actual purchasing organization is documented per site.
+  Stop if: Stop cross-account bundling when the operator owns the fleet.
+- **31–60: Assess only a verified device gap** [pending]
+  Role: Relevant site IT evaluator. Intended outcome: A specific endpoint and support fit
+  Resolve: What workflow, image and support requirement is not met today?
+  Progress if: An agreed and eligible need is measurable.
+  Stop if: Stop generic proposals without a verified workload gap.
+- **61–90: Record nurture or a justified next step** [pending]
+  Role: Actual category procurement owner. Intended outcome: A dated site-specific follow-up
+  Resolve: Is there a permitted refresh or expansion milestone?
+  Progress if: Record a real milestone or close the hypothesis.
+  Stop if: Archive if there is no supported buying window.
+
+Confirm if:
+- A site owner verifies an unresolved device gap or documented future refresh milestone.
+Weaken if:
+- Original deployment is complete and meets current need.
+Disprove if:
+- No unmet requirement, no future review or mandatory global agreement prevents pursuit.
+
+## Limits
+Coverage is a small purposive public-source sample. Global events are not automatically local site requirements. Sources can be outdated, changed or inaccessible. Retained extracts are supporting passages, not complete archived documents. No private contacts, prices, discounts, margins, installed-base counts or purchase probabilities are inferred. Shared facilities and bundles must not be summed into pipeline totals.

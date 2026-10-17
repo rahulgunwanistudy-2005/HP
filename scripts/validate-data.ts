@@ -1,0 +1,18 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import assert from 'node:assert/strict';
+import {Store,canonical,now} from '../server/db.ts';
+import {seed,Repository,sensitivity} from '../server/repository.ts';
+import {reviewedDataset} from '../server/reviewed-data.ts';
+const raw=reviewedDataset();
+const products=JSON.parse(readFileSync('data/products.json','utf8'));
+const store=new Store(':memory:');seed(store);const repo=new Repository(store);let links=0,actions=0,buyers=0;
+for(const a of repo.accounts()){
+  assert.ok(a.demonstration===true||a.researchDepth==='screened');assert.ok(a.discovery);assert.ok(a.rationale);
+  for(const d of a.documents){assert.ok(d.url.startsWith('https://'));assert.ok(d.passage&&d.claim);assert.ok(d.publisher&&d.origin&&d.family);assert.ok(d.retrievedAt);assert.ok(d.limitations);assert.ok(d.fingerprint);assert.ok(d.reviewStatus==='reviewed');assert.ok(Date.parse(d.retrievedAt)<=Date.now()+60000);}
+  for(const o of a.opportunities){assert.ok(o.evidenceIds.length);assert.ok(o.reasoning&&o.requirement&&o.whyNow);assert.ok(o.confirm.length&&o.weaken.length&&o.disprove.length);assert.ok(o.unknowns.length);assert.ok(o.actions.length);assert.ok(o.buyers.length);assert.notEqual(o.score.readiness,'Active procurement');assert.ok(o.dimensions.scale===null||o.scale);assert.ok(o.productFamily==='out-of-scope'||products.some((p:any)=>p.id===o.productFamily));for(const id of [...o.evidenceIds,...o.contradictionIds]){assert.ok(a.documents.some((d:any)=>d.id===id));links++;}for(const action of o.actions){assert.ok(action.phase&&action.title&&action.role&&action.outcome&&action.question&&action.progressCondition&&action.stopCondition);actions++;}for(const b of o.buyers){assert.ok(b.role&&b.scope&&b.organization);if(b.person){assert.equal(b.status,'verified');assert.ok(b.sourceUrl&&b.evidenceIds.length);assert.ok(b.evidenceIds.some((id:string)=>a.documents.some((d:any)=>d.id===id&&d.claim.includes(b.person))));assert.match(b.authority,/not established|unverified/);}buyers++;}}
+}
+assert.equal(store.all('PRAGMA foreign_key_check').length,0);
+const sourceWords=new Map<string,number>();for(const a of raw.accounts)for(const d of a.documents){const k=canonical(d.url);sourceWords.set(k,(sourceWords.get(k)??0)+d.passage.trim().split(/\s+/).length);}for(const [url,count]of sourceWords)assert.ok(count<=25,`Retained exact passages exceed25words for${url}: ${count}`);
+assert.equal(repo.metrics().deepAccounts,5);assert.equal(repo.metrics().screenedAccounts,50);
+const report={validatedAt:now(),mode:'deterministic corpus integrity; not independently measured predictive accuracy',...repo.metrics(),logicalDocuments:repo.documents().length,uniqueCanonicalUrls:new Set(repo.documents().map(d=>d.canonicalUrl)).size,productFamilies:products.length,productSources:products.flatMap((p:any)=>p.sources).length,evidenceRelationships:links,qualificationActions:actions,buyerRoleRecords:buyers,foreignKeyViolations:0,sensitivity:sensitivity(repo),notes:['All evidence links resolve inside the correct account.','Supporting passages checked for metadata, maximum source quote budget, chronology and explicit limitations.','No private buyers, invented quantities, prices or win probabilities.','Two reviewed current notice hypotheses (THK and TNB Research); HP supply eligibility remains unverified. Standing screened-company profiles do not establish open procurement.','Source support reviewed by project analysts; this integrity script cannot establish truth independently.']};
+mkdirSync('deliverables',{recursive:true});writeFileSync('deliverables/data-validation.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));store.close();

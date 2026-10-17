@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-17T11:45:15.755Z",
+  "basis": "Pre-review SQLite backup compared with final live workspace. Before/after opportunity and evidence-classification audits retained in analyst notes. Original source chronology and immutable versions are unchanged.",
+  "tables": {
+    "accounts": {
+      "before": 37,
+      "after": 37,
+      "missing": [],
+      "changed": []
+    },
+    "documents": {
+      "before": 53,
+      "after": 61,
+      "missing": [],
+      "changed": []
+    },
+    "document_versions": {
+      "before": 76,
+      "after": 87,
+      "missing": [],
+      "changed": []
+    },
+    "research_runs": {
+      "before": 7,
+      "after": 7,
+      "missing": [],
+      "changed": []
+    },
+    "analyst_notes": {
+      "before": 1,
+      "after": 65,
+      "missing": [],
+      "changed": []
+    },
+    "actions": {
+      "before": 156,
+      "after": 161,
+      "missing": [],
+      "changed": []
+    }
+  },
+  "foreignKeyViolations": 0
+}

@@ -1,0 +1,7 @@
+{
+  "reportDate": "2026-10-15",
+  "reportLabel": "15 Oct",
+  "dateBasis": "User-selected presentation edition. Actual collection and audit timestamps remain in Research operations and machine-readable evidence records.",
+  "archivedReferenceAccountIds": ["epac", "dreamworks"],
+  "excludedDisplayCountries": ["US", "CA"]
+}

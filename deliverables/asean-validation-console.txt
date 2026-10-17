@@ -1,0 +1,120 @@
+
+> hp-account-intelligence@1.0.0 validate:data
+> node --import tsx scripts/validate-data.ts
+
+{
+  "validatedAt": "2026-10-17T07:07:18.103Z",
+  "mode": "deterministic corpus integrity; not independently measured predictive accuracy",
+  "accounts": 37,
+  "territoryProspects": 35,
+  "screenedProspects": 30,
+  "deepAccounts": 7,
+  "screenedAccounts": 52,
+  "reviewedOpportunities": 39,
+  "opportunities": 39,
+  "uniqueEvents": 38,
+  "sourceFamilies": 9,
+  "publisherOrigins": 45,
+  "independentOrigins": 37,
+  "staleFindings": 12,
+  "unresolvedBuyers": 120,
+  "failedRuns": 0,
+  "activeProcurement": 0,
+  "logicalDocuments": 51,
+  "uniqueCanonicalUrls": 50,
+  "productFamilies": 9,
+  "productSources": 14,
+  "evidenceRelationships": 56,
+  "qualificationActions": 156,
+  "buyerRoleRecords": 120,
+  "foreignKeyViolations": 0,
+  "sensitivity": [
+    {
+      "label": "Evidence +5 / timing −5",
+      "weights": {
+        "evidence": 30,
+        "fit": 20,
+        "timing": 15,
+        "scale": 15,
+        "access": 10,
+        "feasibility": 10
+      },
+      "leader": "Verify eligibility for the five-year MFP equipment and service tender",
+      "leaderAccount": "Thye Hua Kwan Moral Charities",
+      "leadingIds": [
+        "thk-print-procurement",
+        "kasikornbank-workplace-fit",
+        "micron-engineering"
+      ],
+      "changed": false,
+      "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+    },
+    {
+      "label": "Scale +5 / fit −5",
+      "weights": {
+        "evidence": 25,
+        "fit": 15,
+        "timing": 20,
+        "scale": 20,
+        "access": 10,
+        "feasibility": 10
+      },
+      "leader": "Verify eligibility for the five-year MFP equipment and service tender",
+      "leaderAccount": "Thye Hua Kwan Moral Charities",
+      "leadingIds": [
+        "thk-print-procurement",
+        "kasikornbank-workplace-fit",
+        "micron-engineering"
+      ],
+      "changed": false,
+      "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+    },
+    {
+      "label": "Access +5 / evidence −5",
+      "weights": {
+        "evidence": 20,
+        "fit": 20,
+        "timing": 20,
+        "scale": 15,
+        "access": 15,
+        "feasibility": 10
+      },
+      "leader": "Verify eligibility for the five-year MFP equipment and service tender",
+      "leaderAccount": "Thye Hua Kwan Moral Charities",
+      "leadingIds": [
+        "thk-print-procurement",
+        "kasikornbank-workplace-fit",
+        "micron-engineering"
+      ],
+      "changed": false,
+      "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+    },
+    {
+      "label": "Timing +10 / scale −10",
+      "weights": {
+        "evidence": 25,
+        "fit": 20,
+        "timing": 30,
+        "scale": 5,
+        "access": 10,
+        "feasibility": 10
+      },
+      "leader": "Verify eligibility for the five-year MFP equipment and service tender",
+      "leaderAccount": "Thye Hua Kwan Moral Charities",
+      "leadingIds": [
+        "thk-print-procurement",
+        "kasikornbank-workplace-fit",
+        "micron-engineering"
+      ],
+      "changed": false,
+      "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+    }
+  ],
+  "notes": [
+    "All evidence links resolve inside the correct account.",
+    "Supporting passages checked for metadata, maximum source quote budget, chronology and explicit limitations.",
+    "No private buyers, invented quantities, prices or win probabilities.",
+    "One reviewed open notice; HP supply eligibility remains unverified. New screening prospects do not establish open procurement.",
+    "Source support reviewed by project analysts; this integrity script cannot establish truth independently."
+  ]
+}

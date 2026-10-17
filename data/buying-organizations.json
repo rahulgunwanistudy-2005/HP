@@ -1,0 +1,1162 @@
+{
+  "schemaVersion": 1,
+  "description": "Documented company identities, published purchasing functions and public supplier routes. Deal authority and inferred technical roles remain distinct.",
+  "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+  "profiles": {
+    "micron": {
+      "accountId": "micron",
+      "domain": "micron.com",
+      "operatingEntity": "Micron Semiconductor Asia Operations Pte Ltd.",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Micron supplier-onboarding / procurement team; Singapore site engineering and IT define the workload.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use Micron's published new-supplier onboarding process. Supplier registration follows contact from Micron's procurement team; registration alone does not establish an invitation or approval.",
+      "supplierUrl": "https://www.micron.com/about/company/suppliers",
+      "scopeBoundary": "The official location directory identifies the Singapore operating company. Global category ownership and the exact entity issuing a device PO must be agreed with the site and procurement team.",
+      "technicalOwner": "Engineering application / workstation standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [
+        {
+          "label": "Singapore operating office",
+          "phone": "+65 6637 0000",
+          "purpose": "Published office number; request routing to the site / procurement owner.",
+          "sourceUrl": "https://www.micron.com/about/locations"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.micron.com/about/locations",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.micron.com/about/company/suppliers",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "sunway": {
+      "accountId": "sunway",
+      "domain": "sunwayhealthcaregroup.com",
+      "operatingEntity": "Sunway Healthcare Holdings Berhad",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "The 2026 prospectus identifies CFO Chelsea Cheng as overseeing group finance responsibilities including procurement and capital budgeting; the selected hospital supplies its operational / IT requirements.",
+      "procurementBasis": "published",
+      "supplierProcess": "The prospectus describes group supplier selection and procurement processes. Start with the healthcare group and the relevant hospital’s purchasing team; confirm the hospital operator and the current device-category delegation before a proposal.",
+      "supplierUrl": "https://www.sunwayhealthcaregroup.com/",
+      "scopeBoundary": "The CFO role is reported in the 2026 prospectus, rather than independently verified as a current device PO signatory. A hospital purchase can be issued by its operating subsidiary; the holding company is not automatically the contract buyer.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.sunwayhealthcaregroup.com/images/file/Sunway%20Healthcare%20%28ENG%29%20Bursa%20part%201.pdf",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.sunwayhealthcaregroup.com/",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.sunwayhealthcaregroup.com/images/file/Sunway%20Healthcare%20(ENG)%20Bursa%20part%202.pdf",
+          "title": "Sunway 2026 prospectus part 2 — CFO responsibilities, printed pp.299–300",
+          "checkedAt": "2026-10-17T08:11:47.503834+00:00",
+          "reviewBasis": "Reviewed official published source; the stated function and period do not establish a current device budget or delegated sign-off."
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "changi": {
+      "accountId": "changi",
+      "domain": "changiairport.com",
+      "operatingEntity": "Changi Airport Group (Singapore) Pte. Ltd.",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "CAG procurement through Changi eProcure; the project or workplace team owns the relevant specification.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use CAG's official procurement opportunities page and Changi eProcure / SESAMi supplier process. Match the purchasing entity and package to the actual notice.",
+      "supplierUrl": "https://www.changiairport.com/en/corporate/partnering-us/procurement.html",
+      "scopeBoundary": "CAG is the airport operating entity. Main contractors may own construction-office printers or drawing-output equipment; a CAG construction award does not establish CAG as the equipment buyer.",
+      "technicalOwner": "Construction drawing / technical-output owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.changiairport.com/en/corporate/about-us/future-developments/terminal-5.html",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.changiairport.com/en/corporate/partnering-us/procurement.html",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "lego": {
+      "accountId": "lego",
+      "domain": "lego.com",
+      "operatingEntity": "LEGO Manufacturing Vietnam (LMV)",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "LEGO Group Procurement works with the Vietnam factory's relevant IT / operations requisitioner.",
+      "procurementBasis": "published",
+      "supplierProcess": "The official supplier page identifies Coupa for supplier collaboration and sourcing invitations from LEGO Procurement. It explicitly says manufacturing and distribution purchase orders are not generated in Coupa; confirm the Vietnam factory PO process with the issuing team.",
+      "supplierUrl": "https://www.lego.com/nl-nl/aboutus/suppliers",
+      "scopeBoundary": "LMV is the operating entity named by LEGO's factory disclosures. The regional distribution centre is operated by Kuehne+Nagel and must not inherit LMV's buying authority.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.lego.com/nl-nl/aboutus/suppliers",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "thk": {
+      "accountId": "thk",
+      "domain": "thkmc.org.sg",
+      "operatingEntity": "Thye Hua Kwan Moral Charities Limited",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "THKMC's issuing procurement / tender function for notice THK/CS/16/T/FY26.",
+      "procurementBasis": "published",
+      "supplierProcess": "Obtain the buyer's notice and tender pack through SESAMi. Use the designated tender contact and conditions in that pack, rather than a guessed individual buyer.",
+      "supplierUrl": "https://sesami.online/bizopps/businessOpportunities.jsp",
+      "scopeBoundary": "The printer notice names THKMC as buyer. The full pack controls the signatory, mandatory requirements, amendments and bid eligibility; these are not established by the public listing alone.",
+      "technicalOwner": "Print security / workplace document-services owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://sesami.online/bizopps/businessOpportunities.jsp",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "dbs": {
+      "accountId": "dbs",
+      "domain": "dbs.com",
+      "operatingEntity": "DBS Bank Ltd.",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Group Procurement and Services (GPS), working with the Singapore bank’s requesting IT / workplace unit.",
+      "procurementBasis": "published",
+      "supplierProcess": "DBS’s official Current Suppliers page identifies GPS, its group procurement policy / standard / sourcing guide, Supplier Due Diligence onboarding and Coupa supplier information / invoicing. Use the bank’s sourcing invitation and point of contact to establish the applicable legal entity and supplier route.",
+      "supplierUrl": "https://www.dbs.com/suppliers/current-suppliers.page",
+      "scopeBoundary": "This account is DBS Bank Ltd., not DBS Nominees, DBS Trustee or DBS Vickers. Their separately listed offices do not establish shared device procurement authority.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [
+        {
+          "label": "DBS Bank Singapore office",
+          "phone": "+65 6878 8888",
+          "purpose": "Published corporate-office number; request routing to the appropriate bank purchasing function.",
+          "sourceUrl": "https://www.dbs.com/about-us/our-global-offices/default.page"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.dbs.com/about-us/our-global-offices/default.page",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.dbs.com/suppliers/current-suppliers.page",
+          "title": "DBS Current Suppliers — Group Procurement and Services",
+          "checkedAt": "2026-10-17T08:11:47.503834+00:00",
+          "reviewBasis": "Reviewed official published source; the stated function and period do not establish a current device budget or delegated sign-off."
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "singtel": {
+      "accountId": "singtel",
+      "domain": "singtel.com",
+      "operatingEntity": "Singapore Telecommunications Limited",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Singtel Group procurement team; Supplier Enablement handles supplier-platform queries.",
+      "procurementBasis": "published",
+      "supplierProcess": "AcuBuy is the published integrated procurement platform. Follow the supplier guidance; supplier enablement is an onboarding contact rather than a budget approver.",
+      "supplierUrl": "https://www.singtel.com/about-us/sustainability/singtel-group-supplier-portal",
+      "scopeBoundary": "Group sourcing covers multiple companies. Confirm the Singapore company named on the invitation and PO; do not infer that NCS or other subsidiaries buy through the same local budget.",
+      "technicalOwner": "Employee device lifecycle / IT service-management owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [
+        {
+          "label": "Supplier Enablement team",
+          "email": "s-supplierenablement@singtel.com",
+          "purpose": "Published supplier-platform / onboarding queries; not a budget approver.",
+          "sourceUrl": "https://www.singtel.com/about-us/sustainability/singtel-group-supplier-portal"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.singtel.com/business/why-singtel-business/about-singtel",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.singtel.com/about-us/sustainability/singtel-group-supplier-portal",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "st-engineering": {
+      "accountId": "st-engineering",
+      "domain": "stengg.com",
+      "operatingEntity": "Singapore Technologies Engineering Ltd.",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "The relevant ST Engineering Group company's purchasing function, supported by the engineering / IT requisitioner.",
+      "procurementBasis": "published",
+      "supplierProcess": "The supplier-information page publishes group purchase-order terms and separate business-area supplements. Identify the group company and applicable terms from the actual PO or sourcing invitation.",
+      "supplierUrl": "https://www.stengg.com/en/vendor-information/",
+      "scopeBoundary": "The published supplier page is for suppliers who have received a PO. It is not proof of open onboarding, and the holding company is not the automatic purchaser for every engineering business unit.",
+      "technicalOwner": "Engineering application / workstation standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.stengg.com/getmedia/afebcab7-c4de-4566-971b-916e49984a6b/ST-Engineering-AGM-Notice-2026.pdf",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.stengg.com/en/vendor-information/",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "capitaland": {
+      "accountId": "capitaland",
+      "domain": "capitaland.com",
+      "operatingEntity": "CapitaLand Group Pte. Ltd.",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Group Procurement policy framework; the selected corporate workplace or business-unit owner raises the requirement.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use the relevant CapitaLand business's supplier conduct and procurement policies. Corporate enquiries should first identify whether the requirement belongs to CapitaLand Investment or CapitaLand Development.",
+      "supplierUrl": "https://www.capitaland.com/en/development/our-impact/sustainability/esg-policies.html",
+      "scopeBoundary": "CapitaLand Investment Limited and CapitaLand Development Pte. Ltd. are separate businesses. A property holding is not evidence that the group owns its tenant's equipment or meeting rooms.",
+      "technicalOwner": "Corporate workplace IT / meeting-room owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.capitaland.com/en/about-capitaland/who-we-are.html",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.capitaland.com/en/development/our-impact/sustainability/esg-policies.html",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "singapore-airlines": {
+      "accountId": "singapore-airlines",
+      "domain": "singaporeair.com",
+      "operatingEntity": "Singapore Airlines Limited",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "SIA's supplier and purchasing function, with corporate workplace IT as the proposed technical owner.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use SIA's official Supplier Portal and its linked SAP Ariba registration route. The page explicitly applies to Singapore Airlines Limited.",
+      "supplierUrl": "https://www.singaporeair.com/en_UK/sg/about-us/supplier-portal/",
+      "scopeBoundary": "The supplier portal explicitly excludes SIA Engineering Company. The proposed requirement is corporate / ground-administration workplace equipment, not aircraft or flight systems.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.singaporeair.com/en_UK/sg/global_footer/imprint/",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.singaporeair.com/en_UK/sg/about-us/supplier-portal/",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "maybank": {
+      "accountId": "maybank",
+      "domain": "maybank.com",
+      "operatingEntity": "Malayan Banking Berhad",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Maybank's published Procurement Opportunities supplier-enquiry helpdesk; bank workplace / print-security owners specify requirements.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use the Procurement Opportunities channel on Maybank's official contact page to ask about becoming a supplier and the correct bank entity / category owner.",
+      "supplierUrl": "https://www.maybank.com/en/contact-us.page",
+      "scopeBoundary": "The contact page names Malayan Banking Berhad and its Kuala Lumpur head office. The helpdesk does not itself confirm an open tender, an approved vendor status or authority to commit budget.",
+      "technicalOwner": "Print security / workplace document-services owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [
+        {
+          "label": "Procurement Opportunities helpdesk",
+          "email": "eprochelpdesk@maybank.com.my",
+          "purpose": "Published enquiry about becoming a Maybank supplier.",
+          "sourceUrl": "https://www.maybank.com/en/contact-us.page"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.maybank.com/en/contact-us.page",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "cimb": {
+      "accountId": "cimb",
+      "domain": "cimb.com",
+      "operatingEntity": "CIMB Bank Berhad; CIMB Group Holdings Berhad is the parent",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "CIMB's procurement function under its published vendor and sustainable-procurement policies; the Malaysian bank's IT / print owner defines the need.",
+      "procurementBasis": "published",
+      "supplierProcess": "Follow CIMB's Vendor Code of Conduct and procurement system requirements. Request the applicable bank entity and onboarding process before proposing a managed-print agreement.",
+      "supplierUrl": "https://www.cimb.com/en/sustainability/our-priorities/governance-and-ethics.html",
+      "scopeBoundary": "The Malaysia profile separately identifies CIMB Bank and CIMB Islamic. A group policy does not prove that the holding company signs a particular bank's equipment contract.",
+      "technicalOwner": "Document services / print security owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.cimb.com/en/who-we-are/our-presence/malaysia.html",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.cimb.com/en/sustainability/our-priorities/governance-and-ethics.html",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "ihh": {
+      "accountId": "ihh",
+      "domain": "ihhhealthcare.com",
+      "operatingEntity": "IHH Healthcare Berhad",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "The selected Malaysian hospital's purchasing and IT / clinical-administration functions, within the healthcare group's sourcing policies.",
+      "procurementBasis": "qualification-target",
+      "supplierProcess": "Use IHH’s published Group Responsible Sourcing Policy and identify the selected Malaysian hospital’s authorized purchasing team. The policy sets supplier requirements but does not name an endpoint budget holder or establish universal open registration.",
+      "supplierUrl": "https://www.ihhhealthcare.com/our-company/overview",
+      "scopeBoundary": "IHH is the healthcare parent. Pantai, Gleneagles and other hospitals can have distinct operating companies, clinical requirements and procurement delegations; select the actual hospital before naming a contract buyer.",
+      "technicalOwner": "Print security / workplace document-services owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://ecard.ihhhealthcare.com/about-us/overview",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.ihhhealthcare.com/our-company/overview",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.insage.com.my/ir/cmn/downloading.aspx?sCompanyCode=IHH&sFileName=25016000059655&sReportType=RR",
+          "title": "IHH Group Responsible Sourcing Policy — published issuer document",
+          "checkedAt": "2026-10-17T08:11:47.503834+00:00",
+          "reviewBasis": "Reviewed official published source; the stated function and period do not establish a current device budget or delegated sign-off."
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "tenaga": {
+      "accountId": "tenaga",
+      "domain": "tnb.com.my",
+      "operatingEntity": "Tenaga Nasional Berhad",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "TNB Procurement Division; the grid-planning / engineering requisitioner defines the workstation workload.",
+      "procurementBasis": "published",
+      "supplierProcess": "Register through TNB's Registration of Supplier (ROS) process and use Supplier Self Service / Supply Chain Management System. Participation depends on approved categories and notice-specific requirements.",
+      "supplierUrl": "https://www.tnb.com.my/doing-business-with-tnb/suppliers/register-as-tnb-supplier",
+      "scopeBoundary": "The public supplier process identifies TNB. TNB Research, generation subsidiaries and other group entities can issue separate procurements; verify the issuing entity in each notice.",
+      "technicalOwner": "Engineering application / workstation standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.tnb.com.my/about-tnb/our-business",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.tnb.com.my/doing-business-with-tnb/suppliers/register-as-tnb-supplier",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "top-glove": {
+      "accountId": "top-glove",
+      "domain": "topglove.com",
+      "operatingEntity": "Top Glove Corporation Bhd",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Top Glove Procurement Team and the selected Malaysian plant's requesting department.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use the official Procurement page's vendor application, TG eProcurement and SAP Ariba guidance. Identify the plant / subsidiary and product category in the onboarding process.",
+      "supplierUrl": "https://www.topglove.com/procurement",
+      "scopeBoundary": "The group has multiple manufacturing entities. Vendor registration does not establish which plant will issue the PO, an available budget or an open endpoint requirement.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.topglove.com/corporate-profile",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.topglove.com/procurement",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "bank-mandiri": {
+      "accountId": "bank-mandiri",
+      "domain": "bankmandiri.co.id",
+      "operatingEntity": "PT Bank Mandiri (Persero) Tbk",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Strategic Procurement Group; the bank's IT / workplace function defines endpoint standards.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use Bank Mandiri's official procurement portal and published vendor registration / supplier information requirements.",
+      "supplierUrl": "https://procurement.ipa.bankmandiri.co.id/FAQ",
+      "scopeBoundary": "The bank's procurement portal names the Strategic Procurement Group. A supplier account and document completion do not by themselves establish an approved endpoint opportunity.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.bankmandiri.co.id/en/profil-perusahaan",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://procurement.ipa.bankmandiri.co.id/FAQ",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "bca": {
+      "accountId": "bca",
+      "domain": "bca.co.id",
+      "operatingEntity": "PT Bank Central Asia Tbk",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Procurement Division for operating supplies / premises; the relevant IT work unit provides IT-procurement recommendations and approval under the published policy.",
+      "procurementBasis": "published",
+      "supplierProcess": "BCA’s published Procurement Policy describes requests, vendor selection, quotation and price analysis, PO / agreement issuance and approval by a competent officer. Confirm whether the print scope is classified as IT or operating supplies and apply the current delegation.",
+      "supplierUrl": "https://www.bca.co.id/-/media/Feature/Report/File/S8/Kebijakan-GCG/20181205-translation-pokok-pokok-kebijakan-pengadaan.pdf",
+      "scopeBoundary": "This is BCA's conventional bank, not BCA Syariah. The technical office, equipment owner, supplier qualification and authorized bank signatories still depend on the actual purchase. The available policy is the bank’s published 2018 translation; its regulator references and delegation must be checked against current requirements.",
+      "technicalOwner": "Print security / workplace document-services owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.bca.co.id/en/lokasi-bca/lokasi-cabang",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.bca.co.id/-/media/Feature/Report/File/S8/Kebijakan-GCG/20181205-translation-pokok-pokok-kebijakan-pengadaan.pdf",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "telkom": {
+      "accountId": "telkom",
+      "domain": "telkom.co.id",
+      "operatingEntity": "PT Telkom Indonesia (Persero) Tbk",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Telkom's procurement / supplier-management function, with the parent company's internal workplace team as the proposed requisitioner.",
+      "procurementBasis": "published",
+      "supplierProcess": "Telkom's 2024 sustainability disclosure describes SMILE e-procurement, supplier selection and integrity requirements. Ask the requesting unit to confirm the current applicable onboarding route.",
+      "supplierUrl": "https://www.telkom.co.id/minio/show/data/lampiran/1759482063610_original_SR%20TLKM_EN%203%20Oktober%202025.pdf",
+      "scopeBoundary": "This is the parent-company workplace hypothesis. Telkomsel, Telkom Akses and other subsidiaries have separate operating and purchasing scopes; a division-specific portal is not a group-wide device mandate.",
+      "technicalOwner": "Employee device lifecycle / IT service-management owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.telkom.co.id/sites/about-us/en_US/page/profile-and-brief-history-24",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.telkom.co.id/minio/show/data/lampiran/1759482063610_original_SR%20TLKM_EN%203%20Oktober%202025.pdf",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "astra": {
+      "accountId": "astra",
+      "domain": "astra.co.id",
+      "operatingEntity": "PT Astra International Tbk",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Astra's BeliBareng / e-Procurement supplier process and the relevant automotive engineering company's purchasing function.",
+      "procurementBasis": "published",
+      "supplierProcess": "The official Astra e-Procurement platform describes supplier registration and evaluation for goods and services. Confirm the automotive operating company and technical workload before applying the group route.",
+      "supplierUrl": "https://eproc.astra.co.id/ai/",
+      "scopeBoundary": "The corporate account is Astra International. An engineering subsidiary may own CAD workstations; the group portal does not establish the holding company as the end buyer for every automotive unit.",
+      "technicalOwner": "Engineering application / workstation standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.astra.co.id/about-astra",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://eproc.astra.co.id/ai/",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "indofood": {
+      "accountId": "indofood",
+      "domain": "indofood.com",
+      "operatingEntity": "PT Indofood Sukses Makmur Tbk",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "The relevant Bogasari / packaging operating unit's purchasing function, under Indofood's Sustainable Procurement Policy.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use Indofood's published supplier policy and identify the packaging unit that actually owns conversion equipment. Confirm whether printing is in-house before qualifying an industrial press.",
+      "supplierUrl": "https://www.indofood.com/page/Sustainable-Procurement",
+      "scopeBoundary": "The corporate entity and Bogasari business context are documented. Packaging operations alone do not establish an in-house printing buyer; do not present a press sale until the actual operator is identified.",
+      "technicalOwner": "Packaging conversion / production engineering owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.indofood.com/news/official-statement-by-pt-indofood-sukses-makmur-tbk",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.indofood.com/page/Sustainable-Procurement",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "cp-all": {
+      "accountId": "cp-all",
+      "domain": "cpall.co.th",
+      "operatingEntity": "CP ALL Public Company Limited",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "CP ALL's supplier-recruitment / purchasing function, with the company-operated back-office IT owner defining the device requirement.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use the supplier registration form on CP ALL's official AllProcess domain. Confirm the company and category receiving the application and whether the scope is central-office or company-operated retail support.",
+      "supplierUrl": "https://allprocess.cpall.co.th/RuntimeFBA/Runtime/Form/Auction.SupplierRegister.Form",
+      "scopeBoundary": "The prospective buyer is CP ALL, not every 7-Eleven franchisee. Gosoft's published IT-service role does not by itself establish that Gosoft issues the equipment PO.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.cpall.co.th/en/company-information/",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://allprocess.cpall.co.th/RuntimeFBA/Runtime/Form/Auction.SupplierRegister.Form",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "scg": {
+      "accountId": "scg",
+      "domain": "scg.com",
+      "operatingEntity": "The Siam Cement Public Company Limited",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "SCG corporate purchasing and the corporate workplace IT requisitioner; identify the responsible group-company buyer before a proposal.",
+      "procurementBasis": "qualification-target",
+      "supplierProcess": "Start from SCG's official corporate profile and request the corporate-office supplier / purchasing route. Do not substitute an SCG Chemicals or external trading-company supplier process for the corporate workplace requirement.",
+      "supplierUrl": "https://www.scg.com/en/company-profile",
+      "scopeBoundary": "The profile identifies the Bangkok holding-company office. SCG businesses and subsidiaries have separate purchasing scopes; their plant and engineering fleets are not automatically the holding company's demand.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.scg.com/en/company-profile",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "ptt": {
+      "accountId": "ptt",
+      "domain": "pttplc.com",
+      "operatingEntity": "PTT Public Company Limited",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Material and Commercial Procurement Division, Strategic Procurement and Administration Department.",
+      "procurementBasis": "published",
+      "supplierProcess": "The official procurement-unit directory identifies the division responsible for goods and services for PTT Head Office and the Innovation Institute. Use the appropriate procurement unit and notice-specific vendor process.",
+      "supplierUrl": "https://procurement.pttplc.com/en/page/index/1025",
+      "scopeBoundary": "This published division matches a corporate workplace / meeting-room hypothesis. Gas, NGV and project divisions have different responsibilities and must not be treated as the same buying office.",
+      "technicalOwner": "Corporate workplace IT / meeting-room owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [
+        {
+          "label": "Material and Commercial Procurement Division",
+          "phone": "+66 2 537 2066",
+          "purpose": "Published purchasing-unit telephone for head-office goods and services.",
+          "sourceUrl": "https://procurement.pttplc.com/en/page/index/1025"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pttplc.com/en/about",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://procurement.pttplc.com/en/page/index/1025",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "bdms": {
+      "accountId": "bdms",
+      "domain": "bdms.co.th",
+      "operatingEntity": "Bangkok Dusit Medical Services Public Company Limited",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "BDMS Central Procurement, working with suppliers across BDMS Group; the selected hospital’s IT and administration team specifies the output workflow.",
+      "procurementBasis": "published",
+      "supplierProcess": "The published Supplier Code of Conduct explicitly identifies BDMS Central Procurement and covers BDMS and network companies. Use the hospital / group procurement office to obtain the applicable supplier and sourcing process.",
+      "supplierUrl": "https://investor.bdms.co.th/storage/downloads/corporate-governance/bdms-supplier-code-of-conduct-en.pdf",
+      "scopeBoundary": "BDMS is the healthcare parent. A hospital's legal operator and patient-data rules determine the actual device / service contract; group network size does not establish one central buying mandate. The code is signed 8 May 2023; it documents the central function, not a current individual deal approver.",
+      "technicalOwner": "Document services / print security owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://investor.bdms.co.th/en/general/company-background",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://investor.bdms.co.th/storage/downloads/corporate-governance/bdms-supplier-code-of-conduct-en.pdf",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "kasikornbank": {
+      "accountId": "kasikornbank",
+      "domain": "kasikornbank.com",
+      "operatingEntity": "KASIKORNBANK Public Company Limited",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "KBank's procurement / supplier-management function under its supplier recruitment and selection procedures.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use the bank's published supply-chain procedures and Supplier Handbook route; route corporate workplace requirements through the Rat Burana head-office organization.",
+      "supplierUrl": "https://www.kasikornbank.com/en/sustainable-development/goal/pages/supplychain.aspx",
+      "scopeBoundary": "KBank's move notice and contact page identify Rat Burana as the current head office. KBTG may participate in technology standards, but delegated purchasing authority is not established by the move notice.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [
+        {
+          "label": "Rat Burana head office",
+          "phone": "+66 2 222 0000",
+          "purpose": "Published office switchboard; request corporate procurement routing, not consumer banking support.",
+          "sourceUrl": "https://www.kasikornbank.com/en/contact/pages/contact.aspx"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.kasikornbank.com/en/IR/News/20260710_ChangeHeadOff_EN.pdf",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.kasikornbank.com/en/sustainable-development/goal/pages/supplychain.aspx",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.kasikornbank.com/en/contact/pages/contact.aspx",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "sm-investments": {
+      "accountId": "sm-investments",
+      "domain": "sminvestments.com",
+      "operatingEntity": "SM Investments Corporation",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Procurement Department (PD), with the requisitioning department; IT-related items must be coordinated with IT.",
+      "procurementBasis": "published",
+      "supplierProcess": "SM's vendor-selection policy gives PD responsibility for supplier accreditation, RFQs, quotation evaluation and PO issuance. Only accredited vendors may receive a PO / contract; Legal reviews contract documents.",
+      "supplierUrl": "https://www.sminvestments.com/policy-for-vendor-selection-and-purchase-of-goods-and-services/",
+      "scopeBoundary": "This is SM's parent-company workplace. BDO has a separate bank account and management; SM's policy must not be used to aggregate BDO or other subsidiaries' device requirements.",
+      "technicalOwner": "Corporate workplace IT / meeting-room owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.sminvestments.com/about/",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.sminvestments.com/policy-for-vendor-selection-and-purchase-of-goods-and-services/",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "bdo": {
+      "accountId": "bdo",
+      "domain": "bdo.com.ph",
+      "operatingEntity": "BDO Unibank, Inc.",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "The bank's own purchasing function and workplace / information-technology owner, separately from SM corporate procurement.",
+      "procurementBasis": "qualification-target",
+      "supplierProcess": "Use BDO's official corporate-office directory to identify the appropriate bank purchasing team and approved-vendor process. The public investor-relations address is not a supplier-registration or sales contact.",
+      "supplierUrl": "https://www.bdo.com.ph/about-bdo/investor-relations/contact-information",
+      "scopeBoundary": "BDO identifies SM Group membership and separate professional bank management. The available corporate profile does not publish a named endpoint budget holder or universal supplier portal. The bank’s 14 October 2026 Procurement Officer posting is in the Office of the President and concerns mechanical contractors / construction materials; it does not identify the endpoint-device category buyer.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [
+        {
+          "label": "BDO corporate headquarters trunkline",
+          "phone": "+63 2 8840 7000",
+          "purpose": "Published corporate switchboard; request the bank’s purchasing / supplier-management team. The investor-relations email is not a procurement channel.",
+          "sourceUrl": "https://www.bdo.com.ph/about-bdo/investor-relations/contact-information"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bdo.com.ph/about-bdo/corporate-profile",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.bdo.com.ph/about-bdo/investor-relations/contact-information",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.careers.bdo.com.ph/job/Makati-City-Procurement-Officer-Nati/1368827566/",
+          "title": "BDO published procurement role — construction scope",
+          "checkedAt": "2026-10-17T08:11:47.503834+00:00",
+          "reviewBasis": "Reviewed official published source; the stated function and period do not establish a current device budget or delegated sign-off."
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "ayala-land": {
+      "accountId": "ayala-land",
+      "domain": "ayalaland.com.ph",
+      "operatingEntity": "Ayala Land, Inc.; Makati Development Corporation is the construction subsidiary identified in its profile",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Makati Development Corporation (MDC) centralized procurement and vendor-accreditation processes; the construction drawing owner defines the requirement.",
+      "procurementBasis": "published",
+      "supplierProcess": "Ayala Land’s official supplier-engagement disclosure identifies MDC’s centralized procurement and accreditation process, supplier Code of Conduct, and technical evaluation. Confirm that MDC owns the particular drawing-output equipment rather than an external contractor.",
+      "supplierUrl": "https://ir.ayalaland.com.ph/sustainability/social-engagement/enhancing-quality-of-life-across-our-communities/",
+      "scopeBoundary": "The corporate property developer, construction subsidiary and external contractors are different potential buyers. An estate project does not establish that Ayala Land itself buys every technical printer.",
+      "technicalOwner": "Construction drawing / technical-output owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://ir.ayalaland.com.ph/about-us/our-company/",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://ir.ayalaland.com.ph/sustainability/social-engagement/enhancing-quality-of-life-across-our-communities/",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "pldt": {
+      "accountId": "pldt",
+      "domain": "pldt.com",
+      "operatingEntity": "PLDT Inc.",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "PLDT Supplier Management and the authorized procurement function; the parent-company workplace team defines endpoint-service scope.",
+      "procurementBasis": "published",
+      "supplierProcess": "PLDT's Supplier/Contractor Relations Policy requires supplier accreditation / qualification and competitive bidding. Use the authorized supplier-management process for the applicable PLDT entity.",
+      "supplierUrl": "https://main.pldt.com/corporate-governance-in-pldt/policies-processes-and-practices",
+      "scopeBoundary": "PLDT's policy reporting mailbox is not evidence of an open sales or registration channel. Smart and other subsidiaries have their own operating scopes; keep the parent workplace requirement separate.",
+      "technicalOwner": "Employee device lifecycle / IT service-management owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/companyInformation/form.do?cmpy_id=6",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://main.pldt.com/corporate-governance-in-pldt/policies-processes-and-practices",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "jollibee": {
+      "accountId": "jollibee",
+      "domain": "jollibeegroup.com",
+      "operatingEntity": "Jollibee Foods Corporation",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Published Procurement department at 8/F Jollibee Plaza, Ortigas Center, Pasig City.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use the Procurement contact on Jollibee Group's official contact page to ask about the relevant supplier category and company-operated support function.",
+      "supplierUrl": "https://www.jollibeegroup.com/contact-us/",
+      "scopeBoundary": "This is the corporate group's published procurement route. Franchisees and separate restaurant operating entities may buy independently; the contact is not proof of an approved endpoint budget.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [
+        {
+          "label": "Procurement, 8/F Jollibee Plaza",
+          "email": "purchasing.feedback@jollibee.com.ph",
+          "purpose": "Published Procurement department contact; ask about supplier category and onboarding.",
+          "sourceUrl": "https://www.jollibeegroup.com/contact-us/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jollibeegroup.com/contact-us/",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "fpt": {
+      "accountId": "fpt",
+      "domain": "fpt.com",
+      "operatingEntity": "FPT Corporation",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "FPT's centralized procurement / online-bidding function, with the relevant Hanoi delivery or engineering unit as technical requisitioner.",
+      "procurementBasis": "published",
+      "supplierProcess": "FPT's 2025 governance disclosure describes centralized procurement, online supplier quotations and supplier evaluation. The Hanoi office can route a supplier enquiry to the relevant buying unit.",
+      "supplierUrl": "https://bctn2025.fpt.com/en/esg-report/governance-geared-towards-sustainable-development/",
+      "scopeBoundary": "The group process is documented; an FPT Software or other subsidiary's workstation project must be attributed to its actual operating company and approved requesting unit.",
+      "technicalOwner": "Engineering application / workstation standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [
+        {
+          "label": "FPT Tower, Hanoi",
+          "phone": "+84 24 7300 7300",
+          "purpose": "Published Hanoi office number; request routing to the applicable corporate / subsidiary procurement team.",
+          "sourceUrl": "https://fpt.com/en/about-us/operation-network"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://fpt.com/en/about-us/operation-network",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://bctn2025.fpt.com/en/esg-report/governance-geared-towards-sustainable-development/",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "vingroup": {
+      "accountId": "vingroup",
+      "domain": "vingroup.net",
+      "operatingEntity": "Vingroup Joint Stock Company",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "The parent company's purchasing function and corporate workplace owner; subsidiaries must be addressed separately.",
+      "procurementBasis": "qualification-target",
+      "supplierProcess": "Use Vingroup's official headquarters contact to request the parent-company purchasing route. The reviewed contact page identifies the company and office; it does not publish open supplier registration or an individual endpoint approver.",
+      "supplierUrl": "https://www.vingroup.net/en/contact",
+      "scopeBoundary": "This hypothesis is the Vietnam holding-company workplace. VinFast, Vinhomes, Vinpearl and other group companies are separate operating and purchasing contexts.",
+      "technicalOwner": "Corporate workplace IT / meeting-room owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [
+        {
+          "label": "Vingroup headquarters",
+          "phone": "+84 24 3974 9999",
+          "purpose": "Published headquarters number; ask for the parent-company purchasing function.",
+          "sourceUrl": "https://www.vingroup.net/en/contact"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vingroup.net/en/contact",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "vinamilk": {
+      "accountId": "vinamilk",
+      "domain": "vinamilk.com.vn",
+      "operatingEntity": "Vietnam Dairy Products Joint Stock Company (Vinamilk)",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "Vinamilk's bidding / procurement function and the selected plant or head-office requesting department.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use Vinamilk's official bidding portal and its department-selecting supplier enquiry form. Apply the registration and package-specific requirements shown there.",
+      "supplierUrl": "https://dauthau.vinamilk.com.vn/contact",
+      "scopeBoundary": "The bidding portal identifies the company. A plant's endpoint standard, validated production boundaries and PO authorization must be confirmed for the actual scope; the portal does not establish a current device tender.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.vinamilk.com.vn/en/technology",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://dauthau.vinamilk.com.vn/contact",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "viettel": {
+      "accountId": "viettel",
+      "domain": "viettel.com.vn",
+      "operatingEntity": "Viettel Business Solutions Corporation — branch of Military Industry and Telecommunications Group",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "The purchasing unit named in the relevant Viettel notice, with the Hanoi business-solutions branch as the scoped workplace operator.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use Viettel's official bidding domain to identify the issuing unit and package. Confirm whether the business-solutions branch can buy the proposed workplace scope or requires parent-group approval.",
+      "supplierUrl": "https://dauthau.viettel.com.vn/",
+      "scopeBoundary": "The source identifies a specific branch at No. 1 Tran Huu Duc Street, Hanoi. It does not establish one buying authority for all Viettel telecom, military or infrastructure operations.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://international.viettel.vn/about-detail/products-and-services",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://dauthau.viettel.com.vn/",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    },
+    "vietnam-airlines": {
+      "accountId": "vietnam-airlines",
+      "domain": "vietnamairlines.com",
+      "operatingEntity": "Vietnam Airlines Joint Stock Company",
+      "entityStatus": "documented operating company / group identity",
+      "procurementTeam": "The issuing procurement unit and tender-specific contact published in Vietnam Airlines' procurement information.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use the airline's official procurement-information page and the contact / conditions in the applicable request for proposals. Keep workplace endpoint scope separate from aviation systems.",
+      "supplierUrl": "https://www.vietnamairlines.com/go/vi/vietnam-airlines/procurement/information",
+      "scopeBoundary": "The corporate company and Hanoi office are documented. A public procurement page does not itself establish an open workplace-device package, approved supplier status or airworthiness-related authorization.",
+      "technicalOwner": "Workplace IT / endpoint standards owner",
+      "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
+      "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
+      "contacts": [],
+      "sources": [
+        {
+          "url": "https://www.vietnamairlines.com/go/vi/vietnam-airlines/about-us",
+          "title": "Official company / operating-entity source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.vietnamairlines.com/go/vi/vietnam-airlines/procurement/information",
+          "title": "Official purchasing / supplier source",
+          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
+          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "presentationDate": "2026-10-15"
+    }
+  }
+}

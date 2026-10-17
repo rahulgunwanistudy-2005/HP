@@ -1,0 +1,204 @@
+{
+  "project": "HP Account Intelligence",
+  "setup": "README.md",
+  "validation": "docs/qualification-progress.md",
+  "demonstration": "docs/demo-script.md",
+  "sourceManifest": "deliverables/buying-organizations-source-manifest.csv",
+  "seed": "data/research-accounts.json",
+  "products": "data/products.json",
+  "schema": "server/migrations/001-initial.sql",
+  "reviewedCorpus": {
+    "validatedAt": "2026-10-17T11:43:38.021Z",
+    "mode": "deterministic corpus integrity; not independently measured predictive accuracy",
+    "accounts": 35,
+    "territoryProspects": 35,
+    "screenedProspects": 30,
+    "deepAccounts": 5,
+    "screenedAccounts": 50,
+    "reviewedOpportunities": 39,
+    "opportunities": 39,
+    "uniqueEvents": 38,
+    "sourceFamilies": 9,
+    "publisherOrigins": 45,
+    "independentOrigins": 34,
+    "staleFindings": 12,
+    "unresolvedBuyers": 116,
+    "failedRuns": 0,
+    "activeProcurement": 0,
+    "logicalDocuments": 56,
+    "uniqueCanonicalUrls": 55,
+    "productFamilies": 9,
+    "productSources": 14,
+    "evidenceRelationships": 45,
+    "qualificationActions": 153,
+    "buyerRoleRecords": 118,
+    "foreignKeyViolations": 0,
+    "sensitivity": [
+      {
+        "label": "Evidence +5 / timing −5",
+        "weights": {
+          "evidence": 30,
+          "fit": 20,
+          "timing": 15,
+          "scale": 15,
+          "access": 10,
+          "feasibility": 10
+        },
+        "leader": "Qualify one professional workstation for TNB Research — Q26A/2026",
+        "leaderAccount": "Tenaga Nasional",
+        "leadingIds": [
+          "tnbr-workstation-q26a",
+          "micron-engineering",
+          "thk-print-procurement"
+        ],
+        "changed": false,
+        "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+      },
+      {
+        "label": "Scale +5 / fit −5",
+        "weights": {
+          "evidence": 25,
+          "fit": 15,
+          "timing": 20,
+          "scale": 20,
+          "access": 10,
+          "feasibility": 10
+        },
+        "leader": "Qualify one professional workstation for TNB Research — Q26A/2026",
+        "leaderAccount": "Tenaga Nasional",
+        "leadingIds": [
+          "tnbr-workstation-q26a",
+          "micron-engineering",
+          "thk-print-procurement"
+        ],
+        "changed": false,
+        "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+      },
+      {
+        "label": "Access +5 / evidence −5",
+        "weights": {
+          "evidence": 20,
+          "fit": 20,
+          "timing": 20,
+          "scale": 15,
+          "access": 15,
+          "feasibility": 10
+        },
+        "leader": "Qualify one professional workstation for TNB Research — Q26A/2026",
+        "leaderAccount": "Tenaga Nasional",
+        "leadingIds": [
+          "tnbr-workstation-q26a",
+          "micron-engineering",
+          "thk-print-procurement"
+        ],
+        "changed": false,
+        "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+      },
+      {
+        "label": "Timing +10 / scale −10",
+        "weights": {
+          "evidence": 25,
+          "fit": 20,
+          "timing": 30,
+          "scale": 5,
+          "access": 10,
+          "feasibility": 10
+        },
+        "leader": "Qualify one professional workstation for TNB Research — Q26A/2026",
+        "leaderAccount": "Tenaga Nasional",
+        "leadingIds": [
+          "tnbr-workstation-q26a",
+          "thk-print-procurement",
+          "micron-engineering"
+        ],
+        "changed": false,
+        "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+      }
+    ],
+    "notes": [
+      "All evidence links resolve inside the correct account.",
+      "Supporting passages checked for metadata, maximum source quote budget, chronology and explicit limitations.",
+      "No private buyers, invented quantities, prices or win probabilities.",
+      "Two reviewed current notice hypotheses (THK and TNB Research); HP supply eligibility remains unverified. Standing screened-company profiles do not establish open procurement.",
+      "Source support reviewed by project analysts; this integrity script cannot establish truth independently."
+    ]
+  },
+  "runtimeRuns": {
+    "count": 7,
+    "completed": 4,
+    "failedOrPartial": 3
+  },
+  "localUrl": "http://127.0.0.1:3001",
+  "hosting": "local Node application; cloud deployment not executed",
+  "territory": {
+    "name": "ASEAN-6 · Major Southeast Asian economies",
+    "verificationStatus": "verified",
+    "countries": [
+      "ID",
+      "MY",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
+    ],
+    "subregions": [],
+    "exclusions": [],
+    "languages": [
+      "en",
+      "id",
+      "ms",
+      "fil",
+      "th",
+      "vi"
+    ],
+    "eligibilityBasis": "operating_location",
+    "operatingRuleMode": "any_reviewed_site",
+    "operatingRule": "Require reviewed evidence of a relevant operating office, facility or domestic operating footprint in Indonesia, Malaysia, the Philippines, Singapore, Thailand or Vietnam. Parent HQ alone cannot localize a global initiative. Purchasing organization, HP account ownership and route-to-supply eligibility require separate qualification.",
+    "verificationBasis": "User clarified the region as the major ASEAN economies on 17 October 2026; implemented as the six priority markets ID, MY, PH, SG, TH and VN. This is a sales priority scope, not a claim that ASEAN has only six members.",
+    "membershipSource": "https://asean.org/member-states/",
+    "scopeConfirmedAt": "2026-10-17",
+    "configuredBy": "User-authorized territory clarification",
+    "id": "primary",
+    "version": 2,
+    "updatedAt": "2026-10-17T07:07:37.107Z"
+  },
+  "excludedFromSourceArchive": [
+    "node_modules",
+    "dist",
+    "storage",
+    ".git",
+    ".env"
+  ],
+  "seeds": [
+    "data/research-accounts.json",
+    "data/asean-prospects.json",
+    "data/buying-organizations.json",
+    "data/territory.json",
+    "data/workspace-config.json",
+    "data/qualification-research.json"
+  ],
+  "seedLoader": "server/reviewed-data.ts",
+  "workingWorkspaceSummary": "deliverables/qualification-live-workspace-summary.json",
+  "preservationReport": "deliverables/gate-resolution-preservation.json",
+  "automatedTests": {
+    "passed": 122,
+    "failed": 0,
+    "skipped": 0,
+    "report": "deliverables/gate-resolution-tests.txt"
+  },
+  "presentation": {
+    "reportDate": "2026-10-15",
+    "reportLabel": "15 Oct",
+    "dateBasis": "User-selected presentation edition. Actual collection and audit timestamps remain in Research operations and machine-readable evidence records.",
+    "archivedReferenceAccountIds": [
+      "epac",
+      "dreamworks"
+    ],
+    "excludedDisplayCountries": [
+      "US",
+      "CA"
+    ]
+  },
+  "browserChecks": "deliverables/qualification-browser-checks.json",
+  "qualificationSourceManifest": "deliverables/qualification-source-manifest.csv"
+}

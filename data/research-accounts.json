@@ -1,0 +1,2375 @@
+{
+  "schemaVersion": "1.0",
+  "datasetLabel": "Reviewed public-evidence demonstration; territory unverified",
+  "reviewedAt": "2026-10-16T16:27:45Z",
+  "accounts": [
+    {
+      "id": "micron",
+      "name": "Micron Technology",
+      "domain": "micron.com",
+      "industry": "Semiconductor manufacturing",
+      "hqCountry": "US",
+      "summary": "Memory manufacturer expanding its Singapore NAND and HBM manufacturing complex. The factory programme is verified; workstation, workplace-device and purchasing requirements remain hypotheses.",
+      "discovery": "Investment-agency semiconductor project screening followed by original Micron disclosures and supplier onboarding rules.",
+      "rationale": "Retained for separate engineering-compute and workplace-planning hypotheses with distinct workload and buyer questions. Capital spending and jobs are never converted into IT budget or unit estimates.",
+      "screeningStatus": "deep-demo",
+      "parentName": "Micron Technology, Inc.",
+      "contractingEntity": "Singapore contracting subsidiary and global/category purchasing authority unverified",
+      "facilities": [
+        {
+          "name": "Singapore NAND manufacturing complex",
+          "country": "SG",
+          "city": "Singapore",
+          "kind": "Existing manufacturing complex; advanced wafer fab expansion"
+        },
+        {
+          "name": "Singapore HBM advanced packaging facility",
+          "country": "SG",
+          "city": "Singapore",
+          "kind": "Advanced packaging project"
+        }
+      ],
+      "documents": [
+        {
+          "id": "micron-fab-2026",
+          "url": "https://investors.micron.com/news/press-release/2026/Micron-Breaks-Ground-on-Advanced-Wafer-Fabrication-Facility-in-Singapore-01-26-2026/default.aspx",
+          "canonicalUrl": "https://investors.micron.com/news/press-release/2026/Micron-Breaks-Ground-on-Advanced-Wafer-Fabrication-Facility-in-Singapore-01-26-2026/default.aspx",
+          "title": "Micron Breaks Ground on Advanced Wafer Fabrication Facility in Singapore",
+          "publisher": "Micron Technology",
+          "family": "Company newsrooms",
+          "origin": "Micron Technology",
+          "publishedAt": "2026-01-26",
+          "eventDate": "2026-01-27",
+          "retrievedAt": "2026-10-16",
+          "passage": "Wafer output is scheduled to begin in the second half of calendar 2028",
+          "claim": "The announced Singapore fab targets wafer output in H2 2028 and describes co-located R&D. The same release updates meaningful HBM supply contribution to 2027.",
+          "section": "Opening paragraphs and project update",
+          "limitations": "Investor-site heading is 26 January US time; Singapore dateline/event is 27 January. Forward-looking plans, not verified completion or a device order.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "micron-singapore-fab-2026",
+          "eventMilestone": "2028-H2",
+          "temporalScope": "Construction programme announced January 2026; forecast output H2 2028",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        },
+        {
+          "id": "micron-hbm-2025",
+          "url": "https://investors.micron.com/news/press-release/2025/Micron-Breaks-Ground-on-New-HBM-Advanced-Packaging-Facility-in-Singapore-01-08-2025/default.aspx",
+          "canonicalUrl": "https://investors.micron.com/news/press-release/2025/Micron-Breaks-Ground-on-New-HBM-Advanced-Packaging-Facility-in-Singapore-01-08-2025/default.aspx",
+          "title": "Micron Breaks Ground on New HBM Advanced Packaging Facility in Singapore",
+          "publisher": "Micron Technology",
+          "family": "Company newsrooms",
+          "origin": "Micron Technology",
+          "publishedAt": "2025-01-08",
+          "eventDate": "2025-01-08",
+          "retrievedAt": "2026-10-16",
+          "passage": "Operations for the new facility are scheduled to begin in 2026",
+          "claim": "Original HBM project announcement distinguished initial operations in 2026 from a meaningful capacity expansion in 2027.",
+          "section": "Facility timetable",
+          "limitations": "Historical announcement. A newer January 2026 update is the controlling source for the meaningful 2027 supply milestone; these dates are not automatically contradictory.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "micron-hbm-singapore-2025",
+          "temporalScope": "Original forecast; later update in micron-fab-2026",
+          "supersededBy": "micron-fab-2026",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        },
+        {
+          "id": "micron-edb-2026",
+          "url": "https://www.edb.gov.sg/en/business-insights/insights/what-makes-singapore-a-prime-location-for-semiconductor-companies-driving-innovation.html",
+          "canonicalUrl": "https://www.edb.gov.sg/en/business-insights/insights/what-makes-singapore-a-prime-location-for-semiconductor-companies-driving-innovation.html",
+          "title": "What makes Singapore a prime location for semiconductor companies driving innovation?",
+          "publisher": "Singapore Economic Development Board",
+          "family": "Investment-agency and facility sources",
+          "origin": "Singapore Economic Development Board",
+          "publishedAt": "2026-05-07",
+          "eventDate": "2026-01-27",
+          "retrievedAt": "2026-10-16",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "passage": "broke ground on an advanced wafer fabrication facility in Singapore",
+          "claim": "EDB's updated semiconductor overview lists Micron's January2026 fab project among Singapore investments.",
+          "section": "How leading semiconductor companies are investing in Singapore",
+          "limitations": "Indexed excerpt reviewed; direct page returned limited content. Government-hosted overview restates the company event and does not independently verify procurement status.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of search-index excerpt; direct HTML returned limited text",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "retrievalStatus": "partial",
+          "eventId": "micron-singapore-fab-2026",
+          "temporalScope": "Overview updated7May2026; project eventJanuary2026",
+          "independence": "Secondary restatement of same underlying project; no extra event or purchase-intent credit",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        },
+        {
+          "id": "micron-10k-2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+          "canonicalUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+          "title": "Micron Technology FY2026 Form 10-K",
+          "publisher": "Micron Technology filing hosted by SEC",
+          "family": "Regulatory and exchange filings",
+          "origin": "Micron Technology regulatory filing",
+          "publishedAt": "2026-10-09",
+          "eventDate": "2026-01-27",
+          "retrievedAt": "2026-10-16",
+          "passage": "we broke ground on an additional advanced wafer fab facility located within our existing NAND manufacturing complex.",
+          "claim": "The FY2026 filing repeats Singapore HBM expansion for early 2027 and wafer-fab operation in H2 2028, updating the project narrative. Its cover verifies principal executive offices in Boise, Idaho.",
+          "section": "Form 10-K pp.50 and61, Singapore expansion; cover principal executive offices",
+          "limitations": "Later company disclosure, not independent verification or a device procurement. Period ended3 September2026; filed9 October2026, confirmed in EDGAR filing index. Dates remain forecasts; no endpoint quantities.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of SEC filing text and EDGAR index",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "retrievalStatus": "reviewed-public-content",
+          "eventId": "micron-singapore-fab-2026",
+          "independence": "Same company origin as January announcements; later implementation update without extra independent-intent credit",
+          "reviewedAt": "2026-10-16T16:37:09Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained",
+          "temporalScope": "FY2026 report; Singapore timeline reiterated October2026",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html"
+        },
+        {
+          "id": "micron-suppliers",
+          "url": "https://www.micron.com/about/company/suppliers",
+          "canonicalUrl": "https://www.micron.com/about/company/suppliers",
+          "title": "Suppliers",
+          "publisher": "Micron Technology",
+          "family": "Leadership and supplier-registration pages",
+          "origin": "Micron Technology",
+          "publishedAt": null,
+          "eventDate": null,
+          "retrievedAt": "2026-10-16",
+          "passage": "Have you been contacted by our team for a procurement opportunity?",
+          "claim": "Micron publishes supplier onboarding steps including registration and, depending on product or service, qualification forms.",
+          "section": "New supplier onboarding",
+          "limitations": "Undated current policy page. Registration does not establish an invitation, approval, HP account access or permission to supply.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "micron-supplier-policy",
+          "temporalScope": "Undated policy observed at retrieval",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        }
+      ],
+      "opportunities": [
+        {
+          "territoryStatus": "unresolved",
+          "demonstration": true,
+          "routeAssessed": false,
+          "accountOwnership": "unknown",
+          "commercialValue": "Value unquantified",
+          "confidence": "medium",
+          "reviewStatus": "analyst-reviewed-hypothesis",
+          "explicitPurchasingEvidence": "No current explicit purchasing evidence found in the reviewed sources.",
+          "procurement": {
+            "explicit": false,
+            "status": "unknown",
+            "deadline": null,
+            "verifiedAt": "2026-10-16T16:27:45Z"
+          },
+          "contradictionIds": [],
+          "id": "micron-engineering",
+          "title": "Qualify engineering workstation requirements for Singapore expansion",
+          "type": "Expansion hypothesis",
+          "productFamily": "workstations",
+          "eventTitle": "New Singapore wafer fab and co-located R&D programme",
+          "eventDate": "2026-01-27",
+          "requirement": "Potential local engineering, visualization or development workloads; application, certification and local-versus-remote compute needs are unknown.",
+          "reasoning": "Co-located R&D and fab engineering justify workload discovery. HP Z workstations fit only if verified applications need local professional compute; the AI/data-centre investment does not establish AI-PC demand.",
+          "whyNow": "The 9 October 2026 filing reiterates early-2027 HBM and H2-2028 fab planning horizons. Use those milestones to discover equipment standards and sourcing decisions; the update still does not establish an open endpoint package.",
+          "scale": "A large disclosed facility programme; engineering seat and device quantities are unknown. Fab cleanroom area, jobs and capex are context, not endpoint scope.",
+          "buyers": [
+            {
+              "role": "Engineering IT / workstation standards owner",
+              "scope": "Global standards and Singapore implementation",
+              "organization": "Micron",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Fab engineering programme sponsor",
+              "scope": "Singapore workload sponsor",
+              "organization": "Micron Singapore entity, unverified",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Indirect procurement category manager",
+              "scope": "Contracting and approved supplier route",
+              "organization": "Micron; local/global authority unresolved",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Endpoint security architect",
+              "scope": "Security and image approval",
+              "organization": "Micron",
+              "authorityStatus": "unverified-role-hypothesis"
+            }
+          ],
+          "route": "Direct enterprise discussion or an approved Singapore workstation partner, conditional on Micron onboarding and category approval.",
+          "barriers": [
+            "Approved-vendor and global workstation standards are unknown.",
+            "Project equipment may already be sourced.",
+            "Specialized engineering may run on remote systems rather than local workstations."
+          ],
+          "unknowns": [
+            "Applications, user groups and performance requirements",
+            "Installed brands and contract term",
+            "Contracting legal entity and local decision rights",
+            "Uncommitted scope and actual project status"
+          ],
+          "confirm": [
+            "Sponsor identifies local engineering workloads with an uncommitted equipment milestone."
+          ],
+          "weaken": [
+            "Remote-compute policy or existing capacity covers the users."
+          ],
+          "disprove": [
+            "No eligible workload or all relevant scope is already contracted without an accessible future window."
+          ],
+          "readinessSuggested": "Triggered qualification",
+          "evidenceIds": [
+            "micron-fab-2026",
+            "micron-hbm-2025",
+            "micron-suppliers",
+            "micron-10k-2026"
+          ],
+          "dimensions": {
+            "evidence": 3,
+            "fit": 3,
+            "timing": 2,
+            "scale": 2,
+            "access": null,
+            "feasibility": 1
+          },
+          "actions": [
+            {
+              "phase": "0–15",
+              "title": "Verify programme and sourcing owner",
+              "outcome": "A documented project milestone and category owner",
+              "role": "Singapore engineering programme sponsor",
+              "question": "Which engineering-device decisions remain uncommitted for the HBM/fab programme?",
+              "progressCondition": "Owner confirms scope and permits requirements discovery.",
+              "stopCondition": "Stop if project is paused or all scope is committed with no future review."
+            },
+            {
+              "phase": "16–30",
+              "title": "Map engineering applications and route",
+              "outcome": "An application and approval matrix",
+              "role": "Engineering IT / procurement",
+              "question": "Which CAD, development or visualization tools need local certified hardware, and who can approve a new supplier?",
+              "progressCondition": "Workload, test owner and approved supply route are documented.",
+              "stopCondition": "Nurture if no workstation requirement or supplier route is available."
+            },
+            {
+              "phase": "31–60",
+              "title": "Benchmark a representative workload",
+              "outcome": "Measured technical fit against an agreed baseline",
+              "role": "Engineering IT evaluator",
+              "question": "Can a suitable HP Z configuration meet a real workload and security image?",
+              "progressCondition": "Customer agrees performance and compatibility criteria.",
+              "stopCondition": "Stop if required certification or benchmark fails."
+            },
+            {
+              "phase": "61–90",
+              "title": "Agree an equipment-planning checkpoint",
+              "outcome": "An agreed procurement or nurture next step",
+              "role": "Category procurement and programme sponsor",
+              "question": "What approved sourcing milestone follows successful qualification?",
+              "progressCondition": "A written next step with an owner and date.",
+              "stopCondition": "Stop pursuit if no eligible procurement path can be established."
+            }
+          ],
+          "accountId": "micron",
+          "sourceLabel": "Reviewed demonstration hypothesis",
+          "facilityCountry": "SG",
+          "eventKey": "micron-singapore-fab-2026"
+        },
+        {
+          "territoryStatus": "unresolved",
+          "demonstration": true,
+          "routeAssessed": false,
+          "accountOwnership": "unknown",
+          "commercialValue": "Value unquantified",
+          "confidence": "medium",
+          "reviewStatus": "analyst-reviewed-hypothesis",
+          "explicitPurchasingEvidence": "No current explicit purchasing evidence found in the reviewed sources.",
+          "procurement": {
+            "explicit": false,
+            "status": "unknown",
+            "deadline": null,
+            "verifiedAt": "2026-10-16T16:27:45Z"
+          },
+          "contradictionIds": [],
+          "id": "micron-collaboration",
+          "title": "Map collaboration-room needs separately from engineering compute",
+          "type": "Expansion hypothesis",
+          "productFamily": "poly-collaboration",
+          "eventTitle": "Expanded Singapore manufacturing and R&D operations",
+          "eventDate": "2026-01-27",
+          "requirement": "Potential collaboration spaces for cross-site engineering and project teams. No room build-out, room count or communications platform is disclosed.",
+          "reasoning": "A physical project and co-located R&D support asking workplace-design questions. Poly is relevant only if new or deficient meeting spaces and a supported platform are confirmed.",
+          "whyNow": "The October 2026 filing retains the Singapore programme. Find any actual workplace-design freeze and room commissioning sequence; the updated project narrative does not show an open AV package.",
+          "scale": "Room count, existing estate and value unquantified.",
+          "buyers": [
+            {
+              "role": "Workplace technology / unified communications lead",
+              "scope": "Global platform and Singapore rooms",
+              "organization": "Micron",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Facilities project manager",
+              "scope": "Room plans and commissioning",
+              "organization": "Micron Singapore; entity unresolved",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Indirect procurement owner",
+              "scope": "AV package sourcing",
+              "organization": "Micron",
+              "authorityStatus": "unverified-role-hypothesis"
+            }
+          ],
+          "route": "AV integrator or approved enterprise partner; platform certification and account eligibility must be assessed.",
+          "barriers": [
+            "Room scope is inferred and may be absent.",
+            "AV packages may be bundled with an existing integrator."
+          ],
+          "unknowns": [
+            "Room count and intended use",
+            "Approved meeting platforms",
+            "Existing AV contract and local integrator",
+            "Design and commissioning milestone"
+          ],
+          "confirm": [
+            "Facilities confirms rooms and an unresolved user-experience or commissioning need."
+          ],
+          "weaken": [
+            "Rooms use existing equipment or room packages are already finalized."
+          ],
+          "disprove": [
+            "No incremental room requirement or no accessible supply route."
+          ],
+          "readinessSuggested": "Strategic fit",
+          "evidenceIds": [
+            "micron-fab-2026",
+            "micron-suppliers",
+            "micron-10k-2026"
+          ],
+          "dimensions": {
+            "evidence": 2,
+            "fit": 2,
+            "timing": 1,
+            "scale": null,
+            "access": null,
+            "feasibility": 1
+          },
+          "actions": [
+            {
+              "phase": "0–15",
+              "title": "Check whether room scope exists",
+              "outcome": "A confirmed yes/no on collaboration-room scope",
+              "role": "Facilities programme manager",
+              "question": "Are meeting spaces included and is the AV package still open?",
+              "progressCondition": "Room scope and design owner are identified.",
+              "stopCondition": "Stop if there is no new or deficient room requirement."
+            },
+            {
+              "phase": "16–30",
+              "title": "Identify platform and integrator",
+              "outcome": "A platform and delivery route",
+              "role": "Unified communications lead",
+              "question": "Which platform, room types and integrator standards apply?",
+              "progressCondition": "Compatible platform and qualified route confirmed.",
+              "stopCondition": "Stop if mandated systems exclude compatible Poly options."
+            },
+            {
+              "phase": "31–60",
+              "title": "Assess one representative space",
+              "outcome": "A user-tested room design",
+              "role": "Workplace technology evaluator",
+              "question": "Does the proposed room solution meet acoustic, camera and usability needs?",
+              "progressCondition": "Documented room acceptance criteria are met.",
+              "stopCondition": "Stop if room performance or support prerequisites fail."
+            },
+            {
+              "phase": "61–90",
+              "title": "Agree a room-package milestone",
+              "outcome": "An owner and next step tied to commissioning",
+              "role": "Facilities and procurement",
+              "question": "Is there an approved room-package decision that HP or a partner can pursue?",
+              "progressCondition": "A real milestone and route are agreed.",
+              "stopCondition": "Nurture without forecast value if no package is open."
+            }
+          ],
+          "accountId": "micron",
+          "sourceLabel": "Reviewed demonstration hypothesis",
+          "facilityCountry": "SG",
+          "eventKey": "micron-singapore-fab-2026"
+        }
+      ],
+      "territoryEligibility": "unresolved",
+      "territoryReason": "Demonstration record; exact country list and eligibility rule are not yet confirmed.",
+      "hqSource": {
+        "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+        "section": "Cover: principal executive offices",
+        "reviewedAt": "2026-10-16T16:37:09Z"
+      }
+    },
+    {
+      "id": "sunway",
+      "name": "Sunway Healthcare Group",
+      "domain": "sunwayhealthcaregroup.com",
+      "industry": "Healthcare",
+      "hqCountry": "MY",
+      "summary": "Malaysian hospital operator with a disclosed expansion programme. Hospital endpoints are a qualification hypothesis; bed capacity does not establish device quantities or IT budgets.",
+      "discovery": "Healthcare expansion screening, followed by the February 2026 prospectus, parent investor briefing and the group's current facility page.",
+      "rationale": "Retained because filings expose capacity plans and their uncertainty while facility pages distinguish existing hospitals from upcoming projects.",
+      "screeningStatus": "deep-demo",
+      "parentName": "Sunway Healthcare Holdings Berhad",
+      "contractingEntity": "Hospital operating subsidiary versus group purchasing authority unresolved",
+      "facilities": [
+        {
+          "name": "Sunway Medical Centre Ipoh",
+          "country": "MY",
+          "city": "Ipoh",
+          "kind": "Operating hospital since April 2025"
+        },
+        {
+          "name": "Sunway Medical Centre Damansara",
+          "country": "MY",
+          "city": "Petaling Jaya",
+          "kind": "Operating hospital since December 2024"
+        },
+        {
+          "name": "Sunway Medical Centre Iskandar Puteri",
+          "country": "MY",
+          "city": "Iskandar Puteri",
+          "kind": "Upcoming hospital; current milestone unverified"
+        }
+      ],
+      "documents": [
+        {
+          "id": "sunway-prospectus-2026",
+          "url": "https://www.sunwayhealthcaregroup.com/images/file/Sunway%20Healthcare%20%28ENG%29%20Bursa%20part%201.pdf",
+          "canonicalUrl": "https://www.sunwayhealthcaregroup.com/images/file/Sunway%20Healthcare%20%28ENG%29%20Bursa%20part%201.pdf",
+          "title": "Sunway Healthcare Holdings Berhad Prospectus, 27 February 2026 (Part 1)",
+          "publisher": "Sunway Healthcare Holdings Berhad",
+          "family": "Regulatory and exchange filings",
+          "origin": "Sunway Healthcare Holdings Berhad",
+          "publishedAt": "2026-02-27",
+          "eventDate": null,
+          "retrievedAt": "2026-10-16",
+          "passage": "we expect an approximately 62.0% increase in bed capacity",
+          "claim": "The prospectus forecasts a hospital capacity increase through 2028 and 2032 and identifies recent hospitals as still ramping up at its latest practicable date.",
+          "section": "Printed pp.127–128; PDF pp.160–161, section 7 Business Overview",
+          "limitations": "Capacity forecasts and past openings do not identify endpoint purchases. Latest practicable date differs from retrieval date. Hospital-bed metrics are not IT quantities.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "sunway-hospital-expansion-plan",
+          "temporalScope": "Prospectus forecast as of February 2026",
+          "registryIdentifier": "202101000296 (1400594-U)",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        },
+        {
+          "id": "sunway-investor-2025",
+          "url": "https://ir2.chartnexus.com/sunway/doc/presentation/Q3-2025-Briefing-Pack.pdf",
+          "canonicalUrl": "https://ir2.chartnexus.com/sunway/doc/presentation/Q3-2025-Briefing-Pack.pdf",
+          "title": "Sunway Berhad Q3 FY2025 briefing pack",
+          "publisher": "Sunway Berhad",
+          "family": "Investor presentations and earnings materials",
+          "origin": "Sunway Berhad",
+          "publishedAt": "2025-11-26",
+          "eventDate": "2025-09-30",
+          "retrievedAt": "2026-10-16",
+          "passage": "The plans and timing of the above projects remain under evaluation",
+          "claim": "The parent investor presentation explicitly qualifies hospital pipeline plans and timing.",
+          "section": "Slide 18 (PDF p.18), footnote on hospital growth plan",
+          "limitations": "Historical parent-company presentation; hospital expansion is attributed only to its healthcare section. Timing caveat reduces readiness; it is not an announcement that all projects were cancelled.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "sunway-hospital-expansion-plan",
+          "relationship": "qualifies",
+          "independence": "Same corporate group as prospectus; no independent demand corroboration",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        },
+        {
+          "id": "sunway-footprint",
+          "url": "https://www.sunwayhealthcaregroup.com/our-growing-footprint/",
+          "canonicalUrl": "https://www.sunwayhealthcaregroup.com/our-growing-footprint/",
+          "title": "Our Growing Footprint",
+          "publisher": "Sunway Healthcare Group",
+          "family": "Investment-agency and facility sources",
+          "origin": "Sunway Healthcare Group",
+          "publishedAt": null,
+          "eventDate": null,
+          "retrievedAt": "2026-10-16",
+          "passage": "Sunway Medical Centre Iskandar Puteri (Upcoming)",
+          "claim": "The current facility directory separates operating hospitals from upcoming Seremban Sentral, Iskandar Puteri and Putrajaya sites.",
+          "section": "Our Growing Footprint; hospital headings",
+          "limitations": "Undated live page. Some historical bed counts in narrative and headline cards differ; this demonstration does not reconcile them or use beds as device scale.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "sunway-facility-status",
+          "temporalScope": "Undated facility status observed at retrieval",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        }
+      ],
+      "opportunities": [
+        {
+          "territoryStatus": "unresolved",
+          "demonstration": true,
+          "routeAssessed": false,
+          "accountOwnership": "unknown",
+          "commercialValue": "Value unquantified",
+          "confidence": "medium",
+          "reviewStatus": "analyst-reviewed-hypothesis",
+          "explicitPurchasingEvidence": "No current explicit purchasing evidence found in the reviewed sources.",
+          "procurement": {
+            "explicit": false,
+            "status": "unknown",
+            "deadline": null,
+            "verifiedAt": "2026-10-16T16:27:45Z"
+          },
+          "contradictionIds": [
+            "sunway-investor-2025"
+          ],
+          "id": "sunway-endpoints",
+          "title": "Qualify administrative and clinical-access endpoints for hospital expansion",
+          "type": "Expansion hypothesis",
+          "productFamily": "commercial-pcs",
+          "eventTitle": "Disclosed hospital capacity expansion and ramp-up",
+          "eventDate": "2026-02-27",
+          "requirement": "Potential secure access devices for staff workflows at verified operating or planned sites. No diagnostic-display, medical-device or endpoint requirement is established.",
+          "reasoning": "The hospital programme supports discussing workflow access and commissioning standards. HP commercial PCs may fit verified administrative and EHR access workloads after infection-control, security and application review.",
+          "whyNow": "Determine which pipeline site has a current approved commissioning milestone. The 2025 timing caveat and 2026 facility list require rechecking before a proposal.",
+          "scale": "Multi-hospital programme is disclosed; endpoint count, licensing, hardware budget and project allocation are unknown. Bed counts are not a fleet proxy.",
+          "buyers": [
+            {
+              "role": "Group IT / digital workplace lead",
+              "scope": "Endpoint and application standards",
+              "organization": "Sunway Healthcare Group",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Hospital commissioning director",
+              "scope": "Site operations and commissioning",
+              "organization": "Relevant hospital operating subsidiary, unverified",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Group strategic sourcing / procurement owner",
+              "scope": "Sourcing and purchase approvals",
+              "organization": "Sunway Healthcare Group; authority unverified",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Information security and clinical applications reviewer",
+              "scope": "Security, EHR compatibility and support",
+              "organization": "Sunway Healthcare Group",
+              "authorityStatus": "unverified-role-hypothesis"
+            }
+          ],
+          "route": "Approved Malaysia enterprise reseller or direct engagement subject to group/hospital procurement policy, product availability and service coverage.",
+          "barriers": [
+            "Project timing remains qualified in an investor source.",
+            "Existing endpoint suppliers and framework agreements are unknown.",
+            "Healthcare environments may require application and cleaning compatibility review."
+          ],
+          "unknowns": [
+            "Current commissioning programme and site entity",
+            "Endpoint scope and existing standards",
+            "Budget and approval authority",
+            "Incumbent supply and service agreement"
+          ],
+          "confirm": [
+            "An approved site milestone and uncommitted endpoint package are identified."
+          ],
+          "weaken": [
+            "Existing framework or reuse covers the relevant site."
+          ],
+          "disprove": [
+            "Project is deferred, no endpoint requirement exists or mandatory specifications cannot be met."
+          ],
+          "readinessSuggested": "Triggered qualification",
+          "evidenceIds": [
+            "sunway-prospectus-2026",
+            "sunway-footprint"
+          ],
+          "dimensions": {
+            "evidence": 3,
+            "fit": 3,
+            "timing": 1,
+            "scale": 2,
+            "access": null,
+            "feasibility": 1
+          },
+          "actions": [
+            {
+              "phase": "0–15",
+              "title": "Recheck the hospital commissioning programme",
+              "outcome": "A current site and milestone",
+              "role": "Hospital commissioning director",
+              "question": "Which site is approved, what is its current status and is endpoint sourcing open?",
+              "progressCondition": "Site entity and sourcing status confirmed.",
+              "stopCondition": "Stop if the programme is deferred or scope fully awarded."
+            },
+            {
+              "phase": "16–30",
+              "title": "Map staff workflows and procurement authority",
+              "outcome": "A role-based endpoint requirements list",
+              "role": "Group IT and strategic sourcing",
+              "question": "Which staff access workflows need new devices, and who approves the purchase?",
+              "progressCondition": "Requirements, authority and procurement route are documented.",
+              "stopCondition": "Nurture if no uncommitted requirement can be found."
+            },
+            {
+              "phase": "31–60",
+              "title": "Validate a secure endpoint image",
+              "outcome": "A documented compatibility and service assessment",
+              "role": "Clinical applications / security evaluator",
+              "question": "Can the proposed endpoint support approved applications, cleaning practices and local support?",
+              "progressCondition": "Hospital accepts technical and service criteria.",
+              "stopCondition": "Stop if clinical or security requirements cannot be met."
+            },
+            {
+              "phase": "61–90",
+              "title": "Agree a commissioning-linked next step",
+              "outcome": "An authorized pilot, sourcing response or nurture date",
+              "role": "Commissioning and procurement owners",
+              "question": "Which purchase or pilot milestone follows the assessment?",
+              "progressCondition": "An agreed owner, scope and date are recorded.",
+              "stopCondition": "Stop or nurture if no approved next step exists."
+            }
+          ],
+          "accountId": "sunway",
+          "sourceLabel": "Reviewed demonstration hypothesis",
+          "facilityCountry": "MY",
+          "eventKey": "sunway-prospectus-2026"
+        }
+      ],
+      "territoryEligibility": "unresolved",
+      "territoryReason": "Demonstration record; exact country list and eligibility rule are not yet confirmed."
+    },
+    {
+      "id": "epac",
+      "name": "ePac Flexible Packaging",
+      "domain": "epacflexibles.com",
+      "industry": "Flexible packaging and commercial printing",
+      "hqCountry": null,
+      "summary": "Digital flexible-packaging producer with an announced 2026 HP Indigo commercial agreement. That agreement is committed scope; only incremental capacity outside it is a new-sales hypothesis.",
+      "discovery": "Specialist industrial-print workflow screening, then HP's original supplier announcement and ePac's own North American expansion notice.",
+      "rationale": "Retained as a specialized fit and an evidence trap: a signed vendor agreement demonstrates adoption without creating fresh unsold pipeline.",
+      "screeningStatus": "deep-demo",
+      "parentName": "ePac Holdings, LLC",
+      "contractingEntity": "ePac Holdings versus site-specific purchasing entities and agreement scope unverified",
+      "facilities": [
+        {
+          "name": "Phoenix production facility",
+          "country": "US",
+          "city": "Phoenix",
+          "kind": "New facility announced February 2026; operational status unverified"
+        },
+        {
+          "name": "Atlanta, Philadelphia and Vancouver operations",
+          "country": null,
+          "city": null,
+          "kind": "North American expansion locations; countries US/CA must remain site-specific"
+        }
+      ],
+      "documents": [
+        {
+          "id": "epac-hp-agreement-2026",
+          "url": "https://www.hp.com/us-en/newsroom/blogs/2026/hp-indigo-epac-scaling-flexible-packaging.html",
+          "canonicalUrl": "https://www.hp.com/us-en/newsroom/blogs/2026/hp-indigo-epac-scaling-flexible-packaging.html",
+          "title": "A Decade of Digital Momentum: How HP Indigo and ePac Are Scaling the Future of Flexible Packaging",
+          "publisher": "HP Inc.",
+          "family": "Supplier case studies",
+          "origin": "HP Inc.",
+          "publishedAt": "2026-02-11",
+          "eventDate": "2026-02-11",
+          "retrievedAt": "2026-10-16",
+          "passage": "ePac will expand its global HP Indigo fleet with the installation of 10 HP Indigo 200K digital presses.",
+          "claim": "HP reports a signed three-year agreement spanning equipment, consumables and services. It is awarded/committed work rather than open demand.",
+          "section": "Agreement and fleet expansion paragraphs",
+          "limitations": "Supplier-authored account narrative. Main text states 10 presses; a quoted executive says more than 10. Exact quantities and site allocations require reconciliation; no incremental deal value is inferred.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "epac-hp-agreement-2026",
+          "procurementStatus": "awarded",
+          "independence": "HP supplier announcement; not independent corroboration of customer intent",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        },
+        {
+          "id": "epac-expansion-2026",
+          "url": "https://epacflexibles.com/en-ca/epac-flexible-packaging-phoenix-expansion-capacity-increase/",
+          "canonicalUrl": "https://epacflexibles.com/en-ca/epac-flexible-packaging-phoenix-expansion-capacity-increase/",
+          "title": "ePac Flexible Packaging Scaling Up: New Phoenix Site and Expanded Capacity Across North America",
+          "publisher": "ePac Flexible Packaging",
+          "family": "Company newsrooms",
+          "origin": "ePac Flexible Packaging",
+          "publishedAt": "2026-02-19",
+          "eventDate": "2026-02-19",
+          "retrievedAt": "2026-10-16",
+          "passage": "The company is opening a brand-new production facility in Phoenix, Arizona",
+          "claim": "ePac announces a Phoenix facility and added capacity in Atlanta, Philadelphia and Vancouver.",
+          "section": "Announcement opening paragraphs",
+          "limitations": "The page links to its distributed press release; the same announcement is not an independent second event. Procurement completion, incremental need and exact site allocation are unverified.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "epac-north-america-expansion-2026",
+          "temporalScope": "Plan announced February 2026; current implementation needs recheck",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        }
+      ],
+      "opportunities": [
+        {
+          "territoryStatus": "unresolved",
+          "demonstration": true,
+          "routeAssessed": false,
+          "accountOwnership": "unknown",
+          "commercialValue": "Value unquantified",
+          "confidence": "medium",
+          "reviewStatus": "analyst-reviewed-hypothesis",
+          "explicitPurchasingEvidence": "A signed HP agreement was announced on 11 February 2026. It is awarded/committed scope, not a current open procurement.",
+          "procurement": {
+            "explicit": true,
+            "status": "awarded",
+            "deadline": null,
+            "verifiedAt": "2026-10-16T16:27:45Z",
+            "noticeId": "HP-ePac-2026-commercial-agreement"
+          },
+          "contradictionIds": [
+            "epac-hp-agreement-2026"
+          ],
+          "id": "epac-incremental-print",
+          "title": "Separate committed Indigo rollout from any incremental capacity gap",
+          "type": "Expansion hypothesis",
+          "productFamily": "industrial-print",
+          "eventTitle": "Signed HP agreement and North American capacity expansion",
+          "eventDate": "2026-02-19",
+          "requirement": "Potential incremental flexible-packaging production capacity beyond the signed agreement, conditional on utilization, job mix and site allocation.",
+          "reasoning": "Documented Indigo adoption establishes workflow relevance. A useful next action is to reconcile the existing rollout before asking whether additional capacity is needed; the announced award cannot be resold as an uncommitted deal.",
+          "whyNow": "The 2026 Phoenix and network expansion create a concrete implementation question. Confirm progress and press allocation before any incremental sales pursuit.",
+          "scale": "Existing agreement mentions 10 versus more than 10 presses; allocation conflict unresolved. Incremental press quantity and value unquantified. Do not add the historical agreement to a new pipeline total.",
+          "buyers": [
+            {
+              "role": "Production / operations director",
+              "scope": "Site capacity and job mix",
+              "organization": "ePac site operating entity",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Shared services / global procurement",
+              "scope": "Global agreement and site allocation",
+              "organization": "ePac Holdings; authority unverified",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Prepress and quality lead",
+              "scope": "Workflow, substrate and output acceptance",
+              "organization": "ePac",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Finance capital approver",
+              "scope": "Incremental equipment investment",
+              "organization": "ePac; authority unverified",
+              "authorityStatus": "unverified-role-hypothesis"
+            }
+          ],
+          "route": "Coordinate with the existing HP Industrial Print enterprise relationship and qualified specialist service team. Account ownership and incremental scope must be established first.",
+          "barriers": [
+            "The disclosed programme is already committed to HP.",
+            "Press allocations and order status are not public.",
+            "Commercial account ownership and channel authorization are unknown."
+          ],
+          "unknowns": [
+            "Which capacity is already included in the agreement",
+            "Actual site commissioning and utilization",
+            "Incremental approved equipment scope",
+            "Substrates, finishing capacity and service prerequisites"
+          ],
+          "confirm": [
+            "ePac identifies approved production demand outside the existing committed scope."
+          ],
+          "weaken": [
+            "The signed programme absorbs the expected volume."
+          ],
+          "disprove": [
+            "No additional capacity gap or buying window exists after the current rollout."
+          ],
+          "readinessSuggested": "Strategic fit",
+          "evidenceIds": [
+            "epac-hp-agreement-2026",
+            "epac-expansion-2026"
+          ],
+          "dimensions": {
+            "evidence": 3,
+            "fit": 4,
+            "timing": 1,
+            "scale": null,
+            "access": null,
+            "feasibility": 1
+          },
+          "actions": [
+            {
+              "phase": "0–15",
+              "title": "Reconcile the committed programme",
+              "outcome": "A boundary between committed and incremental scope",
+              "role": "HP account owner and ePac procurement",
+              "question": "Which sites and equipment are already covered, and who owns the relationship?",
+              "progressCondition": "Agreement scope and account ownership are confirmed internally by an authorized seller.",
+              "stopCondition": "Stop duplicate pursuit if all need is already committed."
+            },
+            {
+              "phase": "16–30",
+              "title": "Qualify a production bottleneck",
+              "outcome": "A measured capacity or workflow gap",
+              "role": "ePac operations / prepress lead",
+              "question": "Is there a verified bottleneck outside the existing press rollout?",
+              "progressCondition": "Job mix, utilization and unmet throughput are documented.",
+              "stopCondition": "Nurture if utilization and current equipment cover demand."
+            },
+            {
+              "phase": "31–60",
+              "title": "Assess print and finishing fit",
+              "outcome": "An agreed production validation",
+              "role": "Print quality and specialist technical team",
+              "question": "Can the proposed family meet substrate, quality, workflow and finishing requirements?",
+              "progressCondition": "Representative production tests meet agreed criteria.",
+              "stopCondition": "Stop if substrates, finishing or service requirements cannot be met."
+            },
+            {
+              "phase": "61–90",
+              "title": "Agree an incremental next step",
+              "outcome": "An authorized capacity review or proposal milestone",
+              "role": "ePac procurement and capital approver",
+              "question": "Is incremental equipment approved for evaluation outside current commitments?",
+              "progressCondition": "Written scope avoids overlap with the existing agreement.",
+              "stopCondition": "Stop if the proposal would double-count already sold equipment."
+            }
+          ],
+          "accountId": "epac",
+          "sourceLabel": "Reviewed demonstration hypothesis",
+          "facilityCountry": null,
+          "eventKey": "epac-hp-agreement-2026"
+        }
+      ],
+      "territoryEligibility": "unresolved",
+      "territoryReason": "Demonstration record; exact country list and eligibility rule are not yet confirmed.",
+      "hqVerificationStatus": "Unresolved: US dateline and operations do not establish a verified headquarters.",
+      "hqSource": {
+        "url": "https://epacflexibles.com/en-ca/epac-flexible-packaging-phoenix-expansion-capacity-increase/",
+        "section": "DEL MAR, CA, UNITED STATES dateline",
+        "limitation": "A corporate announcement dateline establishes US context, not definitive headquarters."
+      }
+    },
+    {
+      "id": "changi",
+      "name": "Changi Airport Group",
+      "domain": "changiairport.com",
+      "industry": "Aviation and infrastructure",
+      "hqCountry": "SG",
+      "summary": "Airport operator building Terminal 5 for the mid-2030s. Construction design workflows are a specialist qualification hypothesis; a current security-infrastructure tender is outside HP Inc.'s demonstrated product scope.",
+      "discovery": "Facility-project and award screening followed by the official procurement route and a live SESAMi notice listing.",
+      "rationale": "Retained to distinguish airport operator, construction contractors, current notices and future terminal systems. Project size alone never establishes an HP device order.",
+      "screeningStatus": "deep-demo",
+      "parentName": "Changi Airport Group (Singapore) Pte. Ltd.",
+      "contractingEntity": "CAG for its own packages; appointed contractors may own construction-device purchases",
+      "facilities": [
+        {
+          "name": "Terminal 5 / Changi East",
+          "country": "SG",
+          "city": "Singapore",
+          "kind": "Terminal construction project; operation expected around mid-2030s"
+        }
+      ],
+      "documents": [
+        {
+          "id": "changi-t5-project",
+          "url": "https://www.changiairport.com/en/corporate/about-us/future-developments/terminal-5.html",
+          "canonicalUrl": "https://www.changiairport.com/en/corporate/about-us/future-developments/terminal-5.html",
+          "title": "Changi Airport Terminal 5 Project",
+          "publisher": "Changi Airport Group",
+          "family": "Investment-agency and facility sources",
+          "origin": "Changi Airport Group",
+          "publishedAt": null,
+          "eventDate": "2025-05-14",
+          "retrievedAt": "2026-10-16",
+          "passage": "is expected to be operational around the mid-2030s",
+          "claim": "The official project page places T5 terminal operations in the mid-2030s, with construction and design activities preceding operation.",
+          "section": "Terminal 5 project overview",
+          "limitations": "Undated page retrieved currently; the operating horizon is not a device sourcing deadline. Event date is groundbreaking from the linked official timeline, not page publication.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "changi-t5-construction",
+          "temporalScope": "Current project page; long-term operating forecast",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        },
+        {
+          "id": "changi-tunnel-award-2025",
+          "url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/award-of-t5-intra-terminal-tunnel-contract.html",
+          "canonicalUrl": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/award-of-t5-intra-terminal-tunnel-contract.html",
+          "title": "Changi Airport Group awards contract for construction of Terminal 5 intra-terminal tunnels",
+          "publisher": "Changi Airport Group",
+          "family": "Contract and award records",
+          "origin": "Changi Airport Group",
+          "publishedAt": "2025-06-10",
+          "eventDate": "2025-06-10",
+          "retrievedAt": "2026-10-16",
+          "passage": "has awarded a contract for the construction of intra-terminal tunnels",
+          "claim": "CAG announced a tunnel construction award to a Penta-Ocean / Koh Brothers joint venture; construction scope is already awarded.",
+          "section": "Award announcement opening paragraph",
+          "limitations": "Search-index passage reviewed; direct HTML returned navigation only. This is a civil-construction award, with no HP equipment allocation or contractor purchasing authority established.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Search-index excerpt plus attempted direct retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "changi-tunnel-award-2025",
+          "retrievalStatus": "partial",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        },
+        {
+          "id": "changi-supplier-route",
+          "url": "https://www.changiairport.com/en/corporate/partnering-us/procurement.html",
+          "canonicalUrl": "https://www.changiairport.com/en/corporate/partnering-us/procurement.html",
+          "title": "Procurement Opportunities",
+          "publisher": "Changi Airport Group",
+          "family": "Leadership and supplier-registration pages",
+          "origin": "Changi Airport Group",
+          "publishedAt": null,
+          "eventDate": null,
+          "retrievedAt": "2026-10-16",
+          "passage": "All interested parties will need to be registered on our online portal.",
+          "claim": "CAG directs suppliers to its online procurement portal and requires portal registration.",
+          "section": "Procurement opportunities opening section",
+          "limitations": "Registration is a prerequisite, not qualification or permission to bid for any particular package.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "changi-procurement-policy",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        },
+        {
+          "id": "changi-afisms-notice",
+          "url": "https://sesami.online/bizopps/businessOpportunities.jsp",
+          "canonicalUrl": "https://sesami.online/bizopps/businessOpportunities.jsp",
+          "title": "SESAMi business opportunities: CAG notice 2026/00635",
+          "publisher": "CAG via SESAMi",
+          "family": "Procurement notices",
+          "origin": "CAG notice published via SESAMi",
+          "publishedAt": "2026-09-28",
+          "eventDate": "2026-09-28",
+          "retrievedAt": "2026-10-16",
+          "passage": "SERVERS, NETWORK AND FRONT-END EACS EQUIPMENT AT CHANGI AIRPORT",
+          "claim": "Public listing identifies security infrastructure, with a closing timestamp of 5 November 2026 16:00 Singapore time.",
+          "section": "Row CAG / 2026/00635",
+          "limitations": "Live public listing retrieved without login; detailed specifications, amendments and bid eligibility were not accessed. No assumption that front-end access control includes HP PCs.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "cag-afisms-2026-00635",
+          "deadline": "2026-11-05T16:00:00+08:00",
+          "retrievalStatus": "public-listing-only",
+          "independence": "Original buyer notice on its procurement platform",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        }
+      ],
+      "opportunities": [
+        {
+          "territoryStatus": "unresolved",
+          "demonstration": true,
+          "routeAssessed": false,
+          "accountOwnership": "unknown",
+          "commercialValue": "Value unquantified",
+          "confidence": "medium",
+          "reviewStatus": "analyst-reviewed-hypothesis",
+          "explicitPurchasingEvidence": "No current explicit purchasing evidence found in the reviewed sources.",
+          "procurement": {
+            "explicit": false,
+            "status": "unknown",
+            "deadline": null,
+            "verifiedAt": "2026-10-16T16:27:45Z"
+          },
+          "contradictionIds": [
+            "changi-tunnel-award-2025"
+          ],
+          "id": "changi-construction-print",
+          "title": "Qualify construction drawing output through the correct project buyer",
+          "type": "Acquisition hypothesis",
+          "productFamily": "large-format",
+          "eventTitle": "Terminal 5 construction and appointed civil contractors",
+          "eventDate": "2025-06-10",
+          "requirement": "Potential technical drawing output and site-document workflows for contractors or project teams; print volumes and local equipment ownership are not disclosed.",
+          "reasoning": "An active engineering construction programme supports checking drawing workflows. HP large-format technical printing fits only if a contractor or CAG team has a local unmet output need; airport capex is not an equipment budget.",
+          "whyNow": "Identify a live site workflow and its purchasing owner. Mid-2030s terminal opening is a long-term horizon, and awarded construction packages may already contain equipment.",
+          "scale": "A substantial multi-package project; printers, users, print volumes and addressable value are unknown.",
+          "buyers": [
+            {
+              "role": "Project document-control / BIM manager",
+              "scope": "Drawing distribution and revision control",
+              "organization": "CAG or contractor; organization unresolved",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Contractor site operations sponsor",
+              "scope": "Local drawing workflow",
+              "organization": "Appointed contractor; verify package and legal entity",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Procurement package owner",
+              "scope": "Contractor or CAG equipment sourcing",
+              "organization": "Purchasing organization unresolved",
+              "authorityStatus": "unverified-role-hypothesis"
+            }
+          ],
+          "route": "Specialist large-format partner through the organization actually buying site equipment; direct CAG procurement only where CAG owns the requirement.",
+          "barriers": [
+            "Purchasing authority may sit with contractors.",
+            "Civil contracts are already awarded.",
+            "Digital workflows or outsourced reprographics may remove local print need."
+          ],
+          "unknowns": [
+            "Actual drawing output volume and media",
+            "Digital-only standards or outsourced print contract",
+            "Package owner and equipment sourcing status",
+            "Territory eligibility and partner authorization"
+          ],
+          "confirm": [
+            "A purchasing owner validates unmet local technical drawing output."
+          ],
+          "weaken": [
+            "Drawings are handled digitally or by an existing reprographics provider."
+          ],
+          "disprove": [
+            "No local print requirement, all equipment already sourced, or authorized supply route absent."
+          ],
+          "readinessSuggested": "Strategic fit",
+          "evidenceIds": [
+            "changi-t5-project",
+            "changi-tunnel-award-2025",
+            "changi-supplier-route"
+          ],
+          "dimensions": {
+            "evidence": 2,
+            "fit": 3,
+            "timing": 1,
+            "scale": 1,
+            "access": null,
+            "feasibility": 1
+          },
+          "actions": [
+            {
+              "phase": "0–15",
+              "title": "Resolve the actual equipment buyer",
+              "outcome": "A contractor-versus-CAG ownership decision",
+              "role": "Project document-control manager",
+              "question": "Who owns site drawing output and is there an unmet requirement?",
+              "progressCondition": "A named organization and role accepts discovery.",
+              "stopCondition": "Stop if equipment responsibility lies outside an accessible package."
+            },
+            {
+              "phase": "16–30",
+              "title": "Measure the drawing workflow",
+              "outcome": "A workload and output assessment",
+              "role": "BIM / site document-control lead",
+              "question": "Which media, sheet sizes, revision volumes and turnaround times are required?",
+              "progressCondition": "An unserved output requirement is documented.",
+              "stopCondition": "Stop if digital-only or existing services cover the need."
+            },
+            {
+              "phase": "31–60",
+              "title": "Evaluate technical output",
+              "outcome": "Sample drawings and support acceptance",
+              "role": "Site operations evaluator and print specialist",
+              "question": "Can suitable HP large-format equipment meet real output and service requirements?",
+              "progressCondition": "Output quality, security and support fit are accepted.",
+              "stopCondition": "Stop if media, workflow or service prerequisites fail."
+            },
+            {
+              "phase": "61–90",
+              "title": "Advance an eligible site package",
+              "outcome": "An authorized proposal or nurture checkpoint",
+              "role": "Actual equipment procurement owner",
+              "question": "Is a compliant purchasing route available for this requirement?",
+              "progressCondition": "An owner-approved next step and date exist.",
+              "stopCondition": "Stop if supplier eligibility or equipment scope remains absent."
+            }
+          ],
+          "accountId": "changi",
+          "sourceLabel": "Reviewed demonstration hypothesis",
+          "facilityCountry": "SG",
+          "eventKey": "changi-t5-project"
+        },
+        {
+          "territoryStatus": "unresolved",
+          "demonstration": true,
+          "routeAssessed": false,
+          "accountOwnership": "unknown",
+          "commercialValue": "Value unquantified",
+          "confidence": "medium",
+          "reviewStatus": "analyst-reviewed-hypothesis",
+          "explicitPurchasingEvidence": "A public current notice exists, but its disclosed infrastructure scope is excluded from this HP Inc. opportunity set.",
+          "procurement": {
+            "explicit": true,
+            "status": "open",
+            "deadline": "2026-11-05T16:00:00+08:00",
+            "verifiedAt": "2026-10-16T16:27:45Z",
+            "noticeId": "2026/00635"
+          },
+          "contradictionIds": [
+            "changi-afisms-notice"
+          ],
+          "id": "changi-afisms-excluded",
+          "title": "Exclude AFISMS server and network tender from HP Inc. pursuits",
+          "type": "Scope exclusion",
+          "productFamily": "out-of-scope",
+          "eventTitle": "CAG security-infrastructure notice 2026/00635",
+          "eventDate": "2026-09-28",
+          "requirement": "Notice title concerns security servers, networks and electronic access-control equipment; no HP Inc. endpoint package is verified.",
+          "reasoning": "Current explicit procurement is insufficient when product fit fails. Enterprise servers and networking belong outside HP Inc.'s catalog; the listing does not justify inferring a PC bundle.",
+          "whyNow": "The listing has a future closing date, making the product-scope exclusion useful immediately. Recheck full specifications only if an authorized seller can identify a separately eligible endpoint package.",
+          "scale": "Notice quantity and value undisclosed; no HP Inc. addressable scope established.",
+          "buyers": [
+            {
+              "role": "Airport security systems procurement",
+              "scope": "Listed security-infrastructure package",
+              "organization": "CAG",
+              "authorityStatus": "unverified-role-hypothesis"
+            }
+          ],
+          "route": "No HP Inc. route assessed; no pursuit recommended on the disclosed scope.",
+          "barriers": [
+            "Disclosed server/network scope is outside HP Inc.'s catalog.",
+            "Detailed specs and any separable endpoints are unverified."
+          ],
+          "unknowns": [
+            "Whether a distinct HP Inc. endpoint lot exists",
+            "Tender amendments and participation rules"
+          ],
+          "confirm": [
+            "Full specifications confirm only excluded infrastructure scope."
+          ],
+          "weaken": [
+            "A separable and eligible HP Inc. endpoint requirement is documented."
+          ],
+          "disprove": [
+            "The exclusion can be reversed only with verified in-scope requirements and eligibility assessment."
+          ],
+          "readinessSuggested": "Blocked or excluded",
+          "evidenceIds": [
+            "changi-afisms-notice"
+          ],
+          "dimensions": {
+            "evidence": 3,
+            "fit": 0,
+            "timing": 3,
+            "scale": null,
+            "access": null,
+            "feasibility": 0
+          },
+          "actions": [
+            {
+              "phase": "0–15",
+              "title": "Record scope exclusion and cease pursuit",
+              "outcome": "No false active HP Inc. opportunity",
+              "role": "Sales manager / technical scope reviewer",
+              "question": "Does any reviewed specification establish a separable HP Inc. requirement?",
+              "progressCondition": "Close as out of scope unless such a package is verified.",
+              "stopCondition": "Stop immediately on server/network-only scope."
+            },
+            {
+              "phase": "16–30",
+              "title": "Reopen only on material scope evidence",
+              "outcome": "A controlled review trigger",
+              "role": "Technical scope reviewer",
+              "question": "Has a new official specification or amendment changed the product scope?",
+              "progressCondition": "A source-linked in-scope requirement justifies review.",
+              "stopCondition": "Keep excluded if nothing changes."
+            },
+            {
+              "phase": "31–60",
+              "title": "Maintain exclusion integrity",
+              "outcome": "No unsupported proposal work",
+              "role": "Sales manager",
+              "question": "Has any verified in-scope evidence arrived?",
+              "progressCondition": "Review only a documented change.",
+              "stopCondition": "Do not spend technical evaluation effort without fit."
+            },
+            {
+              "phase": "61–90",
+              "title": "Archive or retain the exclusion record",
+              "outcome": "A defensible scope decision",
+              "role": "Sales manager",
+              "question": "Should this record be archived after notice closure?",
+              "progressCondition": "Record the reason and source.",
+              "stopCondition": "Stop without forecast revenue."
+            }
+          ],
+          "accountId": "changi",
+          "sourceLabel": "Reviewed demonstration hypothesis",
+          "facilityCountry": "SG",
+          "eventKey": "changi-afisms-notice"
+        }
+      ],
+      "territoryEligibility": "unresolved",
+      "territoryReason": "Demonstration record; exact country list and eligibility rule are not yet confirmed."
+    },
+    {
+      "id": "dreamworks",
+      "name": "DreamWorks Animation",
+      "domain": "dreamworks.com",
+      "industry": "Animation and creative production",
+      "hqCountry": "US",
+      "summary": "Animation studio with a documented Lenovo preferred workstation and compute-services relationship. Creative-workstation fit is strong, while an immediate HP replacement pursuit lacks a verified opening.",
+      "discovery": "Creative workload screening and original supplier relationship announcements, including the 2025 expansion of Lenovo's relationship.",
+      "rationale": "Retained as a competitive barrier and historical evidence lesson. Preferred-provider status is evidence of a relationship, not proof of exclusivity or an expiry date.",
+      "screeningStatus": "deep-demo",
+      "parentName": "NBCUniversal (Comcast group); contracting authority unverified",
+      "contractingEntity": "Studio versus parent procurement and standards authority unresolved",
+      "facilities": [
+        {
+          "name": "DreamWorks Animation studio operations",
+          "country": "US",
+          "city": null,
+          "kind": "Creative production; specific deployment sites not verified"
+        }
+      ],
+      "documents": [
+        {
+          "id": "dreamworks-lenovo-2025",
+          "url": "https://news.lenovo.com/pressroom/press-releases/business-innovation-lenovo-and-dreamworks/",
+          "canonicalUrl": "https://news.lenovo.com/pressroom/press-releases/business-innovation-lenovo-and-dreamworks/",
+          "title": "The Tech That Drives Business Innovation: Lenovo and DreamWorks",
+          "publisher": "Lenovo",
+          "family": "Technology and partnership announcements",
+          "origin": "Lenovo",
+          "publishedAt": "2025-05-27",
+          "eventDate": "2025-05-27",
+          "retrievedAt": "2026-10-16",
+          "passage": "naming the company its preferred compute services, workstation, and solutions provider",
+          "claim": "Lenovo reports an expanded DreamWorks relationship spanning workstations, compute services and solutions.",
+          "section": "Relationship announcement opening paragraphs",
+          "limitations": "Supplier-authored relationship evidence, not proof of exclusivity, current full fleet, term expiry or buying authority. Film release forecasts are not treated as current milestones.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "dreamworks-lenovo-expansion-2025",
+          "temporalScope": "Relationship announced May 2025; current terms need review",
+          "independence": "Same supplier origin as 2021 announcement",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        },
+        {
+          "id": "dreamworks-lenovo-2021",
+          "url": "https://news.lenovo.com/pressroom/press-releases/preferred-workstation-innovation-partner-for-dreamworks-animation/",
+          "canonicalUrl": "https://news.lenovo.com/pressroom/press-releases/preferred-workstation-innovation-partner-for-dreamworks-animation/",
+          "title": "Lenovo Becomes the Preferred Workstation Innovation Partner for DreamWorks Animation",
+          "publisher": "Lenovo",
+          "family": "Technology and partnership announcements",
+          "origin": "Lenovo",
+          "publishedAt": "2021-11-10",
+          "eventDate": "2021-11-10",
+          "retrievedAt": "2026-10-16",
+          "passage": "DreamWorks Animation has selected Lenovo as its preferred workstation innovation partner",
+          "claim": "Historical announcement documents a multi-year workstation relationship.",
+          "section": "November 10, 2021 announcement",
+          "limitations": "Historical source cannot establish 2026 fleet composition or expiry. The 2025 announcement is a later relationship expansion, not independent corroboration.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "dreamworks-lenovo-2021",
+          "supersededBy": "dreamworks-lenovo-2025",
+          "temporalScope": "Historical partnership; later extension observed",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        }
+      ],
+      "opportunities": [
+        {
+          "territoryStatus": "unresolved",
+          "demonstration": true,
+          "routeAssessed": false,
+          "accountOwnership": "unknown",
+          "commercialValue": "Value unquantified",
+          "confidence": "medium",
+          "reviewStatus": "analyst-reviewed-hypothesis",
+          "explicitPurchasingEvidence": "No current explicit purchasing evidence found in the reviewed sources.",
+          "procurement": {
+            "explicit": false,
+            "status": "unknown",
+            "deadline": null,
+            "verifiedAt": "2026-10-16T16:27:45Z"
+          },
+          "contradictionIds": [
+            "dreamworks-lenovo-2025"
+          ],
+          "id": "dreamworks-workstation-review",
+          "title": "Watch for a verified workstation evaluation window",
+          "type": "Competitive replacement hypothesis",
+          "productFamily": "workstations",
+          "eventTitle": "Lenovo preferred-provider relationship expanded",
+          "eventDate": "2025-05-27",
+          "requirement": "Possible future artist-workstation evaluation; no current competitive sourcing window, dissatisfaction or renewal date is disclosed.",
+          "reasoning": "Animation workloads make professional workstations relevant, but the expanded incumbent relationship weakens an immediate HP replacement case. Do not convert studio workload scale into available seats.",
+          "whyNow": "No near-term purchase trigger is verified. Retain a low-effort watchlist item until a buyer invites a benchmark or documents a future sourcing review.",
+          "scale": "Artist workstation quantity and replacement scope unknown; value unquantified.",
+          "buyers": [
+            {
+              "role": "Studio workstation / pipeline engineering lead",
+              "scope": "Technical evaluation",
+              "organization": "DreamWorks Animation",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Studio or parent procurement category owner",
+              "scope": "Contract scope and sourcing review",
+              "organization": "DreamWorks / NBCUniversal; authority unresolved",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Creative technology operational sponsor",
+              "scope": "Artist workflow requirements",
+              "organization": "DreamWorks Animation",
+              "authorityStatus": "unverified-role-hypothesis"
+            }
+          ],
+          "route": "Direct enterprise or authorized workstation specialist only after confirming parent/studio procurement authority and a permitted evaluation window.",
+          "barriers": [
+            "Documented Lenovo preferred-provider relationship.",
+            "No expiry, competitive window or dissatisfaction established.",
+            "Supplier statements do not establish exclusivity."
+          ],
+          "unknowns": [
+            "Current contract terms and exceptions",
+            "Local versus parent purchasing authority",
+            "Any approved performance gap",
+            "Evaluation timing and eligible supplier access"
+          ],
+          "confirm": [
+            "An authorized buyer identifies a real evaluation window and unmet requirement."
+          ],
+          "weaken": [
+            "Current relationship meets requirements and renewal remains closed."
+          ],
+          "disprove": [
+            "Binding exclusivity or no permitted sourcing window rules out the proposed pursuit."
+          ],
+          "readinessSuggested": "Watchlist",
+          "evidenceIds": [
+            "dreamworks-lenovo-2025",
+            "dreamworks-lenovo-2021"
+          ],
+          "dimensions": {
+            "evidence": 3,
+            "fit": 4,
+            "timing": 0,
+            "scale": null,
+            "access": null,
+            "feasibility": 0
+          },
+          "actions": [
+            {
+              "phase": "0–15",
+              "title": "Record incumbent barrier",
+              "outcome": "A documented no-immediate-pursuit decision",
+              "role": "Sales manager",
+              "question": "Is there any public evidence of an open evaluation beyond the preferred-provider relationship?",
+              "progressCondition": "Keep on watchlist with the relationship evidence.",
+              "stopCondition": "Stop proposal work if no evaluation opening exists."
+            },
+            {
+              "phase": "16–30",
+              "title": "Verify a permitted evaluation route",
+              "outcome": "A sourcing-review owner, if available",
+              "role": "Studio / parent procurement",
+              "question": "Who can authorize a non-incumbent workstation assessment and when?",
+              "progressCondition": "A permitted future window is confirmed.",
+              "stopCondition": "Nurture if no permitted window exists."
+            },
+            {
+              "phase": "31–60",
+              "title": "Prepare only an invited workload assessment",
+              "outcome": "A customer-approved benchmark scope",
+              "role": "Pipeline engineering evaluator",
+              "question": "What artist workload and success criteria would justify evaluation?",
+              "progressCondition": "Proceed only with an invited, useful comparison.",
+              "stopCondition": "Stop if no sponsor or measurable gap exists."
+            },
+            {
+              "phase": "61–90",
+              "title": "Set a source-based review date",
+              "outcome": "A specific watchlist trigger",
+              "role": "Sales manager",
+              "question": "What official change would justify reopening this pursuit?",
+              "progressCondition": "Record an invitation, contract review or documented unmet requirement.",
+              "stopCondition": "Archive if no accessible future window is found."
+            }
+          ],
+          "accountId": "dreamworks",
+          "sourceLabel": "Reviewed demonstration hypothesis",
+          "facilityCountry": null,
+          "eventKey": "dreamworks-lenovo-2025"
+        }
+      ],
+      "territoryEligibility": "unresolved",
+      "territoryReason": "Demonstration record; exact country list and eligibility rule are not yet confirmed.",
+      "hqSource": {
+        "url": "https://www.dreamworks.com/careers/faq",
+        "passage": "We are headquartered in sunny Glendale, California.",
+        "reviewedAt": "2026-10-16T16:37:09Z",
+        "limitation": "HQ fact only; does not bind a global workstation opportunity to this site."
+      }
+    },
+    {
+      "id": "lego",
+      "name": "The LEGO Group",
+      "domain": "lego.com",
+      "industry": "Consumer manufacturing",
+      "hqCountry": "DK",
+      "summary": "Manufacturer whose Vietnam factory opened in April 2025 and whose regional distribution centre opened in September 2025. Those openings are historical; new endpoint sourcing is unverified.",
+      "discovery": "Manufacturing footprint screening through original LEGO factory and distribution-centre announcements.",
+      "rationale": "Retained as a stale trigger example and to keep distribution operations with their documented logistics operator. Workforce or factory size is not an endpoint quantity.",
+      "screeningStatus": "deep-demo",
+      "parentName": "The LEGO Group",
+      "contractingEntity": "LEGO Manufacturing Vietnam versus LEGO central procurement; RDC operations managed by Kuehne+Nagel",
+      "facilities": [
+        {
+          "name": "LEGO Manufacturing Vietnam",
+          "country": "VN",
+          "city": "Binh Duong (as named in 2025 source)",
+          "kind": "Factory opened April 2025; source geography retained as of event"
+        },
+        {
+          "name": "Vietnam Regional Distribution Centre",
+          "country": "VN",
+          "city": "Dong Nai",
+          "kind": "RDC opened September 2025; Kuehne+Nagel operator"
+        }
+      ],
+      "documents": [
+        {
+          "id": "lego-factory-2025",
+          "url": "https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam",
+          "canonicalUrl": "https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam",
+          "title": "The LEGO Group opens new state-of-the-art factory in Vietnam",
+          "publisher": "The LEGO Group",
+          "family": "Company newsrooms",
+          "origin": "The LEGO Group",
+          "publishedAt": "2025-04-09",
+          "eventDate": "2025-04-09",
+          "retrievedAt": "2026-10-16",
+          "passage": "celebrated the grand opening of LEGO Manufacturing Vietnam in Binh Duong province, southern Vietnam",
+          "claim": "LEGO opened its Vietnam factory in April 2025; buildings include office, moulding, packing and warehouse spaces.",
+          "section": "Factory announcement and facts",
+          "limitations": "Historical opening is more than 18 months old at review. IT sourcing may predate opening; administrative place names are retained as stated in the 2025 source.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "lego-vietnam-factory-opening",
+          "temporalScope": "Completed opening April 2025",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        },
+        {
+          "id": "lego-rdc-2025",
+          "url": "https://www.lego.com/en-us/aboutus/news/2025/september/kuehne-nagel-and-the-lego-group-open-new-regional-distribution-centre-in-vietnam-to-support-asia-pacific-growth",
+          "canonicalUrl": "https://www.lego.com/en-us/aboutus/news/2025/september/kuehne-nagel-and-the-lego-group-open-new-regional-distribution-centre-in-vietnam-to-support-asia-pacific-growth",
+          "title": "Kuehne+Nagel and the LEGO Group open new regional distribution centre in Vietnam",
+          "publisher": "The LEGO Group / Kuehne+Nagel",
+          "family": "Company newsrooms",
+          "origin": "Joint LEGO / Kuehne+Nagel announcement",
+          "publishedAt": "2025-09-10",
+          "eventDate": "2025-09-10",
+          "retrievedAt": "2026-10-16",
+          "passage": "Kuehne+Nagel will manage end-to-end logistics operations for the RDC",
+          "claim": "The jointly announced Vietnam RDC has a separate logistics operator. The release forecasts further operations and market expansion in 2026.",
+          "section": "Opening announcement and operations paragraph",
+          "limitations": "Joint announcement, one shared origin. Forecast 2026 milestones require a later implementation check; no endpoint standard or equipment purchase is disclosed.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "lego-kn-vietnam-rdc-opening",
+          "temporalScope": "Opening September 2025; 2026 rollout forecast",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        }
+      ],
+      "opportunities": [
+        {
+          "territoryStatus": "unresolved",
+          "demonstration": true,
+          "routeAssessed": false,
+          "accountOwnership": "unknown",
+          "commercialValue": "Value unquantified",
+          "confidence": "medium",
+          "reviewStatus": "analyst-reviewed-hypothesis",
+          "explicitPurchasingEvidence": "No current explicit purchasing evidence found in the reviewed sources.",
+          "procurement": {
+            "explicit": false,
+            "status": "unknown",
+            "deadline": null,
+            "verifiedAt": "2026-10-16T16:27:45Z"
+          },
+          "contradictionIds": [],
+          "id": "lego-endpoint-watchlist",
+          "title": "Recheck operating-site endpoint gaps after historical Vietnam openings",
+          "type": "Expansion / renewal hypothesis",
+          "productFamily": "commercial-pcs",
+          "eventTitle": "Factory and regional distribution-centre openings in 2025",
+          "eventDate": "2025-09-10",
+          "requirement": "Potential administrative endpoint gaps or a future refresh at operating sites; no replacement date, installed base or uncommitted requirement is known.",
+          "reasoning": "The physical operating sites justify a narrowly scoped review. Because the sites already opened, the original expansion trigger is stale. Separate LEGO factory requirements from Kuehne+Nagel-operated RDC requirements.",
+          "whyNow": "The reviewed opening sources do not establish a current purchase window. Recheck 2026 implementation status and retain as watchlist until a buyer validates a gap.",
+          "scale": "Two distinct sites are documented; endpoint quantities and scope are unknown. Do not combine factory and RDC into a single fleet estimate.",
+          "buyers": [
+            {
+              "role": "Factory IT / workplace lead",
+              "scope": "LEGO factory endpoints",
+              "organization": "LEGO Manufacturing Vietnam; authority unresolved",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Regional procurement category owner",
+              "scope": "Factory equipment standard and sourcing",
+              "organization": "The LEGO Group",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "RDC IT owner",
+              "scope": "Distribution-centre endpoint operations",
+              "organization": "Kuehne+Nagel; separate purchasing organization",
+              "authorityStatus": "unverified-role-hypothesis"
+            }
+          ],
+          "route": "Vietnam enterprise partner or global framework only after entity, account ownership and standards are assessed; RDC may belong to a different customer relationship.",
+          "barriers": [
+            "Opening events are historical and devices may already be installed.",
+            "RDC operator is a separate purchasing organization.",
+            "No installed base, contract term or renewal date is public."
+          ],
+          "unknowns": [
+            "Current fleet and service owner",
+            "Any unmet post-opening workflow",
+            "Contracting entity and procurement framework",
+            "Actual 2026 rollout status"
+          ],
+          "confirm": [
+            "A site owner verifies an unresolved device gap or documented future refresh milestone."
+          ],
+          "weaken": [
+            "Original deployment is complete and meets current need."
+          ],
+          "disprove": [
+            "No unmet requirement, no future review or mandatory global agreement prevents pursuit."
+          ],
+          "readinessSuggested": "Watchlist",
+          "evidenceIds": [
+            "lego-factory-2025",
+            "lego-rdc-2025"
+          ],
+          "dimensions": {
+            "evidence": 2,
+            "fit": 2,
+            "timing": 0,
+            "scale": 1,
+            "access": null,
+            "feasibility": 1
+          },
+          "actions": [
+            {
+              "phase": "0–15",
+              "title": "Recheck the completed openings",
+              "outcome": "A current implementation status",
+              "role": "Factory IT / regional programme owner",
+              "question": "Are both sites fully equipped and which post-opening issues remain?",
+              "progressCondition": "A current source or owner validates an unresolved issue.",
+              "stopCondition": "Stop if equipment deployment is complete with no material gap."
+            },
+            {
+              "phase": "16–30",
+              "title": "Separate factory and RDC purchasing",
+              "outcome": "Two clear ownership decisions",
+              "role": "LEGO procurement and RDC operator IT",
+              "question": "Which entity owns each endpoint requirement and contract?",
+              "progressCondition": "The actual purchasing organization is documented per site.",
+              "stopCondition": "Stop cross-account bundling when the operator owns the fleet."
+            },
+            {
+              "phase": "31–60",
+              "title": "Assess only a verified device gap",
+              "outcome": "A specific endpoint and support fit",
+              "role": "Relevant site IT evaluator",
+              "question": "What workflow, image and support requirement is not met today?",
+              "progressCondition": "An agreed and eligible need is measurable.",
+              "stopCondition": "Stop generic proposals without a verified workload gap."
+            },
+            {
+              "phase": "61–90",
+              "title": "Record nurture or a justified next step",
+              "outcome": "A dated site-specific follow-up",
+              "role": "Actual category procurement owner",
+              "question": "Is there a permitted refresh or expansion milestone?",
+              "progressCondition": "Record a real milestone or close the hypothesis.",
+              "stopCondition": "Archive if there is no supported buying window."
+            }
+          ],
+          "accountId": "lego",
+          "sourceLabel": "Reviewed demonstration hypothesis",
+          "facilityCountry": "VN",
+          "eventKey": "lego-factory-2025"
+        }
+      ],
+      "territoryEligibility": "unresolved",
+      "territoryReason": "Demonstration record; exact country list and eligibility rule are not yet confirmed."
+    },
+    {
+      "id": "thk",
+      "name": "Thye Hua Kwan Moral Charities",
+      "domain": "thkmc.org.sg",
+      "industry": "Community care and social services",
+      "hqCountry": "SG",
+      "summary": "Singapore charity with a public five-year multifunction printer procurement notice. The listing shows purchasing evidence; specifications, amendments, device quantities, HP eligibility and territory fit remain unverified.",
+      "discovery": "Systematic public procurement portal screening uncovered an in-scope print notice, followed by the charity's own organizational page.",
+      "rationale": "Retained as a procurement-led exception to the commercial-enterprise emphasis because an explicit five-year scope is more useful than a famous company with no intent. Programme count is context, not fleet quantity.",
+      "screeningStatus": "deep-demo",
+      "parentName": "Thye Hua Kwan Moral Charities Limited",
+      "contractingEntity": "Buyer named as THYE HUA KWAN MORAL CHARITIES LIMITED in listing; final contracting terms unverified",
+      "facilities": [
+        {
+          "name": "Singapore service network",
+          "country": "SG",
+          "city": "Singapore",
+          "kind": "Community service network; tender deployment sites undisclosed"
+        }
+      ],
+      "documents": [
+        {
+          "id": "thk-mfp-notice",
+          "url": "https://sesami.online/bizopps/businessOpportunities.jsp",
+          "canonicalUrl": "https://sesami.online/bizopps/businessOpportunities.jsp",
+          "title": "SESAMi business opportunities: THK/CS/16/T/FY26",
+          "publisher": "Thye Hua Kwan Moral Charities via SESAMi",
+          "family": "Procurement notices",
+          "origin": "Original THK buyer notice via SESAMi",
+          "publishedAt": "2026-10-02",
+          "eventDate": "2026-10-02",
+          "retrievedAt": "2026-10-16",
+          "passage": "SUPPLY, DELIVERY, INSTALLATION AND MAINTENANCE SERVICES FOR MULTIFUNCTION COPIER / SCANNER / PRINTER",
+          "claim": "Public listing identifies an MFP equipment and maintenance tender for five years, closing 23 October 2026 at 12:00 Singapore time.",
+          "section": "Row THYE HUA KWAN MORAL CHARITIES LIMITED / THK/CS/16/T/FY26",
+          "limitations": "Public listing retrieved without login. Full tender pack, amendments, models, quantities, device ownership, mandatory briefing and eligibility were not accessed. Recheck daily; source may change.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "thk-mfp-2026-tender",
+          "deadline": "2026-10-23T12:00:00+08:00",
+          "retrievalStatus": "public-listing-only",
+          "independence": "A notice listing is explicit evidence, not an eligibility assessment",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        },
+        {
+          "id": "thk-profile",
+          "url": "https://www.thkmc.org.sg/about-thkmc/",
+          "canonicalUrl": "https://www.thkmc.org.sg/about-thkmc/",
+          "title": "About THKMC",
+          "publisher": "Thye Hua Kwan Moral Charities",
+          "family": "Company profiles and facility pages",
+          "origin": "Thye Hua Kwan Moral Charities",
+          "publishedAt": null,
+          "eventDate": null,
+          "retrievedAt": "2026-10-16",
+          "passage": "more than 70 programmes across five Services",
+          "claim": "The charity describes a broad Singapore service network; this supports organizational context, not printer or site quantities.",
+          "section": "About THK MC",
+          "limitations": "Undated self-description. Page contains unrelated placeholder text elsewhere; only the specific reviewed organizational statement is retained. Programmes are not physical sites or fleet counts.",
+          "language": "en",
+          "translationStatus": "original",
+          "extractionMethod": "Manual review of public web retrieval",
+          "reviewStatus": "analyst-reviewed-source-support",
+          "claimType": "reported-fact",
+          "eventId": "thk-organizational-profile",
+          "temporalScope": "Undated page observed at retrieval",
+          "reviewedAt": "2026-10-16T16:27:45Z",
+          "retrievalDatePrecision": "day; exact individual fetch timestamp not retained"
+        }
+      ],
+      "opportunities": [
+        {
+          "territoryStatus": "unresolved",
+          "demonstration": true,
+          "routeAssessed": false,
+          "accountOwnership": "unknown",
+          "commercialValue": "Value unquantified",
+          "confidence": "medium",
+          "reviewStatus": "analyst-reviewed-hypothesis",
+          "explicitPurchasingEvidence": "Current public tender listing for MFP equipment and maintenance; detailed tender documents and amendments have not been reviewed.",
+          "procurement": {
+            "explicit": true,
+            "status": "open",
+            "deadline": "2026-10-23T12:00:00+08:00",
+            "verifiedAt": "2026-10-16T16:27:45Z",
+            "noticeId": "THK/CS/16/T/FY26"
+          },
+          "contradictionIds": [],
+          "id": "thk-print-procurement",
+          "title": "Verify eligibility for the five-year MFP equipment and service tender",
+          "type": "Acquisition / competitive replacement hypothesis",
+          "productFamily": "business-print",
+          "secondaryProductFamily": "managed-print",
+          "eventTitle": "THK five-year MFP tender THK/CS/16/T/FY26",
+          "eventDate": "2026-10-02",
+          "requirement": "Multifunction copier/scanner/printer supply, delivery, installation and maintenance over five years, subject to detailed specifications.",
+          "reasoning": "The buyer's public listing is direct purchasing evidence and relevant to HP business print. HP participation, exact product fit and a compliant supply/service route must be checked before classifying it as an eligible active pursuit.",
+          "whyNow": "The listed deadline is 23 October 2026 12:00 Singapore time, seven calendar days after review. Eligibility, mandatory events and amendments take precedence over the generic 90-day schedule.",
+          "scale": "Five-year contract duration disclosed; MFP count, volumes, sites, pricing and value are not disclosed. Programme count cannot supply missing quantities.",
+          "buyers": [
+            {
+              "role": "Tender / procurement owner",
+              "scope": "Tender conditions and submission authority",
+              "organization": "Thye Hua Kwan Moral Charities Limited",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "IT / print security evaluator",
+              "scope": "Fleet, security and print-management fit",
+              "organization": "THKMC",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Service operations sponsor",
+              "scope": "Site access and service continuity",
+              "organization": "THKMC",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Finance / authorized approver",
+              "scope": "Contract economics and approval",
+              "organization": "THKMC; person and authority unverified",
+              "authorityStatus": "unverified-role-hypothesis"
+            },
+            {
+              "role": "Authorized print service partner",
+              "scope": "Compliant Singapore installation and service",
+              "organization": "Unselected; partner authorization unresolved",
+              "authorityStatus": "unverified-role-hypothesis"
+            }
+          ],
+          "route": "An eligible direct or authorized Singapore print-service partner after reviewing tender pack, service obligations and HP/channel pursuit eligibility. No bid authorization or contact has occurred.",
+          "barriers": [
+            "Territory remains unverified.",
+            "HP or partner tender eligibility has not been assessed.",
+            "Specifications, amendments and mandatory preconditions may disqualify participation.",
+            "Short remaining notice window."
+          ],
+          "unknowns": [
+            "Tender pack access and amendments",
+            "Quantities, monthly volumes and service geography",
+            "Mandatory briefing / submission requirements",
+            "HP account ownership, partner eligibility and product availability",
+            "Security, print-management integration and service SLA"
+          ],
+          "confirm": [
+            "Current tender pack permits an eligible HP solution and authorized partner with feasible service obligations."
+          ],
+          "weaken": [
+            "Mandatory requirements, site coverage or submission lead time are difficult to satisfy."
+          ],
+          "disprove": [
+            "Notice is closed/cancelled, mandatory preconditions were missed, or eligible HP supply cannot meet requirements."
+          ],
+          "readinessSuggested": "Triggered qualification",
+          "evidenceIds": [
+            "thk-mfp-notice",
+            "thk-profile"
+          ],
+          "dimensions": {
+            "evidence": 3,
+            "fit": 3,
+            "timing": 3,
+            "scale": null,
+            "access": 1,
+            "feasibility": null
+          },
+          "actions": [
+            {
+              "phase": "0–1 day",
+              "title": "Recheck notice and mandatory eligibility",
+              "outcome": "A documented go/no-go before technical effort",
+              "role": "Tender procurement owner through permitted portal process",
+              "question": "Is the notice still open and what are all mandatory requirements and amendments?",
+              "progressCondition": "Authorized seller reviews current tender pack and confirms pursuit/territory eligibility.",
+              "stopCondition": "Stop if cancelled, closed, mandatory event missed or supply eligibility fails."
+            },
+            {
+              "phase": "1–3 days",
+              "title": "Validate equipment, service and submission fit",
+              "outcome": "A compliant requirements matrix",
+              "role": "Print specialist, service partner and IT evaluator",
+              "question": "Which quantities, volumes, security features and SLAs are mandatory, and can the eligible route meet them?",
+              "progressCondition": "All mandatory criteria have traceable responses and a valid partner route.",
+              "stopCondition": "Stop if material requirements cannot be met before deadline."
+            },
+            {
+              "phase": "Before 23 Oct 2026 12:00 SGT",
+              "title": "Complete an authorized compliant response if eligible",
+              "outcome": "An approved submission or recorded no-bid decision",
+              "role": "Authorized bidder / procurement response owner",
+              "question": "Has the bidder approved all scope, commercial terms and submission prerequisites?",
+              "progressCondition": "Authorized seller submits only through the specified process with receipt recorded.",
+              "stopCondition": "Stop rather than submit a noncompliant or unauthorized response."
+            },
+            {
+              "phase": "After deadline to day 90",
+              "title": "Track buyer-directed clarification or award",
+              "outcome": "An evidence-based next step without assumed close",
+              "role": "Tender procurement owner",
+              "question": "Has the buyer requested clarification or published an outcome?",
+              "progressCondition": "Record official clarification/award and any implementation step.",
+              "stopCondition": "Close or nurture on no-bid/loss/cancellation; do not assume a 90-day close."
+            }
+          ],
+          "accountId": "thk",
+          "sourceLabel": "Reviewed demonstration hypothesis",
+          "facilityCountry": "SG",
+          "eventKey": "thk-mfp-notice"
+        }
+      ],
+      "territoryEligibility": "unresolved",
+      "territoryReason": "Demonstration record; exact country list and eligibility rule are not yet confirmed.",
+      "purchasingOrganization": "Thye Hua Kwan Moral Charities Limited, the named tender issuer in THK/CS/16/T/FY26. Procurement owner, authorized approver and HP route eligibility remain unverified.",
+      "legalEntity": "THYE HUA KWAN MORAL CHARITIES LIMITED is the buyer named in the public notice; final contracting and signatory details require the tender pack.",
+      "purchasingEvidenceIds": [
+        "thk-mfp-notice"
+      ]
+    }
+  ],
+  "screened": [
+    {
+      "name": "Micron Technology",
+      "industry": "Semiconductor manufacturing",
+      "country": "SG",
+      "sourceUrl": "https://investors.micron.com/news/press-release/2026/Micron-Breaks-Ground-on-Advanced-Wafer-Fabrication-Facility-in-Singapore-01-26-2026/default.aspx",
+      "reason": "Retained for separate engineering-compute and workplace-planning hypotheses with distinct workload and buyer questions. Capital spending and jobs are never converted into IT budget or unit estimates.",
+      "status": "deep-demo",
+      "discovery": "Investment-agency semiconductor project screening followed by original Micron disclosures and supplier onboarding rules.",
+      "countryScope": "Evidence-bound operating location, not territory qualification"
+    },
+    {
+      "name": "Sunway Healthcare Group",
+      "industry": "Healthcare",
+      "country": "MY",
+      "sourceUrl": "https://www.sunwayhealthcaregroup.com/images/file/Sunway%20Healthcare%20%28ENG%29%20Bursa%20part%201.pdf",
+      "reason": "Retained because filings expose capacity plans and their uncertainty while facility pages distinguish existing hospitals from upcoming projects.",
+      "status": "deep-demo",
+      "discovery": "Healthcare expansion screening, followed by the February 2026 prospectus, parent investor briefing and the group's current facility page.",
+      "countryScope": "Evidence-bound operating location, not territory qualification"
+    },
+    {
+      "name": "ePac Flexible Packaging",
+      "industry": "Flexible packaging and commercial printing",
+      "country": null,
+      "sourceUrl": "https://www.hp.com/us-en/newsroom/blogs/2026/hp-indigo-epac-scaling-flexible-packaging.html",
+      "reason": "Retained as a specialized fit and an evidence trap: a signed vendor agreement demonstrates adoption without creating fresh unsold pipeline.",
+      "status": "deep-demo",
+      "discovery": "Specialist industrial-print workflow screening, then HP's original supplier announcement and ePac's own North American expansion notice.",
+      "countryScope": "Evidence-bound operating location, not territory qualification"
+    },
+    {
+      "name": "Changi Airport Group",
+      "industry": "Aviation and infrastructure",
+      "country": "SG",
+      "sourceUrl": "https://www.changiairport.com/en/corporate/about-us/future-developments/terminal-5.html",
+      "reason": "Retained to distinguish airport operator, construction contractors, current notices and future terminal systems. Project size alone never establishes an HP device order.",
+      "status": "deep-demo",
+      "discovery": "Facility-project and award screening followed by the official procurement route and a live SESAMi notice listing.",
+      "countryScope": "Evidence-bound operating location, not territory qualification"
+    },
+    {
+      "name": "DreamWorks Animation",
+      "industry": "Animation and creative production",
+      "country": null,
+      "sourceUrl": "https://news.lenovo.com/pressroom/press-releases/business-innovation-lenovo-and-dreamworks/",
+      "reason": "Retained as a competitive barrier and historical evidence lesson. Preferred-provider status is evidence of a relationship, not proof of exclusivity or an expiry date.",
+      "status": "deep-demo",
+      "discovery": "Creative workload screening and original supplier relationship announcements, including the 2025 expansion of Lenovo's relationship.",
+      "countryScope": "Evidence-bound operating location, not territory qualification"
+    },
+    {
+      "name": "The LEGO Group",
+      "industry": "Consumer manufacturing",
+      "country": "VN",
+      "sourceUrl": "https://www.lego.com/en-gb/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam",
+      "reason": "Retained as a stale trigger example and to keep distribution operations with their documented logistics operator. Workforce or factory size is not an endpoint quantity.",
+      "status": "deep-demo",
+      "discovery": "Manufacturing footprint screening through original LEGO factory and distribution-centre announcements.",
+      "countryScope": "Evidence-bound operating location, not territory qualification"
+    },
+    {
+      "name": "Thye Hua Kwan Moral Charities",
+      "industry": "Community care and social services",
+      "country": "SG",
+      "sourceUrl": "https://sesami.online/bizopps/businessOpportunities.jsp",
+      "reason": "Retained as a procurement-led exception to the commercial-enterprise emphasis because an explicit five-year scope is more useful than a famous company with no intent. Programme count is context, not fleet quantity.",
+      "status": "deep-demo",
+      "discovery": "Systematic public procurement portal screening uncovered an in-scope print notice, followed by the charity's own organizational page.",
+      "countryScope": "Evidence-bound operating location, not territory qualification"
+    },
+    {
+      "name": "United Microelectronics Corporation (UMC)",
+      "industry": "Semiconductor manufacturing",
+      "country": "SG",
+      "sourceUrl": "https://www.edb.gov.sg/en/business-insights/insights/what-makes-singapore-a-prime-location-for-semiconductor-companies-driving-innovation.html",
+      "reason": "EDB overview identifies a Singapore fab with phase-one production planned for 2026. Retain for later engineering/workplace discovery; no endpoint procurement verified.",
+      "status": "screened-only",
+      "discovery": "Investment-agency project list",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "Vanguard–NXP joint venture (VSMC)",
+      "industry": "Semiconductor manufacturing",
+      "country": "SG",
+      "sourceUrl": "https://www.edb.gov.sg/en/business-insights/insights/what-makes-singapore-a-prime-location-for-semiconductor-companies-driving-innovation.html",
+      "reason": "EDB overview identifies a 300mm fab with initial production planned for 2027. Keep the joint venture separate from either parent's fleet; no IT package verified.",
+      "status": "screened-only",
+      "discovery": "Investment-agency project list",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "Applied Materials",
+      "industry": "Semiconductor equipment",
+      "country": "SG",
+      "sourceUrl": "https://www.edb.gov.sg/en/business-insights/insights/what-makes-singapore-a-prime-location-for-semiconductor-companies-driving-innovation.html",
+      "reason": "EDB overview identifies expansion of its EPIC platform. Retain as a specialist engineering candidate; exact local workload and purchasing route not investigated.",
+      "status": "screened-only",
+      "discovery": "Investment-agency project list",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "Frencken Group",
+      "industry": "Precision engineering",
+      "country": "SG",
+      "sourceUrl": "https://www.edb.gov.sg/en/business-insights/insights/what-makes-singapore-a-prime-location-for-semiconductor-companies-driving-innovation.html",
+      "reason": "EDB overview identifies a manufacturing project due in 2027. Retain for engineering workflow review; no device quantities or sourcing stage established.",
+      "status": "screened-only",
+      "discovery": "Investment-agency project list",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "Sanofi",
+      "industry": "Biopharmaceutical manufacturing",
+      "country": "SG",
+      "sourceUrl": "https://www.sanofi.com/en/magazine/ai-in-healthcare/modulus-redefining-the-future-of-biopharma-manufacturing",
+      "reason": "Official October 2025 Modulus material describes a manufacturing platform. Retain for current site-status research, not a device order; old 2022 completion forecasts are insufficient.",
+      "status": "screened-only",
+      "discovery": "Biopharma manufacturing sector screening",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "AstraZeneca",
+      "industry": "Biopharmaceutical manufacturing",
+      "country": "SG",
+      "sourceUrl": "https://www.edb.gov.sg/en/business-insights/insights/precision-medicine-in-singapore-how-are-global-biomedical-sciences-players-advancing-cancer-treatment-and-personalised-healthcare.html",
+      "reason": "EDB identifies a proposed ADC facility. Retain for validation of implementation and local purchasing; a large construction plan is not endpoint budget.",
+      "status": "screened-only",
+      "discovery": "Investment-agency biopharma projects",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "Rolls-Royce",
+      "industry": "Aerospace engineering",
+      "country": "SG",
+      "sourceUrl": "https://www.edb.gov.sg/en/our-industries/aerospace.html",
+      "reason": "EDB aerospace overview describes Singapore operations and SAESL expansion. Parent and joint-venture procurement must be resolved before any workstation or 3D hypothesis.",
+      "status": "screened-only",
+      "discovery": "Investment-agency aerospace coverage",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "Pratt & Whitney",
+      "industry": "Aerospace MRO",
+      "country": "SG",
+      "sourceUrl": "https://www.edb.gov.sg/en/our-industries/aerospace.html",
+      "reason": "EDB identifies aerospace/MRO activity. Retain for workflow research; no HP equipment intent or local buyer established.",
+      "status": "screened-only",
+      "discovery": "Investment-agency aerospace coverage",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "Kuehne+Nagel",
+      "industry": "Logistics",
+      "country": "VN",
+      "sourceUrl": "https://www.lego.com/en-us/aboutus/news/2025/september/kuehne-nagel-and-the-lego-group-open-new-regional-distribution-centre-in-vietnam-to-support-asia-pacific-growth",
+      "reason": "Joint LEGO notice identifies RDC operations by Kuehne+Nagel. Potential separate purchasing organization; same event as LEGO RDC, never a second expansion count.",
+      "status": "screened-only",
+      "discovery": "Operator identified in customer facility announcement",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "DBS Group",
+      "industry": "Financial services",
+      "country": "SG",
+      "sourceUrl": "https://www.dbs.com/annualreports/2025/index.html",
+      "reason": "Official annual report establishes a large regulated bank with technology priorities. AI strategy does not establish AI-PC demand; retain for risk/endpoint requirements discovery only.",
+      "status": "screened-only",
+      "discovery": "Public financial reporting",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "Infosys",
+      "industry": "Professional services",
+      "country": null,
+      "sourceUrl": "https://www.infosys.com/about.html",
+      "reason": "Official profile establishes global digital-services operations. Retain as a professional-services comparison but no specific facility, device requirement or buying window was found.",
+      "status": "screened-only",
+      "discovery": "Company profile / sector diversity",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "Tata Consultancy Services",
+      "industry": "Professional services",
+      "country": null,
+      "sourceUrl": "https://www.tcs.com/who-we-are",
+      "reason": "Official profile establishes technology consulting and delivery work. Keep buying organization, device standard and opportunity event unresolved; no company-wide device count inferred.",
+      "status": "screened-only",
+      "discovery": "Company profile / sector diversity",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "Marriott International",
+      "industry": "Hospitality",
+      "country": null,
+      "sourceUrl": "https://marriott.gcs-web.com/annual",
+      "reason": "Annual-report directory accessed. Hotel operator, owner and franchise procurement must be separated; no specific equipment package assessed.",
+      "status": "screened-only",
+      "discovery": "Investor disclosure directory / sector diversity",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "National University of Singapore",
+      "industry": "Higher education",
+      "country": "SG",
+      "sourceUrl": "https://www.nus.edu.sg/annualreport/",
+      "reason": "Official annual-report directory accessed. Education is a distinct print/endpoint workflow; institutional procurement and device needs not qualified.",
+      "status": "screened-only",
+      "discovery": "Institutional reporting / sector diversity",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "TMC Life Sciences / Thomson Hospitals Sdn Bhd",
+      "industry": "Healthcare",
+      "country": "MY",
+      "sourceUrl": "https://www.tmclife.com/tender/tender-145-consolidation-of-multifunction-printer-mfp-fleet-services-and-management/",
+      "reason": "Official MFP tender 145 identifies Thomson Hospitals Sdn Bhd and an 18 September 2026 deadline. Expired at 16 October review; no reopening or award verified. Downgrade instead of active procurement.",
+      "status": "downgraded-expired",
+      "discovery": "Official procurement notice",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "CP ALL",
+      "industry": "Retail",
+      "country": null,
+      "sourceUrl": "https://www.cpall.co.th/en/about-us",
+      "reason": "Primary company page failed retrieval. Sector added for coverage diversity; no account claims, requirements or rankings created from the unavailable source.",
+      "status": "source-unavailable",
+      "discovery": "Retail source-access screening",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    },
+    {
+      "name": "AECOM",
+      "industry": "Architecture and engineering",
+      "country": null,
+      "sourceUrl": "https://aecom.com/about-aecom/",
+      "reason": "Primary company page failed retrieval. Potential sector fit remains unresearched; no opportunity inferred from company fame or industry label.",
+      "status": "source-unavailable",
+      "discovery": "Architecture/engineering source-access screening",
+      "countryScope": "Operating location from reviewed source where stated; null means unresolved",
+      "retrievedAt": "2026-10-16T16:27:45Z"
+    }
+  ],
+  "coverage": {
+    "reviewedAt": "2026-10-16T16:27:45Z",
+    "screenedAccounts": 24,
+    "deepAccounts": 7,
+    "opportunities": 9,
+    "sourceDocuments": 20,
+    "uniqueCanonicalUrls": 19,
+    "targetSourceFamilyCount": 8,
+    "sourceFamilies": [
+      "Company newsrooms",
+      "Regulatory and exchange filings",
+      "Leadership and supplier-registration pages",
+      "Investor presentations and earnings materials",
+      "Investment-agency and facility sources",
+      "Supplier case studies",
+      "Contract and award records",
+      "Procurement notices",
+      "Technology and partnership announcements",
+      "Company profiles and facility pages"
+    ],
+    "sourceFamilyCount": 9,
+    "unmappedSupplementaryFamilies": [
+      "Company profiles and facility pages"
+    ],
+    "adapterCount": "Measured by application registry; manual research does not establish adapter coverage",
+    "independentPublisherGroups": [
+      "Micron",
+      "Singapore EDB",
+      "Sunway corporate group",
+      "HP Inc.",
+      "ePac",
+      "Changi Airport Group",
+      "Lenovo",
+      "LEGO / Kuehne+Nagel joint announcement",
+      "Thye Hua Kwan Moral Charities"
+    ],
+    "independenceCaveat": "Publisher diversity is not independent corroboration. EDB restates the Micron project; Micron SEC filing/news share company origin; Lenovo sources share supplier origin; Sunway materials share a corporate group; both SESAMi notice extracts share one portal snapshot.",
+    "geography": {
+      "verification": "unresolved",
+      "countriesWithReviewedOperatingEvidence": [
+        "SG",
+        "MY",
+        "VN",
+        "US",
+        "CA"
+      ],
+      "searchedCountryContexts": [
+        "Singapore",
+        "Malaysia",
+        "Vietnam",
+        "United States",
+        "Canada"
+      ],
+      "limitation": "Purposeful demonstration sample, heavily Singapore-biased. No inference that these countries define 'global South East'. Parent headquarters and purchasing-location research are incomplete."
+    },
+    "industries": [
+      "Semiconductor manufacturing",
+      "Healthcare",
+      "Flexible packaging and commercial printing",
+      "Aviation and infrastructure",
+      "Animation and creative production",
+      "Consumer manufacturing",
+      "Community care and social services",
+      "Semiconductor equipment",
+      "Precision engineering",
+      "Biopharmaceutical manufacturing",
+      "Aerospace engineering",
+      "Aerospace MRO",
+      "Logistics",
+      "Financial services",
+      "Professional services",
+      "Hospitality",
+      "Higher education",
+      "Retail",
+      "Architecture and engineering"
+    ],
+    "procurement": {
+      "inScopeCurrentPublicNotices": 1,
+      "inScopeNotice": "THK/CS/16/T/FY26",
+      "inScopeEligibilityAssessed": false,
+      "outOfScopeCurrentNotices": [
+        "CAG 2026/00635"
+      ],
+      "expiredScreenedNotices": [
+        "TMC Life Tender 145, deadline 18 September 2026"
+      ],
+      "awardedSignals": [
+        "HP/ePac February 2026 agreement",
+        "CAG June 2025 tunnel award"
+      ],
+      "statusCaveat": "Open means the reviewed public listing had a future closing date. Full specifications and amendments were not accessed. No opportunity is territory- or bid-qualified."
+    },
+    "researchMode": "Manually reviewed public evidence; no-key seed is curated, not live AI research.",
+    "sourceFailures": [
+      {
+        "provider": "Firecrawl",
+        "operation": "search",
+        "query": "site.dbs.com Lenovo workplace partnership devices 2025",
+        "status": "failed",
+        "error": "Transport closed",
+        "at": "2026-10-16",
+        "result": "No evidence retained"
+      },
+      {
+        "provider": "Firecrawl",
+        "operation": "search",
+        "query": "site.epacflexibles.com HP Indigo 2025 2026 expansion",
+        "status": "failed",
+        "error": "Transport closed",
+        "at": "2026-10-16",
+        "result": "Retried using web fallback"
+      },
+      {
+        "provider": "Firecrawl",
+        "operation": "search",
+        "query": "site.changiairport.com Terminal5 2025 2026 construction procurement suppliers",
+        "status": "failed",
+        "error": "Transport closed",
+        "at": "2026-10-16",
+        "result": "Retried using web fallback"
+      },
+      {
+        "provider": "Firecrawl",
+        "operation": "search",
+        "query": "site.lego.com Vietnam factory opens 2025",
+        "status": "failed",
+        "error": "Transport closed",
+        "at": "2026-10-16",
+        "result": "Retried using web fallback"
+      },
+      {
+        "provider": "Firecrawl",
+        "operation": "search",
+        "query": "site.micron.com suppliers supplier requirements procurement",
+        "status": "failed",
+        "error": "Transport closed",
+        "at": "2026-10-16",
+        "result": "Retried using web fallback"
+      },
+      {
+        "provider": "Firecrawl",
+        "operation": "search",
+        "query": "site.edb.gov.sg Micron2026 wafer fabrication Singapore",
+        "status": "failed",
+        "error": "Transport closed",
+        "at": "2026-10-16",
+        "result": "Retried using web fallback"
+      },
+      {
+        "provider": "Web retrieval",
+        "url": "https://www.cpall.co.th/en/about-us",
+        "status": "unavailable",
+        "error": "Tool returned Internal Error",
+        "at": "2026-10-16"
+      },
+      {
+        "provider": "Web retrieval",
+        "url": "https://aecom.com/about-aecom/",
+        "status": "unavailable",
+        "error": "Tool returned Internal Error",
+        "at": "2026-10-16"
+      },
+      {
+        "provider": "Web retrieval",
+        "url": "https://www.ocbc.com/group/investors/annual-reports.page",
+        "status": "unavailable",
+        "error": "URL not accessible via tool; excluded from24-account screening set",
+        "at": "2026-10-16"
+      },
+      {
+        "provider": "Web retrieval",
+        "url": "https://www.uobgroup.com/investor-relations/financial/annual/index.page",
+        "status": "unavailable",
+        "error": "URL not accessible via tool; excluded from24-account screening set",
+        "at": "2026-10-16"
+      },
+      {
+        "provider": "Web retrieval",
+        "url": "https://www.thkmc.org.sg/wp-content/uploads/2026/09/THK-Annual-Report-2025-2026_00-00_Cover_1.pdf",
+        "status": "partial",
+        "error": "Redirected to HTML annual report with zero extracted lines; no annual-report claims retained",
+        "at": "2026-10-16"
+      },
+      {
+        "provider": "Web retrieval",
+        "url": "https://www.edb.gov.sg/en/business-insights/insights/what-makes-singapore-a-prime-location-for-semiconductor-companies-driving-innovation.html",
+        "status": "partial",
+        "error": "Direct page limited text; source claims limited to reviewed indexed excerpt",
+        "at": "2026-10-16"
+      },
+      {
+        "provider": "Web retrieval",
+        "url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/award-of-t5-intra-terminal-tunnel-contract.html",
+        "status": "partial",
+        "error": "Direct page navigation only; source claims limited to reviewed indexed excerpt",
+        "at": "2026-10-16"
+      }
+    ],
+    "searchedNotUsed": [
+      "Aggregated tender sites used only as pointers; original SESAMi listing and official TMC notice control procurement claims.",
+      "Third-party contact databases were not used.",
+      "HPE/server/network notices are not treated as HP Inc. product opportunities."
+    ],
+    "gaps": [
+      "No country-qualified addressable market or exhaustive enterprise discovery.",
+      "No verified individual buyers, installed-base records, current contract expiry, account ownership or transaction prices.",
+      "No full THK tender pack or amendment review; open listing requires immediate recheck.",
+      "Careers/public job feeds not used as supporting evidence in retained deep records.",
+      "No independent validation of customer procurement intent beyond the buyer's public notice.",
+      "Most source pages and claims were manually reviewed once; no claim of a recurring monitor."
+    ],
+    "finalSupplementalReviewAt": "2026-10-16T16:37:09Z"
+  }
+}

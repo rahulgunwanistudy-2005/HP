@@ -1,0 +1,116 @@
+{
+  "validatedAt": "2026-10-17T12:20:27.518Z",
+  "mode": "deterministic corpus integrity; not independently measured predictive accuracy",
+  "accounts": 35,
+  "territoryProspects": 35,
+  "screenedProspects": 30,
+  "deepAccounts": 5,
+  "screenedAccounts": 50,
+  "reviewedOpportunities": 39,
+  "opportunities": 39,
+  "uniqueEvents": 38,
+  "sourceFamilies": 9,
+  "publisherOrigins": 45,
+  "independentOrigins": 34,
+  "staleFindings": 12,
+  "unresolvedBuyers": 116,
+  "failedRuns": 0,
+  "activeProcurement": 0,
+  "logicalDocuments": 56,
+  "uniqueCanonicalUrls": 55,
+  "productFamilies": 9,
+  "productSources": 14,
+  "evidenceRelationships": 45,
+  "qualificationActions": 153,
+  "buyerRoleRecords": 118,
+  "foreignKeyViolations": 0,
+  "sensitivity": [
+    {
+      "label": "Evidence +5 / timing −5",
+      "weights": {
+        "evidence": 30,
+        "fit": 20,
+        "timing": 15,
+        "scale": 15,
+        "access": 10,
+        "feasibility": 10
+      },
+      "leader": "Qualify one professional workstation for TNB Research — Q26A/2026",
+      "leaderAccount": "Tenaga Nasional",
+      "leadingIds": [
+        "tnbr-workstation-q26a",
+        "micron-engineering",
+        "thk-print-procurement"
+      ],
+      "changed": false,
+      "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+    },
+    {
+      "label": "Scale +5 / fit −5",
+      "weights": {
+        "evidence": 25,
+        "fit": 15,
+        "timing": 20,
+        "scale": 20,
+        "access": 10,
+        "feasibility": 10
+      },
+      "leader": "Qualify one professional workstation for TNB Research — Q26A/2026",
+      "leaderAccount": "Tenaga Nasional",
+      "leadingIds": [
+        "tnbr-workstation-q26a",
+        "micron-engineering",
+        "thk-print-procurement"
+      ],
+      "changed": false,
+      "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+    },
+    {
+      "label": "Access +5 / evidence −5",
+      "weights": {
+        "evidence": 20,
+        "fit": 20,
+        "timing": 20,
+        "scale": 15,
+        "access": 15,
+        "feasibility": 10
+      },
+      "leader": "Qualify one professional workstation for TNB Research — Q26A/2026",
+      "leaderAccount": "Tenaga Nasional",
+      "leadingIds": [
+        "tnbr-workstation-q26a",
+        "micron-engineering",
+        "thk-print-procurement"
+      ],
+      "changed": false,
+      "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+    },
+    {
+      "label": "Timing +10 / scale −10",
+      "weights": {
+        "evidence": 25,
+        "fit": 20,
+        "timing": 30,
+        "scale": 5,
+        "access": 10,
+        "feasibility": 10
+      },
+      "leader": "Qualify one professional workstation for TNB Research — Q26A/2026",
+      "leaderAccount": "Tenaga Nasional",
+      "leadingIds": [
+        "tnbr-workstation-q26a",
+        "thk-print-procurement",
+        "micron-engineering"
+      ],
+      "changed": false,
+      "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
+    }
+  ],
+  "notes": [
+    "All evidence links resolve inside the correct account.",
+    "Supporting passages checked for metadata, maximum source quote budget, chronology and explicit limitations.",
+    "No private buyers, invented quantities, prices or win probabilities.",
+    "Two reviewed current notice hypotheses (THK and TNB Research); HP supply eligibility remains unverified. Standing screened-company profiles do not establish open procurement.",
+    "Source support reviewed by project analysts; this integrity script cannot establish truth independently."
+  ]
+}

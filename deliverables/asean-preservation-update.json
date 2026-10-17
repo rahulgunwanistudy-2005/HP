@@ -1,0 +1,33 @@
+{
+  "report": {
+    "inserted": 576,
+    "updated": 9,
+    "preserved": 220,
+    "relationshipConflicts": [
+      "epac-incremental-print/epac-hp-agreement-2026: kept analyst contradicts",
+      "changi-construction-print/changi-tunnel-award-2025: kept analyst contradicts",
+      "changi-afisms-excluded/changi-afisms-notice: kept analyst contradicts",
+      "dreamworks-workstation-review/dreamworks-lenovo-2025: kept analyst contradicts"
+    ],
+    "at": "2026-10-17T07:07:36.536Z"
+  },
+  "territoryUpdated": true,
+  "metrics": {
+    "accounts": 37,
+    "territoryProspects": 35,
+    "screenedProspects": 30,
+    "deepAccounts": 7,
+    "screenedAccounts": 52,
+    "reviewedOpportunities": 39,
+    "opportunities": 39,
+    "uniqueEvents": 38,
+    "sourceFamilies": 9,
+    "publisherOrigins": 46,
+    "independentOrigins": 37,
+    "staleFindings": 12,
+    "unresolvedBuyers": 120,
+    "failedRuns": 3,
+    "activeProcurement": 0
+  },
+  "foreignKeyViolations": []
+}

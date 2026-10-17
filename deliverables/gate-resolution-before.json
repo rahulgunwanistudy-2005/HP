@@ -1,0 +1,2282 @@
+{
+  "at": "2026-10-17T08:49:28.102Z",
+  "metrics": {
+    "accounts": 35,
+    "territoryProspects": 35,
+    "screenedProspects": 30,
+    "deepAccounts": 5,
+    "screenedAccounts": 50,
+    "reviewedOpportunities": 37,
+    "opportunities": 37,
+    "uniqueEvents": 36,
+    "sourceFamilies": 8,
+    "publisherOrigins": 44,
+    "independentOrigins": 34,
+    "staleFindings": 9,
+    "unresolvedBuyers": 113,
+    "failedRuns": 3,
+    "activeProcurement": 0
+  },
+  "opportunities": [
+    {
+      "id": "thk-print-procurement",
+      "account": "Thye Hua Kwan Moral Charities",
+      "readiness": "Triggered qualification",
+      "research": "Active procurement",
+      "gates": [
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Commercial feasibility"
+      ],
+      "scale": "Five-year contract duration disclosed; MFP count, volumes, sites, pricing and value are not disclosed. Programme count cannot supply missing quantities.",
+      "unknowns": [
+        "Tender pack access and amendments",
+        "Quantities, monthly volumes and service geography",
+        "Mandatory briefing / submission requirements",
+        "HP account ownership, partner eligibility and product availability",
+        "Security, print-management integration and service SLA"
+      ],
+      "dimensions": {
+        "evidence": 3,
+        "fit": 3,
+        "timing": 3,
+        "scale": null,
+        "access": 1,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": true,
+        "status": "open",
+        "deadline": "2026-10-23T12:00:00+08:00",
+        "verifiedAt": "2026-10-16T16:27:45Z",
+        "noticeId": "THK/CS/16/T/FY26"
+      },
+      "event": {
+        "id": "event-f544584f4d0a1ccadb879a96",
+        "title": "THK five-year MFP tender THK/CS/16/T/FY26",
+        "eventDate": "2026-10-02",
+        "accountId": "thk",
+        "facilityId": null,
+        "claimType": "source-supported event",
+        "evidenceIds": [
+          "thk-mfp-notice",
+          "thk-profile"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "evidence": [
+        "thk-mfp-notice",
+        "thk-profile"
+      ],
+      "context": []
+    },
+    {
+      "id": "kasikornbank-workplace-fit",
+      "account": "Kasikornbank",
+      "readiness": "Triggered qualification",
+      "research": "Triggered qualification",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "The relocation has already occurred; equipment may be fully committed. The former Phahon Yothin head office must not be presented as the new site.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": 2,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-bfa7cbe73b794f267ce5b956",
+        "title": "Rat Burana head-office relocation effective 31 July 2026",
+        "eventDate": "2026-07-31",
+        "accountId": "kasikornbank",
+        "facilityId": "kasikornbank-site-1",
+        "claimType": "source-supported event",
+        "evidenceIds": [
+          "kasikornbank-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "kasikornbank-site-1",
+      "evidence": [
+        "kasikornbank-profile-2026"
+      ],
+      "context": [
+        "kasikornbank-current-office"
+      ]
+    },
+    {
+      "id": "micron-engineering",
+      "account": "Micron Technology",
+      "readiness": "Watchlist",
+      "research": "Triggered qualification",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        },
+        {
+          "label": "Evidence review",
+          "status": "unknown",
+          "reason": "Event support is missing, changed, rejected, superseded or conflicting. Review the event before advancing dependent opportunities."
+        }
+      ],
+      "missing": [
+        "Buyer and procurement access"
+      ],
+      "scale": "A large disclosed facility programme; engineering seat and device quantities are unknown. Fab cleanroom area, jobs and capex are context, not endpoint scope.",
+      "unknowns": [
+        "Applications, user groups and performance requirements",
+        "Installed brands and contract term",
+        "Contracting legal entity and local decision rights",
+        "Uncommitted scope and actual project status"
+      ],
+      "dimensions": {
+        "evidence": 3,
+        "fit": 3,
+        "timing": 2,
+        "scale": 2,
+        "access": null,
+        "feasibility": 1
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": "2026-10-16T16:27:45Z"
+      },
+      "event": {
+        "id": "event-1ced10099cb076b7ab912323",
+        "title": "New Singapore wafer fab and co-located R&D programme",
+        "eventDate": "2026-01-27",
+        "accountId": "micron",
+        "facilityId": null,
+        "claimType": "source-supported event",
+        "evidenceIds": [
+          "micron-fab-2026",
+          "micron-hbm-2025",
+          "micron-suppliers",
+          "micron-10k-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "evidence": [
+        "micron-10k-2026",
+        "micron-fab-2026",
+        "micron-hbm-2025",
+        "micron-suppliers"
+      ],
+      "context": []
+    },
+    {
+      "id": "sunway-endpoints",
+      "account": "Sunway Healthcare Group",
+      "readiness": "Watchlist",
+      "research": "Strategic fit",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        },
+        {
+          "label": "Evidence review",
+          "status": "unknown",
+          "reason": "Contradicting evidence requires qualification."
+        }
+      ],
+      "missing": [
+        "Buyer and procurement access"
+      ],
+      "scale": "Multi-hospital programme is disclosed; endpoint count, licensing, hardware budget and project allocation are unknown. Bed counts are not a fleet proxy.",
+      "unknowns": [
+        "Current commissioning programme and site entity",
+        "Endpoint scope and existing standards",
+        "Budget and approval authority",
+        "Incumbent supply and service agreement"
+      ],
+      "dimensions": {
+        "evidence": 3,
+        "fit": 3,
+        "timing": 1,
+        "scale": 2,
+        "access": null,
+        "feasibility": 1
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": "2026-10-16T16:27:45Z"
+      },
+      "event": {
+        "id": "event-67d2d3cc3f6d51668c55fae2",
+        "title": "Disclosed hospital capacity expansion and ramp-up",
+        "eventDate": "2026-02-27",
+        "accountId": "sunway",
+        "facilityId": null,
+        "claimType": "source-supported event",
+        "evidenceIds": [
+          "sunway-prospectus-2026",
+          "sunway-footprint"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "evidence": [
+        "sunway-footprint",
+        "sunway-prospectus-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "changi-construction-print",
+      "account": "Changi Airport Group",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        },
+        {
+          "label": "Evidence review",
+          "status": "unknown",
+          "reason": "Contradicting evidence requires qualification."
+        }
+      ],
+      "missing": [
+        "Buyer and procurement access"
+      ],
+      "scale": "A substantial multi-package project; printers, users, print volumes and addressable value are unknown.",
+      "unknowns": [
+        "Actual drawing output volume and media",
+        "Digital-only standards or outsourced print contract",
+        "Package owner and equipment sourcing status",
+        "Territory eligibility and partner authorization"
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 3,
+        "timing": 1,
+        "scale": 1,
+        "access": null,
+        "feasibility": 1
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": "2026-10-16T16:27:45Z"
+      },
+      "event": {
+        "id": "event-8fbc6b1683b8c29fe28f3996",
+        "title": "Terminal 5 construction and appointed civil contractors",
+        "eventDate": "2025-06-10",
+        "accountId": "changi",
+        "facilityId": null,
+        "claimType": "source-supported event",
+        "evidenceIds": [
+          "changi-t5-project",
+          "changi-tunnel-award-2025",
+          "changi-supplier-route"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "evidence": [
+        "changi-supplier-route",
+        "changi-t5-project",
+        "changi-tunnel-award-2025"
+      ],
+      "context": []
+    },
+    {
+      "id": "micron-collaboration",
+      "account": "Micron Technology",
+      "readiness": "Watchlist",
+      "research": "Strategic fit",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        },
+        {
+          "label": "Evidence review",
+          "status": "unknown",
+          "reason": "Event support is missing, changed, rejected, superseded or conflicting. Review the event before advancing dependent opportunities."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access"
+      ],
+      "scale": "Room count, existing estate and value unquantified.",
+      "unknowns": [
+        "Room count and intended use",
+        "Approved meeting platforms",
+        "Existing AV contract and local integrator",
+        "Design and commissioning milestone"
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": 1,
+        "scale": null,
+        "access": null,
+        "feasibility": 1
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": "2026-10-16T16:27:45Z"
+      },
+      "event": {
+        "id": "event-1ced10099cb076b7ab912323",
+        "title": "New Singapore wafer fab and co-located R&D programme",
+        "eventDate": "2026-01-27",
+        "accountId": "micron",
+        "facilityId": null,
+        "claimType": "source-supported event",
+        "evidenceIds": [
+          "micron-fab-2026",
+          "micron-hbm-2025",
+          "micron-suppliers",
+          "micron-10k-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "evidence": [
+        "micron-10k-2026",
+        "micron-fab-2026",
+        "micron-suppliers"
+      ],
+      "context": []
+    },
+    {
+      "id": "lego-endpoint-watchlist",
+      "account": "The LEGO Group",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Buyer and procurement access"
+      ],
+      "scale": "Two distinct sites are documented; endpoint quantities and scope are unknown. Do not combine factory and RDC into a single fleet estimate.",
+      "unknowns": [
+        "Current fleet and service owner",
+        "Any unmet post-opening workflow",
+        "Contracting entity and procurement framework",
+        "Actual 2026 rollout status"
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": 0,
+        "scale": 1,
+        "access": null,
+        "feasibility": 1
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": "2026-10-16T16:27:45Z"
+      },
+      "event": {
+        "id": "event-01b86ecfb4c58b503424e100",
+        "title": "Factory and regional distribution-centre openings in 2025",
+        "eventDate": "2025-09-10",
+        "accountId": "lego",
+        "facilityId": null,
+        "claimType": "source-supported event",
+        "evidenceIds": [
+          "lego-factory-2025",
+          "lego-rdc-2025"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "evidence": [
+        "lego-factory-2025",
+        "lego-rdc-2025"
+      ],
+      "context": []
+    },
+    {
+      "id": "astra-workplace-fit",
+      "account": "Astra International",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Astra's holding-company profile does not verify any subsidiary's CAD fleet; identify the engineering operator and applications first.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-5a7c2f822d2cd149dc86aa1e",
+        "title": "Astra International: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "astra",
+        "facilityId": "astra-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "astra-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "astra-site-1",
+      "evidence": [
+        "astra-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "ayala-land-workplace-fit",
+      "account": "Ayala Land",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Identify whether the construction subsidiary or an external contractor owns drawings and printers; estate hectares are not printer demand.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-3e8d12a4a497e4f009728e94",
+        "title": "Ayala Land: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "ayala-land",
+        "facilityId": "ayala-land-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "ayala-land-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "ayala-land-site-1",
+      "evidence": [
+        "ayala-land-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "bank-mandiri-workplace-fit",
+      "account": "Bank Mandiri",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "A banking footprint does not establish a refresh; branch and head-office purchasing authority must be verified.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-76263431eb4063a4176835e3",
+        "title": "Bank Mandiri: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "bank-mandiri",
+        "facilityId": "bank-mandiri-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "bank-mandiri-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "bank-mandiri-site-1",
+      "evidence": [
+        "bank-mandiri-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "bca-workplace-fit",
+      "account": "Bank Central Asia",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Qualify one bank-owned office and its print contract; customer-account and branch counts are not device quantities.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-b3004eabb6860c943f89ef4e",
+        "title": "Bank Central Asia: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "bca",
+        "facilityId": "bca-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "bca-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "bca-site-1",
+      "evidence": [
+        "bca-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "bdms-workplace-fit",
+      "account": "Bangkok Dusit Medical Services",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "The page contains differing network totals; neither total is used for device sizing. Patient-data and hospital-specific procurement policies control fit.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-3a849cebdd8130c4cf2babb7",
+        "title": "Bangkok Dusit Medical Services: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "bdms",
+        "facilityId": "bdms-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "bdms-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "bdms-site-1",
+      "evidence": [
+        "bdms-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "bdo-workplace-fit",
+      "account": "BDO Unibank",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "SM membership does not establish delegated procurement; keep BDO's requirements and quantities separate from SM's holding-company office.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-b0a6f980b4bf5077bc7445b4",
+        "title": "BDO Unibank: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "bdo",
+        "facilityId": "bdo-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "bdo-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "bdo-site-1",
+      "evidence": [
+        "bdo-profile-2026"
+      ],
+      "context": [
+        "bdo-procurement-role-context-2026"
+      ]
+    },
+    {
+      "id": "capitaland-workplace-fit",
+      "account": "CapitaLand",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "CapitaLand Investment and Development may buy separately; global property holdings are not locally owned meeting rooms.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-87d1cf665ed762d5ad76a7ce",
+        "title": "CapitaLand: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "capitaland",
+        "facilityId": "capitaland-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "capitaland-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "capitaland-site-1",
+      "evidence": [
+        "capitaland-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "cimb-workplace-fit",
+      "account": "CIMB Group",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "CIMB Bank, CIMB Islamic and the holding company have different scopes; historical employee counts are not equipment quantities.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-d894ea981724a9658baab4bb",
+        "title": "CIMB Group: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "cimb",
+        "facilityId": "cimb-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "cimb-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "cimb-site-1",
+      "evidence": [
+        "cimb-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "cp-all-workplace-fit",
+      "account": "CP ALL",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Exclude POS assumptions and franchise-owned devices; IT service subsidiaries may influence standards but authority is unverified.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-1f5a32ea41c4de87c0bd81cb",
+        "title": "CP ALL: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "cp-all",
+        "facilityId": "cp-all-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "cp-all-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "cp-all-site-1",
+      "evidence": [
+        "cp-all-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "dbs-workplace-fit",
+      "account": "DBS Bank (DBS Group)",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "DBS Bank, nominees, trustee and brokerage entities have distinct authority; security standards and refresh timing are unknown.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-31e4aa293ce888fe3cf4e1ce",
+        "title": "DBS Bank (DBS Group): operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "dbs",
+        "facilityId": "dbs-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "dbs-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "dbs-site-1",
+      "evidence": [
+        "dbs-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "fpt-workplace-fit",
+      "account": "FPT Corporation",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Technology and AI service delivery do not prove demand for AI PCs; verify developer applications and local versus cloud compute.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-01ba4a4c61666fb7b16f77b6",
+        "title": "FPT Corporation: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "fpt",
+        "facilityId": "fpt-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "fpt-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "fpt-site-1",
+      "evidence": [
+        "fpt-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "ihh-workplace-fit",
+      "account": "IHH Healthcare",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Select a hospital and legal buyer; patient-data policies, infection control and integration requirements must be confirmed.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-1fb696dae7b3151966d7d832",
+        "title": "IHH Healthcare: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "ihh",
+        "facilityId": "ihh-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "ihh-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "ihh-site-1",
+      "evidence": [
+        "ihh-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "indofood-workplace-fit",
+      "account": "Indofood",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Packaging units do not prove in-house printing; first establish converter ownership, process, substrates, food-contact constraints and press economics.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-fdb3f252ec0688d5ecf60bf1",
+        "title": "Indofood: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "indofood",
+        "facilityId": "indofood-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "indofood-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "indofood-site-1",
+      "evidence": [
+        "indofood-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "jollibee-workplace-fit",
+      "account": "Jollibee Group",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Separate company-owned operators from franchisees; brand growth and restaurant counts do not prove back-office PC demand or POS requirements.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-a5c7dbf98b094af9fc36b90e",
+        "title": "Jollibee Group: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "jollibee",
+        "facilityId": "jollibee-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "jollibee-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "jollibee-site-1",
+      "evidence": [
+        "jollibee-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "maybank-workplace-fit",
+      "account": "Maybank",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "A supplier enquiry is not registration approval or an open tender; validate data security and the existing service contract.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-83087a61eb0ab4e071d959c0",
+        "title": "Maybank: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "maybank",
+        "facilityId": "maybank-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "maybank-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "maybank-site-1",
+      "evidence": [
+        "maybank-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "pldt-workplace-fit",
+      "account": "PLDT",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Separate parent-company employees from Smart and other subsidiaries; subscriber counts are not PC seats and carrier infrastructure is outside scope.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-70840786304d8d7b0c5e210e",
+        "title": "PLDT: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "pldt",
+        "facilityId": "pldt-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "pldt-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "pldt-site-1",
+      "evidence": [
+        "pldt-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "ptt-workplace-fit",
+      "account": "PTT",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Exclude process-control systems, trading execution platforms and HPE infrastructure; room ownership and procurement route remain unknown.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-fdc9ccfded3ba62f7495fad8",
+        "title": "PTT: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "ptt",
+        "facilityId": "ptt-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "ptt-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "ptt-site-1",
+      "evidence": [
+        "ptt-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "scg-workplace-fit",
+      "account": "SCG",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "A holding-company office does not establish plant-level requirements or group-wide buying authority.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-c5cf1d55c2d087546848ce86",
+        "title": "SCG: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "scg",
+        "facilityId": "scg-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "scg-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "scg-site-1",
+      "evidence": [
+        "scg-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "singapore-airlines-workplace-fit",
+      "account": "Singapore Airlines",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Exclude avionics and safety-critical flight systems; fleet renewal and device standards are undisclosed.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-3f902bec9a7bca0ad8cf7623",
+        "title": "Singapore Airlines: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "singapore-airlines",
+        "facilityId": "singapore-airlines-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "singapore-airlines-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "singapore-airlines-site-1",
+      "evidence": [
+        "singapore-airlines-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "singtel-workplace-fit",
+      "account": "Singtel",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Customer connectivity services are not evidence of internal device demand; exclude carrier network and HPE infrastructure.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-2e5557369dd058f81ca4fe15",
+        "title": "Singtel: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "singtel",
+        "facilityId": "singtel-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "singtel-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "singtel-site-1",
+      "evidence": [
+        "singtel-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "sm-investments-workplace-fit",
+      "account": "SM Investments",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Scope is the holding-company workplace only. BDO has its own account record; do not count BDO branches or subsidiary fleets as SM corporate demand.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-13f3ba3642f6d018d5f2c43d",
+        "title": "SM Investments: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "sm-investments",
+        "facilityId": "sm-investments-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "sm-investments-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "sm-investments-site-1",
+      "evidence": [
+        "sm-investments-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "st-engineering-workplace-fit",
+      "account": "ST Engineering",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Identify a non-restricted engineering unit, actual applications and local-versus-remote compute before selecting workstation specifications.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-7dee784e5f79a9497c00fe8d",
+        "title": "ST Engineering: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "st-engineering",
+        "facilityId": "st-engineering-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "st-engineering-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "st-engineering-site-1",
+      "evidence": [
+        "st-engineering-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "telkom-workplace-fit",
+      "account": "Telkom Indonesia",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Telkom parent, Telkomsel and other subsidiaries require separate authority checks; exclude carrier and cloud infrastructure.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-6356489cb5c9949d852eb236",
+        "title": "Telkom Indonesia: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "telkom",
+        "facilityId": "telkom-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "telkom-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "telkom-site-1",
+      "evidence": [
+        "telkom-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "tenaga-workplace-fit",
+      "account": "Tenaga Nasional",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Exclude grid-control OT and server infrastructure; verify software certifications, security zoning and local compute requirements.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-6c4810ab20e418079dc700b0",
+        "title": "Tenaga Nasional: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "tenaga",
+        "facilityId": "tenaga-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "tenaga-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "tenaga-site-1",
+      "evidence": [
+        "tenaga-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "top-glove-workplace-fit",
+      "account": "Top Glove",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Factory count and output are not PC demand; distinguish office devices from validated production controllers.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-2373fc6f9726a05124f69fb9",
+        "title": "Top Glove: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "top-glove",
+        "facilityId": "top-glove-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "top-glove-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "top-glove-site-1",
+      "evidence": [
+        "top-glove-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "vietnam-airlines-workplace-fit",
+      "account": "Vietnam Airlines",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Exclude avionics and safety-critical flight systems; registered-office context does not establish an open device package.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-30dc2b87b75e572a3c9dab26",
+        "title": "Vietnam Airlines: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "vietnam-airlines",
+        "facilityId": "vietnam-airlines-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "vietnam-airlines-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "vietnam-airlines-site-1",
+      "evidence": [
+        "vietnam-airlines-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "viettel-workplace-fit",
+      "account": "Viettel",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "This source identifies a specific business-solutions branch, not all parent-group procurement. Carrier infrastructure and sensitive operational systems are excluded.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-35a1c9868b9bea780c85733f",
+        "title": "Viettel: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "viettel",
+        "facilityId": "viettel-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "viettel-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "viettel-site-1",
+      "evidence": [
+        "viettel-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "vinamilk-workplace-fit",
+      "account": "Vinamilk",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Quality and traceability applications must be verified; exclude industrial automation controllers and do not turn historic factory openings into new buying signals.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-6366356c394fb481b6096ce7",
+        "title": "Vinamilk: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "vinamilk",
+        "facilityId": "vinamilk-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "vinamilk-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "vinamilk-site-1",
+      "evidence": [
+        "vinamilk-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "vingroup-workplace-fit",
+      "account": "Vingroup",
+      "readiness": "Watchlist",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access",
+        "Commercial feasibility"
+      ],
+      "scale": "Value unquantified; equipment quantities unknown. Operating footprint is context and is not converted into device scope.",
+      "unknowns": [
+        "Do not inherit VinFast overseas manufacturing capacity or subsidiary procurement into the holding-company account.",
+        "Current installed fleet, quantities, budget, contract expiry and sourcing timetable.",
+        "Local legal buyer, budget owner, HP account ownership, approved supplier and service coverage."
+      ],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 2,
+        "timing": null,
+        "scale": null,
+        "access": null,
+        "feasibility": null
+      },
+      "procurement": {
+        "explicit": false,
+        "status": "unknown",
+        "deadline": null,
+        "verifiedAt": null
+      },
+      "event": {
+        "id": "event-b79effe6d3ec211eb8e5cc4b",
+        "title": "Vingroup: operating-context fit hypothesis",
+        "eventDate": null,
+        "accountId": "vingroup",
+        "facilityId": "vingroup-site-1",
+        "claimType": "hypothesis",
+        "evidenceIds": [
+          "vingroup-profile-2026"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "facilityId": "vingroup-site-1",
+      "evidence": [
+        "vingroup-profile-2026"
+      ],
+      "context": []
+    },
+    {
+      "id": "changi-afisms-excluded",
+      "account": "Changi Airport Group",
+      "readiness": "Blocked or excluded",
+      "research": "Watchlist",
+      "gates": [
+        {
+          "label": "HP Inc. product fit",
+          "status": "blocked",
+          "reason": "Relevant product fit is unsupported."
+        },
+        {
+          "label": "Procurement status",
+          "status": "unknown",
+          "reason": "No verified open purchasing notice. Business events are not purchase intent."
+        },
+        {
+          "label": "Route to supply",
+          "status": "unknown",
+          "reason": "Proposed route only; HP ownership, authorization and regional availability unverified."
+        },
+        {
+          "label": "Evidence review",
+          "status": "unknown",
+          "reason": "Contradicting evidence requires qualification."
+        }
+      ],
+      "missing": [
+        "Supported scale",
+        "Buyer and procurement access"
+      ],
+      "scale": "Notice quantity and value undisclosed; no HP Inc. addressable scope established.",
+      "unknowns": [
+        "Whether a distinct HP Inc. endpoint lot exists",
+        "Tender amendments and participation rules"
+      ],
+      "dimensions": {
+        "evidence": 3,
+        "fit": 0,
+        "timing": 3,
+        "scale": null,
+        "access": null,
+        "feasibility": 0
+      },
+      "procurement": {
+        "explicit": true,
+        "status": "open",
+        "deadline": "2026-11-05T16:00:00+08:00",
+        "verifiedAt": "2026-10-16T16:27:45Z",
+        "noticeId": "2026/00635"
+      },
+      "event": {
+        "id": "event-2aedf44da1653d8a7a433ec9",
+        "title": "CAG security-infrastructure notice 2026/00635",
+        "eventDate": "2026-09-28",
+        "accountId": "changi",
+        "facilityId": null,
+        "claimType": "source-supported event",
+        "evidenceIds": [
+          "changi-afisms-notice"
+        ],
+        "clusterPolicy": "Account + normalized event label + actual event date + explicit facility; no fuzzy auto-merge"
+      },
+      "evidence": [
+        "changi-afisms-notice"
+      ],
+      "context": []
+    }
+  ]
+}

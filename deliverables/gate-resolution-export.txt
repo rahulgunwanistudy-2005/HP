@@ -1,0 +1,5 @@
+
+> hp-account-intelligence@1.0.0 export:briefs
+> node --import tsx scripts/export-briefs.ts
+
+Exported 35 evidence-linked Markdown and print briefs.

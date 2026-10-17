@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-17T08:15:47.785Z",
+  "preserved": {
+    "documents": {
+      "missingOriginalRows": 0,
+      "changedOriginalRows": 0
+    },
+    "document_versions": {
+      "missingOriginalRows": 0,
+      "changedOriginalRows": 0
+    },
+    "research_runs": {
+      "missingOriginalRows": 0,
+      "changedOriginalRows": 0
+    },
+    "actions": {
+      "missingOriginalRows": 0,
+      "changedOriginalRows": 0
+    },
+    "analyst_notes": {
+      "missingOriginalRows": 0,
+      "changedOriginalRows": 0
+    },
+    "opportunities": {
+      "missingOriginalRows": 0,
+      "changedOriginalRows": 1
+    },
+    "events": {
+      "missingOriginalRows": 0,
+      "changedOriginalRows": 0
+    }
+  },
+  "metrics": {
+    "accounts": 35,
+    "territoryProspects": 35,
+    "screenedProspects": 30,
+    "deepAccounts": 5,
+    "screenedAccounts": 50,
+    "reviewedOpportunities": 37,
+    "opportunities": 37,
+    "uniqueEvents": 36,
+    "sourceFamilies": 8,
+    "publisherOrigins": 44,
+    "independentOrigins": 34,
+    "staleFindings": 9,
+    "unresolvedBuyers": 113,
+    "failedRuns": 3,
+    "activeProcurement": 0
+  },
+  "opportunityContextAdditions": [
+    {
+      "id": "bdo-workplace-fit",
+      "before": [],
+      "after": [
+        "bdo-procurement-role-context-2026"
+      ],
+      "otherHypothesisFieldsUnchanged": true
+    }
+  ],
+  "archivedAccounts": [
+    {
+      "id": "epac",
+      "reason": "User removed USA and Canada reference cases from the prospect workspace."
+    },
+    {
+      "id": "dreamworks",
+      "reason": "User removed USA and Canada reference cases from the prospect workspace."
+    }
+  ],
+  "enrichedAccounts": 35,
+  "foreignKeyViolations": 0,
+  "newBuyerContextDocument": "bdo-procurement-role-context-2026"
+}

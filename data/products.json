@@ -1,0 +1,553 @@
+[
+  {
+    "id": "commercial-pcs",
+    "name": "Commercial PCs, monitors and peripherals",
+    "category": "Commercial notebooks, desktops, monitors, and peripherals",
+    "families": [
+      "HP EliteBook",
+      "HP EliteDesk / EliteStudio",
+      "HP business monitors and docks"
+    ],
+    "capabilities": [
+      "Enterprise notebooks and desktops for mobile and office productivity.",
+      "Commercial displays and docks can support a validated desk or collaboration configuration."
+    ],
+    "workloads": [
+      "Business productivity",
+      "Secure office and hybrid work",
+      "Multitasking and desk connectivity"
+    ],
+    "prerequisites": [
+      "Confirm users, workloads, operating system, application compatibility, security and management requirements.",
+      "Validate port, power, display, docking and peripheral compatibility for the selected configurations.",
+      "AI-specific configurations require relevant local software use cases and compatibility; an AI partnership is not a device requirement."
+    ],
+    "sources": [
+      {
+        "url": "https://www.hp.com/us-en/laptops/work-laptops/elitebooks.html",
+        "title": "HP EliteBook Business PCs  | HP® Official Site",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": "2026-10-06",
+        "publicationDateNote": "HP site published-date metadata; page update, not necessarily initial product release.",
+        "pagePublishedMetadata": "06-Oct-2026 11:05:20",
+        "retrievedAt": "2026-10-16T16:19:57Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "full_page",
+        "httpStatus": 200,
+        "extractionMethod": "Firecrawl live scrape (maxAge 0), analyst selected passage",
+        "excerpt": "HP EliteBook laptops combine powerful processors with enterprise-grade security, long battery life and AI-assisted collaboration tools"
+      },
+      {
+        "url": "https://www.hp.com/us-en/desktops/business/elitedesk.html",
+        "title": "HP Elite Desktops and AiO Series  | HP® Official Site",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": "2026-05-21",
+        "publicationDateNote": "HP site published-date metadata; page update, not necessarily initial product release.",
+        "pagePublishedMetadata": "21-May-2026 10:01:19",
+        "retrievedAt": "2026-10-16T16:19:57Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "full_page",
+        "httpStatus": 200,
+        "extractionMethod": "Firecrawl live scrape (maxAge 0), analyst selected passage",
+        "excerpt": "Designed for enterprise performance with versatile deployment options, advanced security, and seamless connectivity."
+      }
+    ],
+    "vendor": "HP Inc.",
+    "scope": "HP Inc. only; excludes HPE servers, storage and networking",
+    "verifiedAt": "2026-10-16T16:22:46Z",
+    "verificationStatus": "family-capabilities-reviewed",
+    "reviewStatus": "analyst_reviewed",
+    "regionalAvailability": "unresolved",
+    "availabilityNote": "Official material reviewed is primarily US English. Territory is unverified; local availability, certifications, service coverage and route to supply must be checked.",
+    "prerequisiteNote": "Qualification checklist derived by the analyst; source-backed technical restrictions are identified explicitly.",
+    "exactModelRecommendation": false
+  },
+  {
+    "id": "workstations",
+    "name": "HP Z professional workstations",
+    "category": "Professional workstations and specialized computing",
+    "families": [
+      "HP ZBook mobile workstations",
+      "HP Z desktop workstations"
+    ],
+    "capabilities": [
+      "Professional compute configurations for engineering, design, media and data workloads.",
+      "Select workstation configurations offer ISV-certified professional software compatibility."
+    ],
+    "workloads": [
+      "3D CAD / BIM",
+      "Rendering and simulation",
+      "Video editing and VFX",
+      "Data analysis and local AI where validated"
+    ],
+    "prerequisites": [
+      "Validate the actual professional applications and their certification requirements.",
+      "Size CPU, professional GPU, memory, storage and thermal requirements against representative workloads.",
+      "Distinguish local workstation workloads from cloud or data-center compute; HPE servers are outside this catalog."
+    ],
+    "sources": [
+      {
+        "url": "https://www.hp.com/us-en/workstations/mobile-workstation-pc.html",
+        "title": "HP ZBook Mobile Workstation PCs  | HP® Official Site",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": "2026-10-01",
+        "publicationDateNote": "HP site published-date metadata; page update, not necessarily initial product release.",
+        "pagePublishedMetadata": "01-Oct-2026 03:07:15",
+        "retrievedAt": "2026-10-16T16:19:57Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "full_page",
+        "httpStatus": 200,
+        "extractionMethod": "Firecrawl live scrape (maxAge 0), analyst selected passage",
+        "excerpt": "HP ZBooks are mobile workstations designed for professional workloads such as 3D modeling, video editing, data analysis, and engineering applications."
+      }
+    ],
+    "vendor": "HP Inc.",
+    "scope": "HP Inc. only; excludes HPE servers, storage and networking",
+    "verifiedAt": "2026-10-16T16:22:46Z",
+    "verificationStatus": "family-capabilities-reviewed",
+    "reviewStatus": "analyst_reviewed",
+    "regionalAvailability": "unresolved",
+    "availabilityNote": "Official material reviewed is primarily US English. Territory is unverified; local availability, certifications, service coverage and route to supply must be checked.",
+    "prerequisiteNote": "Qualification checklist derived by the analyst; source-backed technical restrictions are identified explicitly.",
+    "exactModelRecommendation": false
+  },
+  {
+    "id": "poly-collaboration",
+    "name": "HP Poly collaboration",
+    "category": "Poly collaboration and workplace equipment",
+    "families": [
+      "HP Poly video conferencing",
+      "HP Poly headsets and voice endpoints"
+    ],
+    "capabilities": [
+      "Room video bars, modular systems and cameras for supported collaboration platforms.",
+      "Headsets, voice endpoints and management software are part of the broader HP Poly portfolio."
+    ],
+    "workloads": [
+      "Meeting-room collaboration",
+      "Hybrid meetings",
+      "Individual audio and voice workflows"
+    ],
+    "prerequisites": [
+      "Survey room size, acoustics, camera framing, accessibility and network conditions.",
+      "Verify current certification of the exact endpoint and intended Teams, Zoom or Google Meet deployment.",
+      "Confirm platform licenses, room-compute / BYOD architecture, installation and management responsibilities."
+    ],
+    "sources": [
+      {
+        "url": "https://www.hp.com/us-en/poly/video-conferencing.html",
+        "title": "HP Poly Video Conferencing Solutions  | HP® Official Site",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": "2026-10-13",
+        "publicationDateNote": "HP site published-date metadata; page update, not necessarily initial product release.",
+        "pagePublishedMetadata": "13-Oct-2026 11:39:55",
+        "retrievedAt": "2026-10-16T16:22:46Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "full_page",
+        "httpStatus": 200,
+        "extractionMethod": "Firecrawl live scrape (maxAge 0), analyst selected passage",
+        "excerpt": "Certified for leading collaboration platforms, including Microsoft Teams, Zoom, and Google Meet."
+      },
+      {
+        "url": "https://www.hp.com/us-en/poly.html",
+        "title": "HP Poly Video & Voice Solutions - Formerly Polycom & Plantronics",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": null,
+        "publicationDateNote": "No reliable publication date disclosed in material reviewed.",
+        "pagePublishedMetadata": null,
+        "retrievedAt": "2026-10-16T16:19:57Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "search_excerpt",
+        "httpStatus": null,
+        "extractionMethod": "Firecrawl search excerpt, analyst review",
+        "excerpt": "Combine headsets, video conferencing, phones and software to deliver secure and seamless collaboration experiences for every work environment."
+      }
+    ],
+    "vendor": "HP Inc.",
+    "scope": "HP Inc. only; excludes HPE servers, storage and networking",
+    "verifiedAt": "2026-10-16T16:22:46Z",
+    "verificationStatus": "family-capabilities-reviewed",
+    "reviewStatus": "analyst_reviewed",
+    "regionalAvailability": "unresolved",
+    "availabilityNote": "Official material reviewed is primarily US English. Territory is unverified; local availability, certifications, service coverage and route to supply must be checked.",
+    "prerequisiteNote": "Qualification checklist derived by the analyst; source-backed technical restrictions are identified explicitly.",
+    "exactModelRecommendation": false
+  },
+  {
+    "id": "business-print",
+    "name": "HP enterprise printers and multifunction devices",
+    "category": "Business printers and multifunction devices",
+    "families": [
+      "HP LaserJet Enterprise",
+      "HP LaserJet Managed"
+    ],
+    "capabilities": [
+      "Office printing and multifunction document capture.",
+      "Selected enterprise configurations support document workflows, finishing and fleet management."
+    ],
+    "workloads": [
+      "Office documents and presentations",
+      "Workgroup print, copy and scan",
+      "Document digitization"
+    ],
+    "prerequisites": [
+      "Measure page volume, color mix, paper sizes, scan destinations, finishing and uptime requirements.",
+      "Validate supported operating systems, security controls and document-system integration.",
+      "An office opening or workforce size alone does not establish printer quantity or an open sourcing decision."
+    ],
+    "sources": [
+      {
+        "url": "https://www.hp.com/us-en/printers/enterprise-printers.html",
+        "title": "Enterprise Printers - Managed & Workgroup Printers   | HP® Official Site",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": "2026-09-01",
+        "publicationDateNote": "HP site published-date metadata; page update, not necessarily initial product release.",
+        "pagePublishedMetadata": "01-Sep-2026 08:02:22",
+        "retrievedAt": "2026-10-16T16:19:57Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "full_page",
+        "httpStatus": 200,
+        "extractionMethod": "Firecrawl live scrape (maxAge 0), analyst selected passage",
+        "excerpt": "Ideal for small teams that need fast, color printing and secure document digitization."
+      }
+    ],
+    "vendor": "HP Inc.",
+    "scope": "HP Inc. only; excludes HPE servers, storage and networking",
+    "verifiedAt": "2026-10-16T16:22:46Z",
+    "verificationStatus": "family-capabilities-reviewed",
+    "reviewStatus": "analyst_reviewed",
+    "regionalAvailability": "unresolved",
+    "availabilityNote": "Official material reviewed is primarily US English. Territory is unverified; local availability, certifications, service coverage and route to supply must be checked.",
+    "prerequisiteNote": "Qualification checklist derived by the analyst; source-backed technical restrictions are identified explicitly.",
+    "exactModelRecommendation": false
+  },
+  {
+    "id": "managed-print",
+    "name": "Managed print and document workflow",
+    "category": "Managed print and document-workflow services",
+    "families": [
+      "HP Managed Print Services",
+      "HP Document Workflow Solutions"
+    ],
+    "capabilities": [
+      "Print assessment, fleet management and proactive monitoring.",
+      "Workflow automation and document process assessment can accompany a qualified managed print engagement."
+    ],
+    "workloads": [
+      "Distributed print fleets",
+      "Document workflow improvement",
+      "Print security and service operations"
+    ],
+    "prerequisites": [
+      "Assess current print contracts, expiry and termination rights, fleet ownership and service scope.",
+      "Map document capture, retention, privacy and integration requirements with the process owner.",
+      "Verify regional service coverage and the HP or authorized partner route before recommending an offer."
+    ],
+    "sources": [
+      {
+        "url": "https://www.hp.com/us-en/services/workforce-solutions/document-printing/managed-print-services.html",
+        "title": "HP Managed Print Services - Cloud Printing Solutions  | HP® Official Site",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": "2026-10-08",
+        "publicationDateNote": "HP site published-date metadata; page update, not necessarily initial product release.",
+        "pagePublishedMetadata": "08-Oct-2026 12:34:17",
+        "retrievedAt": "2026-10-16T16:19:57Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "full_page",
+        "httpStatus": 200,
+        "extractionMethod": "Firecrawl live scrape (maxAge 0), analyst selected passage",
+        "excerpt": "Achieve IT efficiency and cost savings through proactive monitoring, fleet management, and workflow automation"
+      }
+    ],
+    "vendor": "HP Inc.",
+    "scope": "HP Inc. only; excludes HPE servers, storage and networking",
+    "verifiedAt": "2026-10-16T16:22:46Z",
+    "verificationStatus": "family-capabilities-reviewed",
+    "reviewStatus": "analyst_reviewed",
+    "regionalAvailability": "unresolved",
+    "availabilityNote": "Official material reviewed is primarily US English. Territory is unverified; local availability, certifications, service coverage and route to supply must be checked.",
+    "prerequisiteNote": "Qualification checklist derived by the analyst; source-backed technical restrictions are identified explicitly.",
+    "exactModelRecommendation": false
+  },
+  {
+    "id": "large-format",
+    "name": "Large-format and graphics printing",
+    "category": "Large-format and graphics printing",
+    "families": [
+      "HP DesignJet",
+      "HP PageWide XL",
+      "HP Latex"
+    ],
+    "capabilities": [
+      "Technical, graphics and photographic large-format output by product family.",
+      "HP Latex supports signage and decorative applications including high-volume production configurations."
+    ],
+    "workloads": [
+      "Architectural and engineering plans",
+      "Maps and graphics",
+      "Signage, vehicle wraps and décor"
+    ],
+    "prerequisites": [
+      "Confirm whether print is produced internally or bought from a print-service provider.",
+      "Validate substrate, width, durability, color, finishing, throughput and installation requirements.",
+      "Use specialist print partners and sample testing where appropriate."
+    ],
+    "sources": [
+      {
+        "url": "https://www.hp.com/us-en/printers/large-format.html",
+        "title": "HP Large-format printers and plotters",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": null,
+        "publicationDateNote": "No reliable publication date disclosed in material reviewed.",
+        "pagePublishedMetadata": null,
+        "retrievedAt": "2026-10-16T16:19:57Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "search_excerpt",
+        "httpStatus": null,
+        "extractionMethod": "Firecrawl search excerpt, analyst review",
+        "excerpt": "Print fine art, canvas, and signage with large-format photo and map printers."
+      },
+      {
+        "url": "https://www.hp.com/us-en/printers/large-format/latex-printers.html",
+        "title": "HP Latex large-format printing  | HP® Official Site",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": "2026-09-22",
+        "publicationDateNote": "HP site published-date metadata; page update, not necessarily initial product release.",
+        "pagePublishedMetadata": "22-Sep-2026 10:32:28",
+        "retrievedAt": "2026-10-16T16:22:46Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "full_page",
+        "httpStatus": 200,
+        "extractionMethod": "Firecrawl live scrape (maxAge 0), analyst selected passage",
+        "excerpt": "Tackle high volumes of large-format signage and decorative applications, ensuring high-quality printing with HP Latex Industrial inkjet printers."
+      }
+    ],
+    "vendor": "HP Inc.",
+    "scope": "HP Inc. only; excludes HPE servers, storage and networking",
+    "verifiedAt": "2026-10-16T16:22:46Z",
+    "verificationStatus": "family-capabilities-reviewed",
+    "reviewStatus": "analyst_reviewed",
+    "regionalAvailability": "unresolved",
+    "availabilityNote": "Official material reviewed is primarily US English. Territory is unverified; local availability, certifications, service coverage and route to supply must be checked.",
+    "prerequisiteNote": "Qualification checklist derived by the analyst; source-backed technical restrictions are identified explicitly.",
+    "exactModelRecommendation": false
+  },
+  {
+    "id": "industrial-print",
+    "name": "HP industrial digital presses",
+    "category": "Industrial digital printing",
+    "families": [
+      "HP Indigo digital presses",
+      "HP PageWide industrial web and corrugated presses"
+    ],
+    "capabilities": [
+      "Digital label, flexible packaging, folding-carton, corrugated, publishing and commercial print by press family.",
+      "Industrial print workflows and automation complement an appropriately sized production press."
+    ],
+    "workloads": [
+      "Packaging conversion",
+      "Digital labels and flexible packaging",
+      "Corrugated production",
+      "Commercial print and publishing"
+    ],
+    "prerequisites": [
+      "Identify the converter or print-service provider operating the press, rather than assuming the brand owner buys production equipment.",
+      "Validate applications, substrates, certified materials, production economics, finishing, facilities and service requirements.",
+      "A signed press agreement is evidence of committed scope; investigate separately whether additional scope remains open."
+    ],
+    "sources": [
+      {
+        "url": "https://www.hp.com/us-en/industrial-digital-presses.html",
+        "title": "Digital Press - HP Industrial Digital Presses  | HP® Official Site",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": "2026-09-22",
+        "publicationDateNote": "HP site published-date metadata; page update, not necessarily initial product release.",
+        "pagePublishedMetadata": "22-Sep-2026 08:19:00",
+        "retrievedAt": "2026-10-16T16:19:57Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "full_page",
+        "httpStatus": 200,
+        "extractionMethod": "Firecrawl live scrape (maxAge 0), analyst selected passage",
+        "excerpt": "Capture the rapid growth in digital production of flexible packaging, folding carton, and corrugated packaging."
+      }
+    ],
+    "vendor": "HP Inc.",
+    "scope": "HP Inc. only; excludes HPE servers, storage and networking",
+    "verifiedAt": "2026-10-16T16:22:46Z",
+    "verificationStatus": "family-capabilities-reviewed",
+    "reviewStatus": "analyst_reviewed",
+    "regionalAvailability": "unresolved",
+    "availabilityNote": "Official material reviewed is primarily US English. Territory is unverified; local availability, certifications, service coverage and route to supply must be checked.",
+    "prerequisiteNote": "Qualification checklist derived by the analyst; source-backed technical restrictions are identified explicitly.",
+    "exactModelRecommendation": false
+  },
+  {
+    "id": "workforce-services",
+    "name": "Workforce, device and endpoint services",
+    "category": "Workforce, device, and endpoint services",
+    "families": [
+      "HP Managed Device Services",
+      "HP Workforce Experience Platform",
+      "HP endpoint and lifecycle services"
+    ],
+    "capabilities": [
+      "Device selection, provisioning, deployment, monitoring, management and support.",
+      "Telemetry-supported device experience and lifecycle assessment where the service and agent are supported."
+    ],
+    "workloads": [
+      "Enterprise device lifecycle",
+      "Endpoint management",
+      "Device experience improvement"
+    ],
+    "prerequisites": [
+      "HP Managed Device Services monitoring requires the HP Insights agent and internet access; validate consent, telemetry, security and system requirements.",
+      "Service scope depends on selections, region and partner; financing and customer eligibility can apply.",
+      "Some endpoint / professional services require separately purchased Microsoft licenses; confirm exact offer prerequisites rather than generalizing them."
+    ],
+    "sources": [
+      {
+        "url": "https://www.hp.com/us-en/services/workforce-solutions/workforce-computing/managed-device-services.html",
+        "title": "Managed Device Services - Device Lifecycle Management  | HP® Official Site",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": "2026-03-27",
+        "publicationDateNote": "HP site published-date metadata; page update, not necessarily initial product release.",
+        "pagePublishedMetadata": "27-Mar-2026 07:13:53",
+        "retrievedAt": "2026-10-16T16:19:57Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "full_page",
+        "httpStatus": 200,
+        "extractionMethod": "Firecrawl live scrape (maxAge 0), analyst selected passage",
+        "excerpt": "HP Managed Device Services requirements may vary by region or by Authorized HP Managed Device Services Partner."
+      }
+    ],
+    "vendor": "HP Inc.",
+    "scope": "HP Inc. only; excludes HPE servers, storage and networking",
+    "verifiedAt": "2026-10-16T16:22:46Z",
+    "verificationStatus": "family-capabilities-reviewed",
+    "reviewStatus": "analyst_reviewed",
+    "regionalAvailability": "unresolved",
+    "availabilityNote": "Official material reviewed is primarily US English. Territory is unverified; local availability, certifications, service coverage and route to supply must be checked.",
+    "prerequisiteNote": "Qualification checklist derived by the analyst; source-backed technical restrictions are identified explicitly.",
+    "exactModelRecommendation": false
+  },
+  {
+    "id": "industrial-3d",
+    "name": "HP industrial 3D printing",
+    "category": "Industrial 3D printing",
+    "families": [
+      "HP Multi Jet Fusion",
+      "HP Metal Jet"
+    ],
+    "capabilities": [
+      "MJF functional prototyping and end-part polymer production.",
+      "Metal Jet binder-jetting production workflows for appropriate metal parts; full workflow includes curing and sintering."
+    ],
+    "workloads": [
+      "Functional prototypes and end-use parts",
+      "Qualified polymer part production",
+      "Qualified metal part production"
+    ],
+    "prerequisites": [
+      "Validate part geometry, qualified materials, tolerances, process capability, throughput and total workflow economics with a specialist.",
+      "Assess facilities, powder handling, post-processing, curing / sintering, safety and quality assurance requirements.",
+      "Establish whether a production partner can meet demand before proposing in-house equipment.",
+      "The catalog includes family fit only. Announced MJF 1200 full solution is described as available from early 2027, so do not treat it as available at this review date."
+    ],
+    "sources": [
+      {
+        "url": "https://www.hp.com/us-en/printers/3d-printers/products/multi-jet-technology.html",
+        "title": "HP Multi Jet Fusion 3D Printing Technology | HP® Official Site",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": "2026-04-15",
+        "publicationDateNote": "HP site published-date metadata; page update, not necessarily initial product release.",
+        "pagePublishedMetadata": "15-Apr-2026 07:54:47",
+        "retrievedAt": "2026-10-16T16:19:57Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "full_page",
+        "httpStatus": 200,
+        "extractionMethod": "Firecrawl live scrape (maxAge 0), analyst selected passage",
+        "excerpt": "offering a scalable platform that supports functional prototyping to final part production"
+      },
+      {
+        "url": "https://www.hp.com/us-en/printers/3d-printers/products/metal-jet.html",
+        "title": "Revolutionize metal 3D printing with HP scalable platform configurations | HP® Official Site",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": "2026-09-01",
+        "publicationDateNote": "HP site published-date metadata; page update, not necessarily initial product release.",
+        "pagePublishedMetadata": "01-Sep-2026 06:14:54",
+        "retrievedAt": "2026-10-16T16:22:46Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "full_page",
+        "httpStatus": 200,
+        "extractionMethod": "Firecrawl live scrape (maxAge 0), analyst selected passage",
+        "excerpt": "the metal powder, creating a green part that is later cured and sintered to achieve its final properties."
+      },
+      {
+        "url": "https://www.hp.com/us-en/newsroom/press-releases/2026/hp-introduces-mjf-1200-3d-printer.html",
+        "title": "HP Marks a Decade of Additive Manufacturing Innovation by Introducing the New HP MJF 1200 3D Printer at RAPID+TCT",
+        "publisher": "HP Inc.",
+        "sourceFamily": "official_product_material",
+        "publishedAt": null,
+        "publicationDateNote": "No reliable publication date disclosed in material reviewed.",
+        "pagePublishedMetadata": null,
+        "retrievedAt": "2026-10-16T16:19:57Z",
+        "reviewedAt": "2026-10-16T16:22:46Z",
+        "reviewStatus": "analyst_reviewed",
+        "sourceStatus": "reviewed-manually",
+        "retrievalCoverage": "search_excerpt",
+        "httpStatus": null,
+        "extractionMethod": "Firecrawl search excerpt, analyst review",
+        "excerpt": "The full solution will be available from early 2027."
+      }
+    ],
+    "vendor": "HP Inc.",
+    "scope": "HP Inc. only; excludes HPE servers, storage and networking",
+    "verifiedAt": "2026-10-16T16:22:46Z",
+    "verificationStatus": "family-capabilities-reviewed",
+    "reviewStatus": "analyst_reviewed",
+    "regionalAvailability": "unresolved",
+    "availabilityNote": "Official material reviewed is primarily US English. Territory is unverified; local availability, certifications, service coverage and route to supply must be checked.",
+    "prerequisiteNote": "Qualification checklist derived by the analyst; source-backed technical restrictions are identified explicitly.",
+    "exactModelRecommendation": false
+  }
+]
+

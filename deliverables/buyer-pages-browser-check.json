@@ -1,0 +1,237 @@
+[
+  {
+    "name": "Astra International",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true
+  },
+  {
+    "name": "Ayala Land",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true
+  },
+  {
+    "name": "Bangkok Dusit Medical Services",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true
+  },
+  {
+    "name": "Bank Central Asia",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true
+  },
+  {
+    "name": "Bank Mandiri",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true
+  },
+  {
+    "name": "BDO Unibank",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true
+  },
+  {
+    "name": "CapitaLand",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true
+  },
+  {
+    "name": "Changi Airport Group",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true
+  },
+  {
+    "name": "CIMB Group",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true
+  },
+  {
+    "name": "CP ALL",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true
+  },
+  {
+    "name": "DBS Bank (DBS Group)",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "FPT Corporation",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "IHH Healthcare",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Indofood",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Jollibee Group",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Kasikornbank",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Maybank",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Micron Technology",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "PLDT",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "PTT",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "SCG",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Singapore Airlines",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Singtel",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "SM Investments",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "ST Engineering",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Sunway Healthcare Group",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Telkom Indonesia",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Tenaga Nasional",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "The LEGO Group",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Thye Hua Kwan Moral Charities",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Top Glove",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Vietnam Airlines",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Viettel",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Vinamilk",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  },
+  {
+    "name": "Vingroup",
+    "whoBuys": true,
+    "hasPlaceholder": false,
+    "report15": true,
+    "shows17": false
+  }
+]

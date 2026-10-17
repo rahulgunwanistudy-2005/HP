@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-17T11:35:44.157Z",
+  "sync": {
+    "inserted": 16,
+    "updated": 2,
+    "preserved": 787,
+    "relationshipConflicts": [
+      "epac-incremental-print/epac-hp-agreement-2026: kept analyst contradicts",
+      "dreamworks-workstation-review/dreamworks-lenovo-2025: kept analyst contradicts"
+    ],
+    "at": "2026-10-17T11:35:44.052Z"
+  },
+  "reviewedOpportunities": 7,
+  "publicAccessAssessed": 0,
+  "sourceRelationshipsReviewed": [
+    "micron-engineering",
+    "micron-collaboration",
+    "sunway-endpoints",
+    "changi-construction-print",
+    "changi-afisms-excluded",
+    "thk-print-procurement",
+    "ptt-workplace-fit"
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "version": "gate-resolution-2026-10-17-v3",
+  "reviewedAt": "2026-10-17T11:21:49.227831+00:00",
+  "method": "Source-specific review. Public process is distinct from seller authorization; quantities distinct from money; events distinct from purchase intent.",
+  "documents": {
+    "tenaga": [
+      {
+        "id": "tnbr-workstation-q26a-2026",
+        "url": "https://www.tnb.com.my/assets/tender_price/Tender_Notice_-TNBR_Q26A_2026.pdf",
+        "title": "TNB Research workstation RFx4000054529 / TNBR Q26A 2026",
+        "publisher": "TNB",
+        "family": "Procurement notices",
+        "origin": "TNB Group",
+        "independenceGroup": "Tenaga Nasional",
+        "publishedAt": "2026-10-14",
+        "eventDate": "2026-10-14",
+        "retrievedAt": "2026-10-17T11:21:49.227831+00:00",
+        "reviewedAt": "2026-10-17T11:21:49.227831+00:00",
+        "passage": "THE SUPPLY AND DELIVERY OF ONE (1) HIGH-PERFORMANCE PROFESSIONAL WORKSTATION",
+        "claim": "TNB Research Sdn. Bhd. notice requests one high-performance professional workstation; opens 14 October and closes 21 October 2026 at 15:00 Malaysia time. SUS registration, updated certificates and MOF categories 210101 and 210102 are stated. The notice names MUHAMAD ADIB BIN BAHARI and NIK ZAINUDDIN BIN NIK ABDULLAH as technical enquiry contacts, plus tnbrprocurement@tnb.com.my for general enquiries. Tender fee is free; this is not an equipment price.",
+        "section": "Public notice pp.1–2; dates, MOF categories, general and technical enquiries, SCMS/SUS rules",
+        "limitations": "Two-page public notice reviewed in full. Detailed technical pack is acquired through SCMS/SUS and was not accessed. No device price, budget, delivery address, approved brand, award or bidder-specific eligibility established. Technical contacts are not asserted to hold financial approval authority.",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Fresh public retrieval through Firecrawl; manually reviewed extract",
+        "retrievalDatePrecision": "Review-session import time; actual source event/publication dates retained separately.",
+        "sourceSnapshotAt": null,
+        "cacheState": "not supplied",
+        "captureId": "01a1490e-af49-75c3-94c3-00e32786a225",
+        "independence": "Same TNB corporate group as the parent operating profile; not independent corroboration."
+      },
+      {
+        "id": "tnbr-workstation-q26-historical",
+        "url": "https://www.tnb.com.my/assets/tender_price/Tender_Notice_-TNBR_Q26_2026.pdf",
+        "title": "Historical TNBR Q26 2026 workstation notice RFx4000054052",
+        "publisher": "TNB",
+        "family": "Procurement notices",
+        "origin": "TNB Group",
+        "independenceGroup": "Tenaga Nasional",
+        "publishedAt": "2026-07-28",
+        "eventDate": "2026-07-28",
+        "retrievedAt": "2026-10-17T11:21:49.227831+00:00",
+        "reviewedAt": "2026-10-17T11:21:49.227831+00:00",
+        "passage": "28 / 07 / 2026 15:00",
+        "claim": "The earlier similarly titled one-workstation notice opened 28 July and closed 7 August 2026 at 15:00 Malaysia time. It is expired. The October Q26A notice is a separate identifier; no explicit cancellation, award or formal replacement relationship was established.",
+        "section": "Public notice p.1",
+        "limitations": "Historical context only. Do not count this and the October notice as two units of active demand; no formal supersession or award is claimed.",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Fresh public retrieval through Firecrawl; manually reviewed extract",
+        "retrievalDatePrecision": "Review-session import time; actual source event/publication dates retained separately.",
+        "sourceSnapshotAt": null,
+        "cacheState": "not supplied",
+        "captureId": "01a14990-db74-731b-8af0-4b96968a007d",
+        "independence": "Same TNB corporate group as the parent operating profile; not independent corroboration."
+      },
+      {
+        "id": "tnbr-kajang-location",
+        "url": "https://www.tnb.com.my/doing-business-with-tnb/suppliers/our-requirements/product-certification-and-product-inspection-scheme/",
+        "title": "TNB official Product Certification and Product Inspection Scheme",
+        "publisher": "TNB",
+        "family": "Leadership and supplier-registration pages",
+        "origin": "TNB Group",
+        "independenceGroup": "Tenaga Nasional",
+        "publishedAt": null,
+        "eventDate": null,
+        "retrievedAt": "2026-10-17T11:21:49.227831+00:00",
+        "reviewedAt": "2026-10-17T11:21:49.227831+00:00",
+        "passage": "43000 Kajang, Selangor Darul Ehsan",
+        "claim": "TNB identifies TNB Research Sdn. Bhd. as its wholly owned subsidiary and publishes Quality Assurance Services at 1 Lorong Air Hitam, Kawasan Institusi Penyelidikan, 43000 Kajang, Selangor. This supports Malaysian buyer presence, not the workstation delivery address.",
+        "section": "Main content",
+        "limitations": "Undated operating-location and group relationship context only. General product-certification rules do not override notice-specific requirements. The workstation deployment and delivery address remain to confirm.",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Fresh public retrieval through Firecrawl; manually reviewed extract",
+        "retrievalDatePrecision": "Review-session import time; actual source event/publication dates retained separately.",
+        "sourceSnapshotAt": null,
+        "cacheState": "not supplied",
+        "captureId": "01a14996-6667-77c8-8e71-1f342aece235",
+        "independence": "Same TNB corporate group as the parent operating profile; not independent corroboration."
+      }
+    ],
+    "sunway": [
+      {
+        "id": "sunway-newsroom-sep-2026",
+        "url": "https://www.sunwayhealthcaregroup.com/newsroom/",
+        "title": "Sunway issuer newsroom: September Iskandar Puteri groundbreaking coverage",
+        "publisher": "Sunway Healthcare Group",
+        "family": "Company newsrooms",
+        "origin": "Sunway corporate group",
+        "independenceGroup": "Sunway corporate group",
+        "publishedAt": null,
+        "eventDate": null,
+        "retrievedAt": "2026-10-17T11:21:49.227831+00:00",
+        "reviewedAt": "2026-10-17T11:21:49.227831+00:00",
+        "passage": "Sep, 2026",
+        "claim": "The issuer newsroom lists September 2026 coverage of groundbreaking for the RM800 million Sunway Medical Centre Iskandar Puteri. The official footprint still identifies it as upcoming. The listing publishes a month, not an exact event day.",
+        "section": "Main content",
+        "limitations": "Issuer newsroom is an index linking media coverage. No day-level event date is inferred from this month label. Hospital capital expenditure is not an HP endpoint budget.",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Fresh public retrieval through Firecrawl; manually reviewed extract",
+        "retrievalDatePrecision": "Review-session import time; actual source event/publication dates retained separately.",
+        "sourceSnapshotAt": null,
+        "cacheState": "not supplied",
+        "captureId": "01a14991-6025-7497-bf61-292dd26f9d01"
+      },
+      {
+        "id": "sunway-groundbreaking-reported-2026",
+        "url": "https://www.iproperty.com.my/property-insights/sunway-healthcare-breaks-ground-on-rm800-million-new-tertiary-hospital-in-iskandar-puteri-103795",
+        "title": "Sunway Iskandar Puteri groundbreaking announcement reproduced by iProperty",
+        "publisher": "iProperty (company announcement reproduced)",
+        "family": "Industry-specific sources",
+        "origin": "Sunway corporate group",
+        "independenceGroup": "Sunway corporate group",
+        "publishedAt": "2026-09-25",
+        "eventDate": "2026-09-18",
+        "retrievedAt": "2026-10-17T11:21:49.227831+00:00",
+        "reviewedAt": "2026-10-17T11:21:49.227831+00:00",
+        "passage": "targeted completion in 2030",
+        "claim": "A company announcement reproduced by iProperty has a Johor dateline of 18 September 2026, reports groundbreaking for Sunway Medical Centre Iskandar Puteri and targets completion in 2030. The issuer newsroom separately lists September groundbreaking coverage. The reported RM800 million is total hospital capital expenditure, not an endpoint budget.",
+        "section": "Dateline 18 September 2026; page updated 25 September 2026; planned completion paragraph",
+        "limitations": "Company announcement reproduced by an external publisher; treated as the same corporate-origin claim, not independent corroboration. Target completion can change. No endpoint bill of materials, purchasing window or device budget disclosed.",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Fresh public retrieval through Firecrawl; manually reviewed extract",
+        "retrievalDatePrecision": "Review-session import time; actual source event/publication dates retained separately.",
+        "sourceSnapshotAt": null,
+        "cacheState": "not supplied",
+        "captureId": "01a14996-45b1-72a6-8d96-2d99c7a52988"
+      }
+    ],
+    "changi": [
+      {
+        "id": "changi-t5-progress-apr-2026",
+        "url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
+        "title": "Changi Airport Terminal 5 fact sheet, 15 April 2026",
+        "publisher": "Changi Airport Group",
+        "family": "Company newsrooms",
+        "origin": "Changi Airport Group",
+        "independenceGroup": "Sunway corporate group",
+        "publishedAt": "2026-04-15",
+        "eventDate": null,
+        "retrievedAt": "2026-10-17T11:21:49.227831+00:00",
+        "reviewedAt": "2026-10-17T11:21:49.227831+00:00",
+        "passage": "Works are in progress to connect the completed tunnel stretches",
+        "claim": "The April 2026 fact sheet confirms awarded substructure and intra-terminal tunnel contracts, completed bored tunnels between T5 and T2 with terminal connection works in progress, and a mid-2030s first-phase opening. These are construction-status facts, not evidence of an open printer package.",
+        "section": "Progress on Terminal 5 Construction; Timeline",
+        "limitations": "Actual publication is 15 April despite /2025/ in the URL. This is not a printer tender or current equipment budget. Civil contract awards do not prove whether contractor-owned drawing output is already covered.",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Fresh public retrieval through Firecrawl; manually reviewed extract",
+        "retrievalDatePrecision": "Review-session import time; actual source event/publication dates retained separately.",
+        "sourceSnapshotAt": null,
+        "cacheState": "not supplied",
+        "captureId": "01a14991-9421-734e-af6f-6defcb0121ad"
+      }
+    ],
+    "thk": [
+      {
+        "id": "thk-mfp-detail-2026",
+        "url": "https://sesami.online/bizopps/businessOpportunityView.jsp?documentID=42556D8C-DCCD-4834-BDCD-52D81BCE3977&hubID=PSK",
+        "title": "THK/CS/16/T/FY26 public detail page",
+        "publisher": "SESAMi / THKMC",
+        "family": "Procurement notices",
+        "origin": "Thye Hua Kwan Moral Charities",
+        "independenceGroup": "Sunway corporate group",
+        "publishedAt": "2026-10-02",
+        "eventDate": "2026-10-02",
+        "retrievedAt": "2026-10-17T11:21:49.227831+00:00",
+        "reviewedAt": "2026-10-17T11:21:49.227831+00:00",
+        "passage": "THK/CS/16/T/FY26",
+        "claim": "The detail page identifies Thye Hua Kwan Moral Charities Limited, supply/delivery/installation and maintenance of multifunction copier/scanner/printers for five years, start 2 October 2026 noon and close 23 October 2026 noon Singapore time. Note to Supplier is blank. It does not specify an outright purchase versus lease in the public description.",
+        "section": "Reference, buyer, description, start/close dates and Note to Supplier",
+        "limitations": "Public detail page reviewed; no downloadable technical pack or amendments were exposed here. No device count, budget, service volumes, mandatory event requirements or vendor/HP authorization established. Listing and detail page are one issuer origin.",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Fresh public retrieval through Firecrawl; manually reviewed extract",
+        "retrievalDatePrecision": "Review-session import time; actual source event/publication dates retained separately.",
+        "sourceSnapshotAt": null,
+        "cacheState": "not supplied",
+        "captureId": "01a14995-1020-72f9-9985-7b1264c0b7c1"
+      }
+    ],
+    "ptt": [
+      {
+        "id": "ptt-notebook-contract-69069404739",
+        "url": "https://procurement.pttplc.com/th/procurementreportnew?menuId=5",
+        "title": "PTT project 69069404739: 450-notebook lease, budget and issued PO",
+        "publisher": "PTT Public Company Limited",
+        "family": "Contract and award records",
+        "origin": "PTT",
+        "independenceGroup": "PTT",
+        "publishedAt": null,
+        "eventDate": "2026-10-01",
+        "retrievedAt": "2026-10-17T11:33:33.891Z",
+        "reviewedAt": "2026-10-17T11:33:33.891Z",
+        "passage": "เช่าใช้ Computer Notebook จำนวน 450 เครื่องระยะเวลา 36 เดือน",
+        "claim": "The official PTT contract report lists project 69069404739: lease of 450 notebooks for 36 months, published budget THB24,610,000 and reference price THB23,000,000. The selected supplier is บริษัท พีทีที ดิจิตอล โซลูชั่น จำกัด (PTT Digital Solutions). Selection details show PO4111000495 dated 1 October 2569 BE (1 October 2026), status contract/PO already created. The contract-amount field displays 0.00 THB; this does not establish a genuine zero-value contract.",
+        "section": "Project 69069404739 row; budget (วงเงินงบประมาณ) and reference price (ราคากลาง) columns; Selection details modal, PO4111000495",
+        "limitations": "Manual reading of the live Thai-language public report and selection-details modal. Budget is a published package budget, not the awarded contract amount or HP addressable revenue. Tax basis, detailed device brands, locations, exact service start/end dates and contract value remain unestablished. The already-issued PO is not an open procurement opportunity.",
+        "location": "PTT Thai corporate procurement; deployment sites not disclosed",
+        "language": "th",
+        "translationStatus": "Manual translation of procurement headings, scope, dates and status; original Thai scope retained",
+        "extractionMethod": "Manual live-browser primary-source review",
+        "retrievalStatus": "Live public page and selection-details modal reviewed; short extract retained",
+        "reviewStatus": "reviewed",
+        "sourceRecord": {
+          "project": "69069404739",
+          "purchaseOrder": "4111000495",
+          "budget": 24610000,
+          "referencePrice": 23000000,
+          "currency": "THB",
+          "termMonths": 36,
+          "displayedContractAmount": 0,
+          "verifiedContractAmount": null,
+          "supplier": "บริษัท พีทีที ดิจิตอล โซลูชั่น จำกัด",
+          "contractStatus": "จัดทำสัญญา/PO แล้ว"
+        }
+      }
+    ]
+  },
+  "opportunityUpdates": {
+    "micron-engineering": {
+      "evidenceIds": [
+        "micron-fab-2026",
+        "micron-10k-2026"
+      ],
+      "contextIds": [
+        "micron-hbm-2025",
+        "micron-suppliers",
+        "micron-edb-2026"
+      ],
+      "eventEvidenceIds": [
+        "micron-fab-2026",
+        "micron-10k-2026"
+      ],
+      "qualificationNote": "Re-reviewed FY2026 Form 10-K, Item 2 Properties (printed p.50): Singapore HBM meaningful capacity begins early calendar 2027; new wafer-fab output H2 2028. Superseded January 2025 release retained as history, not controlling event support. Supplier policy is access context. No new device tender inferred."
+    },
+    "micron-collaboration": {
+      "evidenceIds": [
+        "micron-fab-2026",
+        "micron-10k-2026"
+      ],
+      "contextIds": [
+        "micron-hbm-2025",
+        "micron-suppliers"
+      ],
+      "qualificationNote": "Current Singapore project facts use the FY2026 filing and 2026 announcement; historical HBM and supplier sources retained as context. Room count and collaboration sourcing remain unverified."
+    },
+    "sunway-endpoints": {
+      "eventTitle": "Reported September 2026 Iskandar Puteri groundbreaking; completion targeted for 2030",
+      "eventDate": "2026-09-18",
+      "eventKey": "sunway-iskandar-groundbreaking-2026",
+      "facilityId": "sunway-site-3",
+      "evidenceIds": [
+        "sunway-newsroom-sep-2026",
+        "sunway-groundbreaking-reported-2026",
+        "sunway-footprint"
+      ],
+      "contextIds": [
+        "sunway-prospectus-2026",
+        "sunway-investor-2025"
+      ],
+      "contradictionIds": [],
+      "dimensions": {
+        "evidence": 2,
+        "fit": 3,
+        "timing": 2,
+        "scale": 1,
+        "access": 2,
+        "feasibility": 1
+      },
+      "whyNow": "September groundbreaking supports early standards and project-planning qualification for Iskandar Puteri. Completion is reported for 2030; this does not establish imminent device sourcing. Recheck commissioning, the actual hospital operator and any existing endpoint framework before advancing.",
+      "scale": "One identified hospital development, Iskandar Puteri. Reported RM800 million total hospital capital expenditure and bed capacity are project context; endpoint quantities and budget are not disclosed.",
+      "unknowns": [
+        "Actual hospital contracting subsidiary and delegated endpoint approver",
+        "Uncommitted endpoint package, technical standards, incumbent framework and sourcing timetable",
+        "Device quantities, endpoint budget and local service requirements"
+      ],
+      "qualificationNote": "Issuer newsroom and current footprint checked; reproduced company announcement supplies exact 18 September dateline and 2030 target. Prior parent timing caveat retained as historical context because it does not contradict the narrower new groundbreaking claim. No automatic inference of a device purchase.",
+      "barriers": [
+        "Groundbreaking is a planning trigger; reported completion is 2030 and no open endpoint package is established.",
+        "Existing endpoint suppliers and framework agreements are unknown.",
+        "Healthcare applications, cleaning compatibility and local service requirements require technical review."
+      ]
+    },
+    "changi-construction-print": {
+      "evidenceIds": [
+        "changi-t5-progress-apr-2026"
+      ],
+      "contextIds": [
+        "changi-t5-project",
+        "changi-tunnel-award-2025",
+        "changi-supplier-route"
+      ],
+      "contradictionIds": [],
+      "eventEvidenceIds": [
+        "changi-t5-project",
+        "changi-tunnel-award-2025",
+        "changi-t5-progress-apr-2026"
+      ],
+      "whyNow": "April 2026 official progress confirms active civil works and already awarded contracts. Drawing-output equipment remains unproven; keep on watchlist until the actual contractor identifies an uncommitted requirement.",
+      "qualificationNote": "Reviewed official 15 April 2026 progress fact sheet. Awarded tunnel scope is a constraint and historical context, not a factual contradiction of a contractor-owned print hypothesis. Retain the award and no-printer-demand caveat; no readiness promotion promised."
+    },
+    "changi-afisms-excluded": {
+      "evidenceIds": [
+        "changi-afisms-notice"
+      ],
+      "contextIds": [],
+      "contradictionIds": [],
+      "qualificationNote": "Security-infrastructure notice is evidence for exclusion, not contradictory evidence requiring resolution. HP Inc. product-fit exclusion remains in force; no endpoint lot is inferred."
+    },
+    "thk-print-procurement": {
+      "evidenceIds": [
+        "thk-mfp-notice",
+        "thk-mfp-detail-2026"
+      ],
+      "contextIds": [
+        "thk-profile"
+      ],
+      "procurement": {
+        "explicit": true,
+        "status": "open",
+        "deadline": "2026-10-23T12:00:00+08:00",
+        "verifiedAt": "2026-10-17T11:21:49.227831+00:00",
+        "noticeId": "THK/CS/16/T/FY26",
+        "evidenceIds": [
+          "thk-mfp-detail-2026"
+        ],
+        "verificationBasis": "Fresh public detail page reviewed: same buyer, five-year equipment/service scope and 23 October noon SGT deadline. Note to Supplier blank; full pack and amendments not exposed. No confirmation of bidder eligibility."
+      },
+      "whyNow": "Public detail rechecked; listed deadline 23 October 2026 at 12:00 Singapore time. Use the current tender pack to verify amendments and mandatory conditions before any bid decision.",
+      "qualificationNote": "Fresh public detail confirms term, scope and deadline. Five years is a service/contract duration, not a device quantity. Lease versus outright purchase is not specified in the public description.",
+      "barriers": [
+        "ASEAN-6 operating territory is configured; HP account ownership and seller authorization remain separate checks.",
+        "HP or partner tender eligibility has not been assessed.",
+        "Specifications, amendments and mandatory preconditions may disqualify participation.",
+        "Short remaining notice window."
+      ],
+      "dimensions": {
+        "access": 2
+      }
+    },
+    "ptt-workplace-fit": {
+      "contextIds": [
+        "ptt-notebook-contract-69069404739"
+      ],
+      "qualificationNote": "A separate 450-notebook, 36-month contract has an issued PO and published THB24.61m budget. It is context only for this account; none of its quantity, budget or timing is transferred to the HP Poly meeting-room hypothesis."
+    }
+  },
+  "newOpportunities": {
+    "tenaga": [
+      {
+        "id": "tnbr-workstation-q26a",
+        "title": "Qualify one professional workstation for TNB Research — Q26A/2026",
+        "type": "Acquisition hypothesis",
+        "productFamily": "workstations",
+        "eventKey": "tnbr-workstation-q26a-2026",
+        "eventTitle": "TNB Research workstation tender RFx4000054529 / Q26A 2026",
+        "eventClaimType": "source-supported event",
+        "eventDate": "2026-10-14",
+        "facilityId": "tnbr-kajang-site",
+        "facilityCountry": "MY",
+        "requirement": "One high-performance professional workstation; exact processor, memory, GPU, software certification and delivery location require the SCMS technical pack.",
+        "reasoning": "A direct current notice establishes a real workstation requirement and a one-unit scope, rather than inferring demand from utility capex. HP Z workstation fit remains conditional on technical specifications and eligible seller/service support.",
+        "whyNow": "Notice closes 21 October 2026 at 15:00 Malaysia time. Resolve SUS/MOF eligibility and technical compliance before any response; do not apply the parent grid-planning hypothesis to this subsidiary procurement.",
+        "scale": "One (1) professional workstation explicitly requested. Technical configuration, delivery site and equipment price/budget are not disclosed in the public notice.",
+        "commercialValue": "Value unquantified",
+        "quantity": {
+          "amount": 1,
+          "unit": "professional workstation",
+          "evidenceIds": [
+            "tnbr-workstation-q26a-2026"
+          ],
+          "scope": "RFx4000054529 / TNBR Q26A 2026 only; not a parent-wide fleet"
+        },
+        "valueAssessment": {
+          "status": "not_disclosed",
+          "amount": null,
+          "currency": "MYR",
+          "basis": "The two-page public notice publishes no equipment price or budget. Free refers to the tender fee, not the workstation. No public price is substituted for customer budget.",
+          "evidenceIds": [
+            "tnbr-workstation-q26a-2026"
+          ]
+        },
+        "dimensions": {
+          "evidence": 3,
+          "fit": 3,
+          "timing": 3,
+          "scale": 4,
+          "access": 3,
+          "feasibility": 1
+        },
+        "routeAssessed": false,
+        "routeAssessment": {
+          "status": "unknown",
+          "basis": "Public participation prerequisites established: SUS supplier registration, current certificates and MOF categories 210101 and 210102. Bidder credentials, HP account ownership, authorized configuration, warranty/service and detailed technical compliance remain unverified."
+        },
+        "accountOwnership": "unknown",
+        "procurement": {
+          "explicit": true,
+          "status": "open",
+          "deadline": "2026-10-21T15:00:00+08:00",
+          "verifiedAt": "2026-10-17T11:21:49.227831+00:00",
+          "noticeId": "RFx4000054529 / TNBR Q26A 2026",
+          "evidenceIds": [
+            "tnbr-workstation-q26a-2026"
+          ],
+          "verificationBasis": "Fresh two-page public notice and live TNB index reviewed. October Q26A notice has a distinct RFx from the expired July Q26 notice. No separate amendment identified in reviewed index; SCMS pack and any login-only amendments remain unreviewed."
+        },
+        "explicitPurchasingEvidence": "Reviewed current public tender for one professional workstation, with 21 October 2026 15:00 Malaysia deadline. Buyer-specific and HP supply eligibility remain open.",
+        "evidenceIds": [
+          "tnbr-workstation-q26a-2026"
+        ],
+        "contextIds": [
+          "tnbr-workstation-q26-historical",
+          "tnbr-kajang-location"
+        ],
+        "contradictionIds": [],
+        "unknowns": [
+          "Full SCMS technical specifications, approved brand/configuration and warranty terms",
+          "Exact workstation delivery / deployment address; Malaysian TNBR office presence is evidenced",
+          "Bidder SUS status, valid MOF categories, HP authorization and account ownership",
+          "Equipment budget / price and any SCMS-only amendments"
+        ],
+        "confirm": [
+          "An eligible bidder accesses the current pack and confirms a compliant HP configuration and local servicing."
+        ],
+        "weaken": [
+          "Specifications favor another configuration or bidder onboarding cannot complete before the deadline."
+        ],
+        "disprove": [
+          "Notice closes/cancels, mandatory certificates are absent, or HP configuration cannot meet the requirements."
+        ],
+        "buyers": [
+          {
+            "role": "Technical enquiry contact",
+            "person": "MUHAMAD ADIB BIN BAHARI",
+            "scope": "Technical enquiries for RFx4000054529 only; not financial approval authority",
+            "organization": "TNB Research Sdn. Bhd.",
+            "status": "verified",
+            "authority": "Published technical enquiry contact only. Purchasing signatory and budget approval authority are not established.",
+            "authorityStatus": "documented technical contact; financial authority unverified",
+            "sourceUrl": "https://www.tnb.com.my/assets/tender_price/Tender_Notice_-TNBR_Q26A_2026.pdf",
+            "evidenceIds": [
+              "tnbr-workstation-q26a-2026"
+            ],
+            "verifiedAt": "2026-10-17T11:21:49.227831+00:00"
+          },
+          {
+            "role": "Technical enquiry contact",
+            "person": "NIK ZAINUDDIN BIN NIK ABDULLAH",
+            "scope": "Technical enquiries for RFx4000054529 only; not financial approval authority",
+            "organization": "TNB Research Sdn. Bhd.",
+            "status": "verified",
+            "authority": "Published technical enquiry contact only. Purchasing signatory and budget approval authority are not established.",
+            "authorityStatus": "documented technical contact; financial authority unverified",
+            "sourceUrl": "https://www.tnb.com.my/assets/tender_price/Tender_Notice_-TNBR_Q26A_2026.pdf",
+            "evidenceIds": [
+              "tnbr-workstation-q26a-2026"
+            ],
+            "verifiedAt": "2026-10-17T11:21:49.227831+00:00"
+          },
+          {
+            "role": "Procurement / approved signatory",
+            "scope": "General procurement enquiries at tnbrprocurement@tnb.com.my; actual signatory remains to qualify",
+            "organization": "TNB Research Sdn. Bhd.",
+            "status": "unresolved"
+          }
+        ],
+        "barriers": [
+          "TNB Research is a distinct subsidiary procurement, not the parent grid endpoint fleet.",
+          "SUS registration and MOF categories 210101 and 210102 are prerequisites, not proof of bidder eligibility.",
+          "Public notice lacks technical bill of materials, delivery address and equipment budget."
+        ],
+        "route": "TNB Research SCMS e-Tender through an eligible SUS supplier. General enquiries: tnbrprocurement@tnb.com.my. Technical contacts are published in the notice. No registration, email, bid or external contact has been made.",
+        "buyingContext": {
+          "operatingEntity": "TNB Research Sdn. Bhd.",
+          "procurementTeam": "TNB Research procurement; tnbrprocurement@tnb.com.my. Published technical enquiry contacts: MUHAMAD ADIB BIN BAHARI and NIK ZAINUDDIN BIN NIK ABDULLAH.",
+          "procurementBasis": "published",
+          "supplierProcess": "SCMS e-Tender; registered SUS suppliers with updated certificates and MOF categories 210101 and 210102. Public notice says free tender fee, no briefing and no site visit. Full technical pack must be obtained online; it was not reviewed.",
+          "supplierUrl": "https://www.tnb.com.my/assets/tender_price/Tender_Notice_-TNBR_Q26A_2026.pdf",
+          "scopeBoundary": "One workstation for TNB Research. The Malaysian Kajang office supports buyer presence; delivery address remains to confirm. Parent grid-planning and historical July notice are separate contexts.",
+          "approvalCheck": "Confirm actual purchasing signatory, current bidder credentials, HP authorization and technical pack. Published enquiry contacts do not establish approval authority.",
+          "sources": [
+            {
+              "url": "https://www.tnb.com.my/assets/tender_price/Tender_Notice_-TNBR_Q26A_2026.pdf",
+              "checkedAt": "2026-10-17T11:21:49.227831+00:00",
+              "title": "Current public workstation notice pp.1–2"
+            }
+          ],
+          "contacts": [
+            {
+              "label": "General procurement enquiries",
+              "email": "tnbrprocurement@tnb.com.my",
+              "sourceUrl": "https://www.tnb.com.my/assets/tender_price/Tender_Notice_-TNBR_Q26A_2026.pdf",
+              "purpose": "Public notice enquiries; not assumed budget approval."
+            },
+            {
+              "label": "MUHAMAD ADIB BIN BAHARI — technical enquiries",
+              "email": "adib.bahari@tnb.com.my",
+              "sourceUrl": "https://www.tnb.com.my/assets/tender_price/Tender_Notice_-TNBR_Q26A_2026.pdf",
+              "purpose": "Technical specifications enquiry for this notice only."
+            },
+            {
+              "label": "NIK ZAINUDDIN BIN NIK ABDULLAH — technical enquiries",
+              "email": "nzainuddin.abdullah@tnb.com.my",
+              "sourceUrl": "https://www.tnb.com.my/assets/tender_price/Tender_Notice_-TNBR_Q26A_2026.pdf",
+              "purpose": "Technical specifications enquiry for this notice only."
+            }
+          ],
+          "technicalOwner": "MUHAMAD ADIB BIN BAHARI and NIK ZAINUDDIN BIN NIK ABDULLAH — published technical enquiry contacts",
+          "technicalOwnerStatus": "Notice-specific contacts; financial approval authority is not established."
+        },
+        "qualificationNote": "One unit, current deadline, issuer, procurement mailbox, two named technical contacts and published entry requirements established from the two-page October notice. July notice is expired historical context; do not count twice or assert formal supersession without evidence.",
+        "actions": [
+          {
+            "phase": "Before 21 Oct 2026 15:00 MYT",
+            "title": "Verify seller eligibility and acquire current technical pack",
+            "role": "Eligible TNB SUS supplier / TNB Research procurement",
+            "question": "Are current MOF categories, SUS registration, amendments and technical pack available to this bidder?",
+            "outcome": "A sourced go/no-go and complete specifications",
+            "progressCondition": "All bidder credentials and full pack reviewed",
+            "stopCondition": "Stop if any mandatory credential or access condition cannot be met before the deadline"
+          },
+          {
+            "phase": "Before deadline",
+            "title": "Validate a compliant HP workstation configuration",
+            "role": "Published technical enquiry contacts and authorized HP workstation specialist",
+            "question": "Does an available supported configuration meet every mandatory technical and warranty requirement?",
+            "outcome": "A traceable compliance matrix and approved commercial response",
+            "progressCondition": "All specifications and service terms meet the buyer requirement",
+            "stopCondition": "Stop if configuration, service or delivery requirements cannot be met"
+          },
+          {
+            "phase": "After deadline",
+            "title": "Record official outcome without assuming a win",
+            "role": "Procurement response owner",
+            "question": "Has the buyer issued clarification, award or cancellation?",
+            "outcome": "Verified outcome and a buyer-directed next step",
+            "progressCondition": "Official outcome supports the next action",
+            "stopCondition": "Stop active pursuit on closure or loss; retain research history"
+          }
+        ]
+      }
+    ],
+    "ptt": [
+      {
+        "id": "ptt-notebook-lease-committed",
+        "title": "Retain PTT’s committed 450-notebook lease as a sourced budget reference",
+        "type": "Committed procurement reference",
+        "productFamily": "commercial-pcs",
+        "eventKey": "ptt-notebook-contract-69069404739",
+        "eventTitle": "PTT notebook lease PO4111000495 already issued",
+        "eventClaimType": "source-supported event",
+        "eventDate": "2026-10-01",
+        "facilityId": null,
+        "facilityCountry": null,
+        "requirement": "450 notebooks leased for 36 months in a package already committed to PTT Digital Solutions. No additional uncommitted notebook or HP Poly scope is established.",
+        "reasoning": "The published contract report resolves actual package quantity, lease duration, procurement unit, selected supplier and budget. It is useful incumbent and renewal context; the issued PO means this package must not be pursued as a fresh open order.",
+        "whyNow": "Record the committed package and identify an evidence-based future review window. Obtain the actual service dates before assigning a renewal date; 36 months from the PO date is not assumed to be the contract end.",
+        "scale": "450 notebooks over 36 months. Published budget THB24,610,000 and reference price THB23,000,000. Already committed scope; device brand, delivery sites, tax basis and verified contract amount are not established.",
+        "commercialValue": "THB24,610,000 published package budget for the committed 36-month lease; not HP pipeline, forecast or the awarded amount.",
+        "valueBasisEvidenceIds": [
+          "ptt-notebook-contract-69069404739"
+        ],
+        "valueAssessment": {
+          "status": "published_budget",
+          "amount": 24610000,
+          "currency": "THB",
+          "referencePrice": 23000000,
+          "periodMonths": 36,
+          "contractAmount": null,
+          "contractAmountUnresolved": true,
+          "taxBasis": "Not stated in the viewed record; no VAT assumption made.",
+          "basis": "Published budget column for project 69069404739 is THB24,610,000; reference price is THB23,000,000. Already committed 450-notebook / 36-month package. Selection modal displays 0.00 for the contract amount; no reliable awarded amount established. This is not addressable HP revenue.",
+          "evidenceIds": [
+            "ptt-notebook-contract-69069404739"
+          ]
+        },
+        "quantity": {
+          "amount": 450,
+          "unit": "notebooks",
+          "evidenceIds": [
+            "ptt-notebook-contract-69069404739"
+          ],
+          "scope": "Already committed 36-month lease, project 69069404739 only; not uncommitted demand."
+        },
+        "dimensions": {
+          "evidence": 3,
+          "fit": 3,
+          "timing": 1,
+          "scale": 4,
+          "access": 3,
+          "feasibility": 1
+        },
+        "routeAssessed": false,
+        "routeAssessment": {
+          "status": "unknown",
+          "basis": "No open bid route for this already-committed package. PTT Digital Solutions is the selected supplier; HP brand and bidder authorization are not established."
+        },
+        "analystStatus": "nurture",
+        "procurement": {
+          "explicit": true,
+          "status": "awarded",
+          "deadline": null,
+          "verifiedAt": "2026-10-17T11:33:33.891Z",
+          "noticeId": "Project69069404739 / PO4111000495",
+          "evidenceIds": [
+            "ptt-notebook-contract-69069404739"
+          ],
+          "verificationBasis": "Live official Thai report row and selection modal checked. Contract/PO already created, PO dated 1 October 2026. Budget and reference price are distinct from the unreliable displayed 0.00 contract amount."
+        },
+        "explicitPurchasingEvidence": "Issued PO for a 450-notebook, 36-month lease; this is committed scope, not an open bid. Published package budget THB24.61 million is retained as a historical budget reference.",
+        "evidenceIds": [
+          "ptt-notebook-contract-69069404739"
+        ],
+        "contextIds": [],
+        "contradictionIds": [],
+        "unknowns": [
+          "Verified contract amount: public modal displays 0.00 and is not treated as a reliable award value",
+          "Equipment brands/configurations, delivery locations and actual lease service start/end dates",
+          "Future uncommitted scope, next review window and HP account/supplier eligibility"
+        ],
+        "confirm": [
+          "A buyer confirms future uncommitted scope and actual service dates, independently of this issued PO."
+        ],
+        "weaken": [
+          "The existing provider and lease cover the whole intended scope with no review window."
+        ],
+        "disprove": [
+          "No additional scope exists or HP cannot meet a future approved sourcing requirement."
+        ],
+        "barriers": [
+          "Package is already committed to the published selected supplier.",
+          "Budget is not the awarded amount; the public contract value is displayed as 0.00 and remains unresolved.",
+          "No automatic transfer of notebook quantity/budget into the separate HP Poly meeting-room hypothesis."
+        ],
+        "route": "Record incumbent context and request a permitted future review only after the actual contract/service dates and accountable procurement owner are established. No outreach or commercial action performed.",
+        "buyers": [
+          {
+            "role": "Published materials procurement unit",
+            "scope": "Project69069404739 contract procurement; individual signatory not established",
+            "organization": "PTT — ส่วนจัดหาพัสดุ (จพ.จบญ.)",
+            "status": "unresolved"
+          },
+          {
+            "role": "Workplace standards / future review owner",
+            "scope": "Future uncommitted endpoint requirements, independent of issued PO",
+            "organization": "PTT Public Company Limited",
+            "status": "unresolved"
+          }
+        ],
+        "qualificationNote": "Live PTT report resolves 450 notebooks, 36-month term, procurement unit, selected supplier and THB24.61m published budget. PO4111000495 already issued. The contract amount shown as 0.00 remains unresolved; budget/reference price are not substituted for it. No new open pursuit or lease expiry date inferred.",
+        "buyingContext": {
+          "operatingEntity": "PTT Public Company Limited",
+          "procurementTeam": "Published materials procurement unit: ส่วนจัดหาพัสดุ (จพ.จบญ.). Selected supplier: บริษัท พีทีที ดิจิตอล โซลูชั่น จำกัด (PTT Digital Solutions); this supplier is not the customer buyer.",
+          "procurementBasis": "published",
+          "supplierProcess": "The official procurement report identifies a completed selection and issued PO for this notebook lease. General future supplier processes remain available through PTT Vendor Management, subject to relevant category approval.",
+          "supplierUrl": "https://procurement.pttplc.com/th/procurementreportnew?menuId=5",
+          "scopeBoundary": "Committed 450-notebook / 36-month package only. Existing PTT Poly collaboration hypothesis is a separate category with no quantity or budget inherited. Deployment sites remain undisclosed.",
+          "approvalCheck": "Published procurement unit and selected supplier do not identify a future package signatory or HP approval. Verify actual service dates and a legitimate future sourcing window.",
+          "technicalOwner": "Workplace endpoint standards owner — individual not published in reviewed report",
+          "technicalOwnerStatus": "Qualification role; no individual or financial delegation inferred.",
+          "contacts": [],
+          "sources": [
+            {
+              "url": "https://procurement.pttplc.com/th/procurementreportnew?menuId=5",
+              "title": "Official PTT contract report: project69069404739 and selection details",
+              "checkedAt": "2026-10-17T11:33:33.891Z"
+            }
+          ]
+        },
+        "actions": [
+          {
+            "phase": "0–15",
+            "title": "Confirm actual service term and future category owner",
+            "role": "PTT materials procurement / workplace IT owner",
+            "question": "What are the actual lease service start/end dates, the approved notebook standard and next permitted review window?",
+            "outcome": "A sourced contract timeline without an invented expiry",
+            "progressCondition": "Buyer or published contract establishes dates and responsible category owner",
+            "stopCondition": "Keep as committed reference if no future uncommitted need is evidenced"
+          },
+          {
+            "phase": "16–90",
+            "title": "Monitor only a documented future review opportunity",
+            "role": "Authorized account owner and relevant procurement function",
+            "question": "Is there separate uncommitted scope or a buyer-approved review that an eligible HP route can address?",
+            "outcome": "New independent qualification record only if supported",
+            "progressCondition": "New scope, authorization, requirements and sourcing window are evidenced",
+            "stopCondition": "Do not bid against or count the already-issued PO as fresh pipeline"
+          }
+        ]
+      }
+    ]
+  },
+  "facilities": {
+    "tenaga": [
+      {
+        "id": "tnbr-kajang-site",
+        "name": "TNB Research Malaysian office, Kajang — workstation delivery site to confirm",
+        "country": "MY",
+        "city": "Kajang",
+        "kind": "Documented buyer operating location; tender deployment address unverified",
+        "reviewStatus": "reviewed",
+        "evidenceIds": [
+          "tnbr-kajang-location"
+        ]
+      }
+    ]
+  },
+  "facilityUpdates": {
+    "sunway-site-3": {
+      "kind": "Groundbreaking reported 18 September 2026; target completion 2030; not yet an operating hospital",
+      "evidenceIds": [
+        "sunway-footprint",
+        "sunway-newsroom-sep-2026",
+        "sunway-groundbreaking-reported-2026"
+      ],
+      "reviewStatus": "reviewed"
+    }
+  }
+}

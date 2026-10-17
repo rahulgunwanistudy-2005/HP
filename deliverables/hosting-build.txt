@@ -1,0 +1,14 @@
+
+> hp-account-intelligence@1.0.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 1568 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.63 kB │ gzip:   0.40 kB
+dist/assets/index-DPhb6zeA.css   90.09 kB │ gzip:  17.83 kB
+dist/assets/index-B_dA-wqY.js   386.59 kB │ gzip: 109.76 kB
+
+✓ built in 225ms
