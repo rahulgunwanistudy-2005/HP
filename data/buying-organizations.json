@@ -64,7 +64,7 @@
         },
         {
           "url": "https://www.sunwayhealthcaregroup.com/",
-          "title": "Official purchasing / supplier source",
+          "title": "Sunway Healthcare Group corporate site",
           "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
           "checkedAt": "2026-10-17T07:55:24.719726+00:00"
         },
@@ -195,7 +195,7 @@
       "sources": [
         {
           "url": "https://www.dbs.com/about-us/our-global-offices/default.page",
-          "title": "Official purchasing / supplier source",
+          "title": "DBS global offices directory",
           "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
           "checkedAt": "2026-10-17T07:55:24.719726+00:00"
         },
@@ -389,7 +389,9 @@
       "sources": [
         {
           "url": "https://www.cimb.com/en/who-we-are/our-presence/malaysia.html",
-          "title": "Official company / operating-entity source",
+          "title": "CIMB Malaysia presence page (original address)",
+          "accessUrl": "https://www.cimb.com/en/who-we-are/about-us.html",
+          "accessLabel": "Open CIMB About Us",
           "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
           "checkedAt": "2026-10-17T07:55:24.719726+00:00"
         },
@@ -419,14 +421,8 @@
       "contacts": [],
       "sources": [
         {
-          "url": "https://ecard.ihhhealthcare.com/about-us/overview",
-          "title": "Official company / operating-entity source",
-          "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
-          "checkedAt": "2026-10-17T07:55:24.719726+00:00"
-        },
-        {
           "url": "https://www.ihhhealthcare.com/our-company/overview",
-          "title": "Official purchasing / supplier source",
+          "title": "IHH Healthcare company overview",
           "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
           "checkedAt": "2026-10-17T07:55:24.719726+00:00"
         },
@@ -587,7 +583,9 @@
         },
         {
           "url": "https://www.telkom.co.id/minio/show/data/lampiran/1759482063610_original_SR%20TLKM_EN%203%20Oktober%202025.pdf",
-          "title": "Official purchasing / supplier source",
+          "title": "Telkom Sustainability Report 2024 (PDF)",
+          "accessUrl": "https://www.telkom.co.id/sites/investor-relations/en_US/page/reports-1027",
+          "accessLabel": "Open Telkom’s official reports index",
           "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
           "checkedAt": "2026-10-17T07:55:24.719726+00:00"
         }
@@ -705,7 +703,7 @@
       "sources": [
         {
           "url": "https://www.scg.com/en/company-profile",
-          "title": "Official purchasing / supplier source",
+          "title": "SCG corporate profile",
           "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
           "checkedAt": "2026-10-17T07:55:24.719726+00:00"
         }
@@ -887,7 +885,7 @@
         },
         {
           "url": "https://www.bdo.com.ph/about-bdo/investor-relations/contact-information",
-          "title": "Official purchasing / supplier source",
+          "title": "BDO investor relations contact information",
           "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
           "checkedAt": "2026-10-17T07:55:24.719726+00:00"
         },
@@ -1057,7 +1055,7 @@
       "sources": [
         {
           "url": "https://www.vingroup.net/en/contact",
-          "title": "Official purchasing / supplier source",
+          "title": "Vingroup corporate contact page",
           "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
           "checkedAt": "2026-10-17T07:55:24.719726+00:00"
         }
