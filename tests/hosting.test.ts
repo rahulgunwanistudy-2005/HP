@@ -4,7 +4,7 @@ import {Store} from '../server/db.ts';
 import {seed} from '../server/repository.ts';
 import {createApp} from '../server/app.ts';
 import {sessionValue,validSession,LoginAttempts} from '../server/auth.ts';
-import relay from '../api/[...path].ts';
+import relay from '../api/proxy.ts';
 
 const key='fictional-hosting-test-key-at-least-32-characters';
 test('workspace sessions expire, reject tampering and rotate with the owner key',()=>{
@@ -60,9 +60,19 @@ test('Vercel relay preserves authentication and export headers without exposing 
    assert.equal(Buffer.from(init?.body as ArrayBuffer).toString(),'{"key":"fixture"}');
    return new Response('fixture export',{headers:{'Set-Cookie':'hp_workspace_session=signed; HttpOnly; Secure; SameSite=Lax','Content-Disposition':'attachment; filename="fixture.csv"','Content-Encoding':'gzip','Content-Length':'999'}});
   };
-  const result=await relay.fetch(new Request('https://workspace.example/api/auth/login?check=1',{method:'POST',headers:{Origin:'https://workspace.example',Cookie:'hp_workspace_session=fixture','Content-Type':'application/json','X-Untrusted':'ignore'},body:'{"key":"fixture"}'}));
+  const result=await relay.fetch(new Request('https://workspace.example/api/proxy?__hp_route=auth/login&check=1',{method:'POST',headers:{Origin:'https://workspace.example',Cookie:'hp_workspace_session=fixture','Content-Type':'application/json','X-Untrusted':'ignore'},body:'{"key":"fixture"}'}));
   assert.equal(result.status,200);assert.equal(await result.text(),'fixture export');assert.match(result.headers.get('set-cookie')!,/HttpOnly/);assert.match(result.headers.get('content-disposition')!,/fixture.csv/);assert.equal(result.headers.get('content-encoding'),null);assert.equal(result.headers.get('content-length'),null);assert.equal(result.headers.get('cache-control'),'no-store');
-  assert.equal((await relay.fetch(new Request('https://workspace.example/elsewhere'))).status,404);assert.equal(calls,1);
+  assert.equal((await relay.fetch(new Request('https://workspace.example/elsewhere'))).status,404);
+  assert.equal((await relay.fetch(new Request('https://workspace.example/api/proxy?__hp_route=../healthz'))).status,404);
+  assert.equal(calls,1);
+  globalThis.fetch=async(input,init)=>{
+   assert.equal(String(input),'https://fixture.onrender.com/api/evidence/micron-fab-2026');
+   assert.equal(init?.method,'GET');
+   return Response.json({id:'micron-fab-2026'});
+  };
+  const evidence=await relay.fetch(new Request('https://workspace.example/api/proxy?__hp_route=evidence%2Fmicron-fab-2026'));
+  assert.equal(evidence.status,200);
+  assert.deepEqual(await evidence.json(),{id:'micron-fab-2026'});
   globalThis.fetch=async()=>{throw new Error('private backend diagnostic');};const unavailable=await relay.fetch(new Request('https://workspace.example/api/bootstrap'));assert.equal(unavailable.status,503);assert.doesNotMatch(await unavailable.text(),/private backend diagnostic/);
  }finally{globalThis.fetch=originalFetch;if(savedOrigin===undefined)delete process.env.RENDER_API_URL;else process.env.RENDER_API_URL=savedOrigin;}
 });

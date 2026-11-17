@@ -14,7 +14,7 @@ Hosted startup validates the configuration, imports the reviewed dataset on a ne
 
 ## Vercel
 
-Import the same GitHub repository as a Vite project. The repository configures `npm ci`, `npm run build` and output directory `dist`. The `api/[...path].ts` Node function relays API traffic to Render without storing an access key on Vercel.
+Import the same GitHub repository as a Vite project. The repository configures `npm ci`, `npm run build` and output directory `dist`. The Vercel rewrite sends API routes, including paths with multiple segments, to the `api/proxy.ts` Node function. The function relays API traffic to Render without storing an access key on Vercel.
 
 Set **server-only** `RENDER_API_URL` to the Render service origin, for example `https://your-service.onrender.com`, then redeploy. Use the origin alone, without `/api`, query parameters or credentials. For each Vercel environment, configure a backend and its exact trusted origin deliberately; arbitrary preview deployments do not inherit mutation access.
 

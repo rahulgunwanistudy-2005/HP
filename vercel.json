@@ -5,10 +5,16 @@
   "installCommand": "npm ci",
   "outputDirectory": "dist",
   "functions": {
-    "api/[...path].ts": {
+    "api/proxy.ts": {
       "maxDuration": 60
     }
   },
+  "rewrites": [
+    {
+      "source": "/api/:endpoint*",
+      "destination": "/api/proxy?__hp_route=:endpoint*"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
