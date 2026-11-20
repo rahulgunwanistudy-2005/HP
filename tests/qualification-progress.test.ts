@@ -6,9 +6,9 @@ import {applyQualificationResearch} from '../scripts/apply-qualification-researc
 import {qualificationFindings} from '../server/qualification.ts';
 import {brief} from '../server/exports.ts';
 
-test('current TNB Research notice establishes one unit and real contacts without inventing budget or bidder eligibility',()=>{
+test('dated TNB Research notice preserves one unit and real contacts while expiry prevents active pursuit',()=>{
  const s=new Store(':memory:');try{seed(s);const r=new Repository(s),o=r.opportunity('tnbr-workstation-q26a')!;
- assert.equal(o.score.readiness,'Triggered qualification');assert.equal(o.score.researchReadiness,'Active procurement');assert.equal(o.routeAssessed,false);assert.equal(o.qualification.quantity.amount,1);assert.equal(o.qualification.value.amount,null);assert.equal(o.procurement.noticeId,'RFx4000054529 / TNBR Q26A 2026');assert.equal(o.procurement.deadline,'2026-10-21T15:00:00+08:00');assert.equal(o.buyingContext.operatingEntity,'TNB Research Sdn. Bhd.');assert.equal(o.documents.find((d:any)=>d.id==='tnbr-workstation-q26a-2026').announcementGroup,r.account('tenaga')!.documents.find((d:any)=>d.id==='tenaga-profile-2026').announcementGroup);assert.equal(o.buyers.filter((b:any)=>b.person).length,2);
+ const withinWindow=Date.now()<Date.parse(o.procurement.deadline)&&Date.now()-Date.parse(o.procurement.verifiedAt)<7*86400000;assert.equal(o.score.readiness,withinWindow?'Triggered qualification':'Watchlist');assert.equal(o.score.researchReadiness,withinWindow?'Active procurement':'Watchlist');assert.equal(o.routeAssessed,false);assert.equal(o.qualification.quantity.amount,1);assert.equal(o.qualification.value.amount,null);assert.equal(o.procurement.noticeId,'RFx4000054529 / TNBR Q26A 2026');assert.equal(o.procurement.deadline,'2026-10-21T15:00:00+08:00');assert.equal(o.buyingContext.operatingEntity,'TNB Research Sdn. Bhd.');assert.equal(o.documents.find((d:any)=>d.id==='tnbr-workstation-q26a-2026').announcementGroup,r.account('tenaga')!.documents.find((d:any)=>d.id==='tenaga-profile-2026').announcementGroup);assert.equal(o.buyers.filter((b:any)=>b.person).length,2);
  for(const b of o.buyers.filter((b:any)=>b.person)){assert.match(b.authority,/not established/);assert.ok(o.documents.some((d:any)=>b.evidenceIds.includes(d.id)&&d.claim.includes(b.person)));}
  assert.match(o.qualification.value.basis,/Free refers to the tender fee/);assert.equal(o.contextIds.includes('tnbr-workstation-q26-historical'),true);assert.equal(r.opportunity('tenaga-workplace-fit')!.procurement.explicit,false);assert.notEqual(o.eventId,r.opportunity('tenaga-workplace-fit')!.eventId);assert.equal(r.metrics().activeProcurement,0);
  const md=brief(r.account('tenaga')!,r.territory());assert.match(md,/Opportunity-specific buyer/);assert.match(md,/tnbrprocurement@tnb.com.my/);assert.match(md,/1 professional workstation/);
@@ -19,7 +19,7 @@ test('reconciliation advances current Micron and Sunway facts while keeping long
  const s=new Store(':memory:');try{seed(s);const r=new Repository(s);
  assert.equal(r.opportunity('micron-engineering')!.score.readiness,'Triggered qualification');assert.equal(r.opportunity('micron-collaboration')!.score.readiness,'Strategic fit');assert.ok(!r.opportunity('micron-engineering')!.eventAssessment.sourceIds.includes('micron-hbm-2025'));assert.ok(r.opportunity('micron-engineering')!.contextIds.includes('micron-hbm-2025'));
  const sun=r.opportunity('sunway-endpoints')!;assert.equal(sun.score.readiness,'Triggered qualification');assert.equal(sun.eventDate,'2026-09-18');assert.match(sun.scale,/2030|hospital development/);assert.match(sun.scale,/not disclosed/);assert.equal(sun.contradictionIds.length,0);assert.ok(sun.contextIds.includes('sunway-investor-2025'));assert.match(r.account('sunway')!.facilities[2].kind,/2030/);
- assert.equal(r.opportunity('changi-construction-print')!.score.readiness,'Watchlist');assert.equal(r.opportunity('changi-afisms-excluded')!.score.readiness,'Blocked or excluded');assert.equal(r.opportunity('dbs-workplace-fit')!.score.readiness,'Watchlist');assert.equal(r.opportunity('bdo-workplace-fit')!.dimensions.access,null);
+ assert.equal(r.opportunity('changi-construction-print')!.score.readiness,'Watchlist');assert.equal(r.opportunity('changi-afisms-excluded')!.score.readiness,'Blocked or excluded');assert.equal(r.opportunity('dbs-workplace-fit')!.score.readiness,'Watchlist');assert.equal(r.opportunity('bdo-workplace-fit')!.dimensions.access,2);
  const dbs=r.opportunity('dbs-workplace-fit')!;assert.equal(dbs.dimensions.access,2);assert.equal(dbs.publicAccessAssessment.status,'published_process');assert.equal(dbs.procurement.explicit,false);assert.match(dbs.qualification.readinessReason,/standing company/);assert.ok(dbs.qualification.remaining.some((f:any)=>f.field==='Equipment budget'));
  }finally{s.close();}
 });
@@ -38,5 +38,43 @@ test('reviewed updates are idempotent and retain authored notes, completed actio
 test('PTT monetary evidence stays a committed-package budget and cannot become a fresh order or a zero-value award',()=>{
  const s=new Store(':memory:');try{seed(s);const r=new Repository(s),o=r.opportunity('ptt-notebook-lease-committed')!,poly=r.opportunity('ptt-workplace-fit')!;
  assert.equal(o.procurement.status,'awarded');assert.equal(o.score.readiness,'Watchlist');assert.equal(o.qualification.quantity.amount,450);assert.equal(o.qualification.value.amount,24610000);assert.equal(o.qualification.value.currency,'THB');assert.equal(o.qualification.value.periodMonths,36);assert.equal(o.qualification.value.referencePrice,23000000);assert.equal(o.qualification.value.contractAmount,null);assert.equal(o.qualification.value.contractAmountUnresolved,true);assert.match(o.qualification.readinessReason,/already committed or closed/);assert.ok(o.qualification.resolved.some((f:any)=>f.field==='Published package budget'));assert.ok(o.qualification.remaining.some((f:any)=>f.field==='Awarded contract amount'));assert.match(o.qualification.headline,/THB 24,610,000 published package budget/);assert.equal(poly.procurement.explicit,false);assert.equal(poly.dimensions.scale,null);assert.equal(poly.eventDate,null);assert.ok(poly.contextIds.includes('ptt-notebook-contract-69069404739'));assert.equal(poly.qualification.quantity,null);assert.equal(poly.qualification.value,null);assert.equal(r.metrics().activeProcurement,0);
+ }finally{s.close();}
+});
+
+test('public purchasing gaps resolve with sources while individual authority and demand stay conditional',()=>{
+ const s=new Store(':memory:');
+ try{
+  seed(s);
+  const repo=new Repository(s);
+  for(const accountId of ['bdo','ihh','scg','vingroup']){
+   const account=repo.account(accountId)!;
+   const o=repo.opportunity(accountId+'-workplace-fit')!;
+   assert.equal(account.buyingProfile.procurementBasis,'published');
+   assert.equal(o.publicAccessAssessment.status,'published_process');
+   assert.equal(o.dimensions.access,2);
+   assert.ok(o.contextIds.some((id:string)=>repo.documents(accountId).some(d=>d.id===id&&d.reviewedAt?.startsWith('2026-11-20'))));
+   assert.equal(o.procurement.explicit,false);
+   assert.equal(o.routeAssessed,false);
+   assert.equal(o.score.readiness,'Watchlist');
+   assert.ok(!o.qualification.remaining.some((f:any)=>f.field==='Purchasing function'));
+   assert.ok(o.buyers.every((b:any)=>b.status==='unresolved'&&!b.person));
+   const procurement=o.qualification.buyerFindings.find((b:any)=>/Published account purchasing context/.test(b.finding));
+   assert.ok(procurement?.sources.length);
+  }
+  const sunway=repo.opportunity('sunway-endpoints')!;
+  assert.equal(sunway.buyers.filter((b:any)=>b.status==='verified'&&b.person).length,2);
+  assert.equal(repo.metrics().unresolvedBuyers,114);
+  assert.ok(repo.accounts().every(a=>a.buyingProfile.procurementBasis==='published'));
+  for(const o of repo.opportunities()){
+   assert.equal(o.qualification.buyerFindings.length,o.buyers.length);
+   for(const b of o.qualification.buyerFindings)assert.ok(b.finding&&b.next);
+   for(const component of o.score.components.filter((c:any)=>c.value===null)){
+    assert.ok(component.reason.length>60);
+    assert.equal(component.points,0);
+   }
+  }
+  assert.match(repo.account('ihh')!.buyingProfile.scopeBoundary,/historically/);
+  assert.match(repo.account('scg')!.buyingProfile.scopeBoundary,/does not identify participating legal entities/);
+  assert.match(repo.account('vingroup')!.buyingProfile.sources.at(-1).reviewBasis,/indexed/);
  }finally{s.close();}
 });

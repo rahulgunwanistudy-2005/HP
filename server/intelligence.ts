@@ -104,7 +104,15 @@ export function scoreOpportunity(o:RecordData,account:RecordData,territory:Recor
   else if(el.status!=='confirmed'||changed||contradictions.length||!supports.length)readiness='Watchlist';
   else if(currentExplicit&&!o.routeAssessed)readiness='Triggered qualification';
   if(o.analystStatus==='nurture'&&readiness!=='Blocked or excluded')readiness='Watchlist';
-  const components=Object.entries(policy.weights as Record<string,number>).map(([key,weight])=>{const value=inputs[key]??null;return{key,label:labels[key],weight,value,points:value===null?0:Math.round(value/4*weight*100)/100,reason:value===null?'Unknown; zero points, no renormalization.':`${policy.rubrics[key]?.[value]??'Analyst-assigned ordinal value'}; supporting evidence and limitations shown below.`};});
+  const missingReasons:Record<string,string>={
+    evidence:'Review and link the original passage supporting this specific requirement.',
+    fit:'Confirm the workload, required capabilities and relevant HP product family.',
+    timing:'Obtain the current sourcing timetable or a dated purchasing milestone from the requesting unit.',
+    scale:'Obtain a device bill of materials or a documented room, site or workload inventory from the technical owner.',
+    access:'Identify the purchasing function and supplier onboarding process for the legal issuer.',
+    feasibility:'Ask the HP account or channel owner to assess seller authorization, regional availability and service coverage.'
+  };
+  const components=Object.entries(policy.weights as Record<string,number>).map(([key,weight])=>{const value=inputs[key]??null;return{key,label:labels[key],weight,value,points:value===null?0:Math.round(value/4*weight*100)/100,reason:value===null?`Unknown; zero points. ${missingReasons[key]??'Record a reviewed assessment with its supporting evidence.'}`:`${policy.rubrics[key]?.[value]??'Analyst-assigned ordinal value'}; supporting evidence and limitations shown below.`};});
   const total=Math.round(components.reduce((s,c)=>s+c.points,0)*100)/100;
   const origins=new Set(supports.map(d=>d.announcementGroup??d.independenceGroup??d.origin).filter(Boolean));
   let confidence='Low';

@@ -1,7 +1,7 @@
 {
-  "version": "gate-resolution-2026-10-17-v3",
+  "version": "public-buyer-resolution-2026-11-21",
   "reviewedAt": "2026-10-17T11:21:49.227831+00:00",
-  "method": "Source-specific review. Public process is distinct from seller authorization; quantities distinct from money; events distinct from purchase intent.",
+  "method": "Public purchasing-function refinement with explicit account and category boundaries. Procurement process, individual authority and buying intent are assessed separately.",
   "documents": {
     "tenaga": [
       {
@@ -123,6 +123,27 @@
         "sourceSnapshotAt": null,
         "cacheState": "not supplied",
         "captureId": "01a14996-45b1-72a6-8d96-2d99c7a52988"
+      },
+      {
+        "id": "sunway-management-roles-2026",
+        "url": "https://www.sunwayhealthcaregroup.com/senior-management/",
+        "title": "Sunway Healthcare Group — published senior management",
+        "publisher": "Sunway Healthcare Group",
+        "family": "Leadership and supplier-registration pages",
+        "origin": "Sunway Healthcare Group",
+        "independenceGroup": "Sunway corporate group",
+        "passage": "Chelsea Cheng Chuan Shing Chief Financial Officer … William Chau Wei Loong Chief Information Communication Technology Officer",
+        "claim": "Sunway Healthcare Group lists Chelsea Cheng Chuan Shing as Chief Financial Officer and William Chau Wei Loong as Chief Information Communication Technology Officer. These are group-level finance and technology qualification contacts.",
+        "section": "Key Senior Management and Group Leadership",
+        "limitations": "Undated current leadership directory reviewed. Role publication establishes the named office, with project ownership, delegated purchasing approval and a specific hospital equipment budget requiring customer confirmation.",
+        "publishedAt": null,
+        "eventDate": null,
+        "retrievedAt": "2026-11-20T20:00:49.911914+00:00",
+        "reviewedAt": "2026-11-20T20:00:49.911914+00:00",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Public official page reviewed through web reader",
+        "retrievalDatePrecision": "Review-session capture time; source chronology separately retained",
+        "language": "en"
       }
     ],
     "changi": [
@@ -173,6 +194,27 @@
         "sourceSnapshotAt": null,
         "cacheState": "not supplied",
         "captureId": "01a14995-1020-72f9-9985-7b1264c0b7c1"
+      },
+      {
+        "id": "thk-tender-governance-2026",
+        "url": "https://www.thkmc.org.sg/environmental-social-and-governance-esg/",
+        "title": "THKMC — Tender Award Committee governance",
+        "publisher": "Thye Hua Kwan Moral Charities",
+        "family": "Leadership and supplier-registration pages",
+        "origin": "Thye Hua Kwan Moral Charities",
+        "independenceGroup": "Thye Hua Kwan Moral Charities",
+        "passage": "Tender Award Committee supports and advises the Board on its procurement process",
+        "claim": "THKMC publishes a Tender Award Committee that advises the Board on procurement and reviews tenders above a Board-approved threshold. The governance page identifies the review body.",
+        "section": "Governance — Tender Award Committee",
+        "limitations": "Undated governance page. The approval threshold is not published, and the committee is not the operational contact for every tender. A current MFP sourcing window, budget, quantity and eligible bidder route still require notice-specific confirmation.",
+        "publishedAt": null,
+        "eventDate": null,
+        "retrievedAt": "2026-11-20T20:00:49.911914+00:00",
+        "reviewedAt": "2026-11-20T20:00:49.911914+00:00",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Public official page reviewed through web reader",
+        "retrievalDatePrecision": "Review-session capture time; source chronology separately retained",
+        "language": "en"
       }
     ],
     "ptt": [
@@ -210,6 +252,98 @@
           "supplier": "บริษัท พีทีที ดิจิตอล โซลูชั่น จำกัด",
           "contractStatus": "จัดทำสัญญา/PO แล้ว"
         }
+      }
+    ],
+    "bdo": [
+      {
+        "id": "bdo-it-equipment-purchasing-function-2026",
+        "url": "https://www.careers.bdo.com.ph/job/Mandaluyong-City-Admin_-Services-Assistant-(Office-of-the-Chief-of-Staff)-Nati/1365870966/",
+        "title": "BDO Administrative Services role — IT equipment requests",
+        "publisher": "BDO Unibank",
+        "family": "Careers and public job feeds",
+        "publishedAt": "2026-11-10",
+        "section": "Job Summary and Key Responsibilities; requisition 29043",
+        "passage": "Coordinates with requester and other business units such as IT Operations, Facilities and within Procurement for concerns related to a request.",
+        "claim": "BDO publishes an Administrative Services function under the Office of the President that evaluates furniture, fixtures and IT-equipment requests for head office and branches, coordinating with Procurement, IT Operations and Facilities. Requests require accountable person, delivery address and approval information.",
+        "limitations": "Official role description supports functional responsibilities. It supplies no named incumbent, delegated signing limit, open device package, quantity or budget. The page displays 10 November 2026; earlier indexed versions displayed 12 October. Hiring is retained as organizational context.",
+        "origin": "BDO Unibank",
+        "independenceGroup": "SM Group",
+        "eventDate": null,
+        "retrievedAt": "2026-11-20T19:57:15.062438+00:00",
+        "reviewedAt": "2026-11-20T19:57:15.062438+00:00",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Public-source page reviewed through web reader",
+        "retrievalDatePrecision": "Review-session capture time; source chronology separately retained",
+        "language": "en"
+      }
+    ],
+    "ihh": [
+      {
+        "id": "ihh-malaysia-procurement-function-2026",
+        "url": "https://www.ihhhealthcare.com/my/our-company/our-people/management/tan-yew-aik",
+        "title": "IHH Healthcare Malaysia management profile — procurement function",
+        "publisher": "IHH Healthcare Malaysia",
+        "family": "Leadership and supplier-registration pages",
+        "publishedAt": null,
+        "section": "Management biography; procurement consolidation paragraph",
+        "passage": "leading the consolidation of Pharma and Non-Pharma procurement under a single structure",
+        "claim": "IHH Healthcare Malaysia documents a consolidated Pharma and Non-Pharma procurement function. The management biography identifies Tan Yew Aik as Regional CEO for Southern and East Malaysia and describes his prior procurement role.",
+        "limitations": "The biography uses past-tense wording for Head of Procurement. It cannot identify the current procurement incumbent, an endpoint purchasing mandate, hospital-specific signing authority, quantity or budget.",
+        "origin": "IHH Healthcare Malaysia",
+        "independenceGroup": "IHH Healthcare",
+        "eventDate": null,
+        "retrievedAt": "2026-11-20T19:57:15.062438+00:00",
+        "reviewedAt": "2026-11-20T19:57:15.062438+00:00",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Public-source page reviewed through web reader",
+        "retrievalDatePrecision": "Review-session capture time; source chronology separately retained",
+        "language": "en"
+      }
+    ],
+    "scg": [
+      {
+        "id": "scg-smart-procurement-supplier-route-2026",
+        "url": "https://owapps.scg.com/RFQFrontWeb/SCG_template/scg-landing.jsp",
+        "title": "SCG Smart Procurement — procurement and supplier access",
+        "publisher": "SCG",
+        "family": "Leadership and supplier-registration pages",
+        "publishedAt": null,
+        "section": "Public Smart Procurement landing page",
+        "passage": "PROCUREMENT This area is for staff at SCG only.",
+        "claim": "SCG’s official Smart Procurement landing page provides separate staff-procurement and supplier login entries. This establishes an SCG-hosted supplier access route.",
+        "limitations": "Only the public landing page was reviewed. Authenticated functions, invitations, participating legal entities and device categories were not accessed. Presence of a portal does not establish supplier approval or a new equipment requirement.",
+        "origin": "SCG",
+        "independenceGroup": "SCG",
+        "eventDate": null,
+        "retrievedAt": "2026-11-20T19:57:15.062438+00:00",
+        "reviewedAt": "2026-11-20T19:57:15.062438+00:00",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Public-source page reviewed through web reader",
+        "retrievalDatePrecision": "Review-session capture time; source chronology separately retained",
+        "language": "en"
+      }
+    ],
+    "vingroup": [
+      {
+        "id": "vingroup-group-procurement-ar2024",
+        "url": "https://ircdn.vingroup.net/storage/Uploads/0_Bao%20cao%20thuong%20nien/2024/ENG_%20Vingroup%20AR24_250418.pdf",
+        "title": "Vingroup Annual Report 2024 — supplier selection",
+        "publisher": "Vingroup",
+        "family": "Regulatory and exchange filings",
+        "publishedAt": null,
+        "section": "Supplier selection; reviewed indexed primary-report extract",
+        "passage": "a rigorous evaluation process by the Group’s procurement department",
+        "claim": "Vingroup’s 2024 annual report identifies its Group procurement department as conducting supplier and partner evaluation against legal, quality, capacity and sustainability criteria.",
+        "limitations": "Narrow indexed primary-report passage reviewed. Direct PDF retrieval returned 403 and the web reader rejected the full file size. This historical policy supports the existence of a purchasing function, with current category delegation, endpoint demand and approval limits still requiring confirmation.",
+        "origin": "Vingroup",
+        "independenceGroup": "Vingroup",
+        "eventDate": null,
+        "retrievedAt": "2026-11-20T19:57:15.062438+00:00",
+        "reviewedAt": "2026-11-20T19:57:15.062438+00:00",
+        "reviewStatus": "reviewed",
+        "retrievalStatus": "Reviewed indexed primary-source passage",
+        "retrievalDatePrecision": "Review-session capture time; source chronology separately retained",
+        "language": "en"
       }
     ]
   },
@@ -253,7 +387,8 @@
       ],
       "contextIds": [
         "sunway-prospectus-2026",
-        "sunway-investor-2025"
+        "sunway-investor-2025",
+        "sunway-management-roles-2026"
       ],
       "contradictionIds": [],
       "dimensions": {
@@ -276,6 +411,50 @@
         "Groundbreaking is a planning trigger; reported completion is 2030 and no open endpoint package is established.",
         "Existing endpoint suppliers and framework agreements are unknown.",
         "Healthcare applications, cleaning compatibility and local service requirements require technical review."
+      ],
+      "buyers": [
+        {
+          "role": "Group technology executive — qualification contact",
+          "scope": "Endpoint and application standards",
+          "organization": "Sunway Healthcare Group",
+          "authorityStatus": "public role verified; deal approval to confirm",
+          "person": "William Chau Wei Loong",
+          "status": "verified",
+          "sourceUrl": "https://www.sunwayhealthcaregroup.com/senior-management/",
+          "evidenceIds": [
+            "sunway-management-roles-2026"
+          ],
+          "verifiedAt": "2026-11-20T20:00:49.911914+00:00",
+          "authority": "Published group leadership role; hospital project ownership and delegated purchase approval are not established.",
+          "verificationAction": "Confirm the relevant hospital operator, project owner and delegated approval for the equipment package through the published corporate route."
+        },
+        {
+          "role": "Hospital commissioning director",
+          "scope": "Site operations and commissioning",
+          "organization": "Relevant hospital operating subsidiary, unverified",
+          "authorityStatus": "unverified-role-hypothesis"
+        },
+        {
+          "role": "Group Chief Financial Officer — finance qualification contact",
+          "scope": "Sourcing and purchase approvals",
+          "organization": "Sunway Healthcare Group",
+          "authorityStatus": "public role verified; deal approval to confirm",
+          "person": "Chelsea Cheng Chuan Shing",
+          "status": "verified",
+          "sourceUrl": "https://www.sunwayhealthcaregroup.com/senior-management/",
+          "evidenceIds": [
+            "sunway-management-roles-2026"
+          ],
+          "verifiedAt": "2026-11-20T20:00:49.911914+00:00",
+          "authority": "Published group leadership role; hospital project ownership and delegated purchase approval are not established.",
+          "verificationAction": "Confirm the relevant hospital operator, project owner and delegated approval for the equipment package through the published corporate route."
+        },
+        {
+          "role": "Information security and clinical applications reviewer",
+          "scope": "Security, EHR compatibility and support",
+          "organization": "Sunway Healthcare Group",
+          "authorityStatus": "unverified-role-hypothesis"
+        }
       ]
     },
     "changi-construction-print": {
@@ -310,7 +489,8 @@
         "thk-mfp-detail-2026"
       ],
       "contextIds": [
-        "thk-profile"
+        "thk-profile",
+        "thk-tender-governance-2026"
       ],
       "procurement": {
         "explicit": true,
@@ -340,6 +520,51 @@
         "ptt-notebook-contract-69069404739"
       ],
       "qualificationNote": "A separate 450-notebook, 36-month contract has an issued PO and published THB24.61m budget. It is context only for this account; none of its quantity, budget or timing is transferred to the HP Poly meeting-room hypothesis."
+    },
+    "bdo-workplace-fit": {
+      "contextIds": [
+        "bdo-procurement-role-context-2026",
+        "bdo-it-equipment-purchasing-function-2026"
+      ],
+      "qualificationNote": "BDO publishes an Administrative Services function under the Office of the President that evaluates furniture, fixtures and IT-equipment requests for head office and branches, coordinating with Procurement, IT Operations and Facilities. Requests require accountable person, delivery address and approval information. Official role description supports functional responsibilities. It supplies no named incumbent, delegated signing limit, open device package, quantity or budget. The page displays 10 November 2026; earlier indexed versions displayed 12 October. Hiring is retained as organizational context.",
+      "unknowns": [
+        "Current equipment package, site-level quantity and installed base require a buyer-approved scope.",
+        "Obtain the approved equipment budget and sourcing timetable from the actual requesting unit.",
+        "Confirm the current category owner, signatory delegation, HP account ownership and permitted supply route."
+      ]
+    },
+    "ihh-workplace-fit": {
+      "contextIds": [
+        "ihh-malaysia-procurement-function-2026"
+      ],
+      "qualificationNote": "IHH Healthcare Malaysia documents a consolidated Pharma and Non-Pharma procurement function. The management biography identifies Tan Yew Aik as Regional CEO for Southern and East Malaysia and describes his prior procurement role. The biography uses past-tense wording for Head of Procurement. It cannot identify the current procurement incumbent, an endpoint purchasing mandate, hospital-specific signing authority, quantity or budget.",
+      "unknowns": [
+        "Current equipment package, site-level quantity and installed base require a buyer-approved scope.",
+        "Obtain the approved equipment budget and sourcing timetable from the actual requesting unit.",
+        "Confirm the current category owner, signatory delegation, HP account ownership and permitted supply route."
+      ]
+    },
+    "scg-workplace-fit": {
+      "contextIds": [
+        "scg-smart-procurement-supplier-route-2026"
+      ],
+      "qualificationNote": "SCG’s official Smart Procurement landing page provides separate staff-procurement and supplier login entries. This establishes an SCG-hosted supplier access route. Only the public landing page was reviewed. Authenticated functions, invitations, participating legal entities and device categories were not accessed. Presence of a portal does not establish supplier approval or a new equipment requirement.",
+      "unknowns": [
+        "Current equipment package, site-level quantity and installed base require a buyer-approved scope.",
+        "Obtain the approved equipment budget and sourcing timetable from the actual requesting unit.",
+        "Confirm the current category owner, signatory delegation, HP account ownership and permitted supply route."
+      ]
+    },
+    "vingroup-workplace-fit": {
+      "contextIds": [
+        "vingroup-group-procurement-ar2024"
+      ],
+      "qualificationNote": "Vingroup’s 2024 annual report identifies its Group procurement department as conducting supplier and partner evaluation against legal, quality, capacity and sustainability criteria. Narrow indexed primary-report passage reviewed. Direct PDF retrieval returned 403 and the web reader rejected the full file size. This historical policy supports the existence of a purchasing function, with current category delegation, endpoint demand and approval limits still requiring confirmation.",
+      "unknowns": [
+        "Current equipment package, site-level quantity and installed base require a buyer-approved scope.",
+        "Obtain the approved equipment budget and sourcing timetable from the actual requesting unit.",
+        "Confirm the current category owner, signatory delegation, HP account ownership and permitted supply route."
+      ]
     }
   },
   "newOpportunities": {

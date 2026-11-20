@@ -10,6 +10,20 @@ export function qualificationFindings(o:RecordData,account:RecordData):RecordDat
   const money=monetary?`${value!.currency} ${value!.amount.toLocaleString('en-US')} published package budget`:null;
   const process=Boolean(p?.procurementBasis==='published'&&p.sources?.length&&p.supplierProcess);
   const sourceRefs=p?.sources??[];
+  const buyerFindings=(o.buyers??[]).map((buyer:RecordData)=>{
+    const purchasingRole=/procurement|purchas|sourcing/i.test(buyer.role??'');
+    const finding=buyer.person&&buyer.status==='verified'
+      ? `Published contact: ${buyer.person}. ${buyer.authority??''}`
+      : purchasingRole&&process
+        ? `Published account purchasing context: ${p.procurementTeam}`
+        : `Role to qualify for ${buyer.scope??o.title}`;
+    const next=purchasingRole
+      ? `Use the published purchasing route to identify the current category owner for this scope. ${p?.approvalCheck??'Obtain the legal issuer and delegated approval basis.'}`
+      : /approv|sponsor|finance/i.test(buyer.role??'')
+        ? `Ask the requesting operating unit to identify the sponsor and approver for ${buyer.scope??o.title}. Obtain the approved scope and approval delegation.`
+        : `Ask the requesting IT or operational unit to nominate the evaluator for ${buyer.scope??o.title}. Confirm their role in requirements and acceptance.`;
+    return{buyerId:buyer.id,finding,next,scopeBoundary:p?.scopeBoundary,sources:purchasingRole&&process?sourceRefs:[],contactVerified:buyer.status==='verified'};
+  });
   const resolved:RecordData[]=[];
   if(p?.operatingEntity&&sourceRefs.length)resolved.push({field:'Company / buyer context',finding:p.operatingEntity,limit:p.scopeBoundary,sources:sourceRefs});
   if(o.eventAssessment?.status==='reviewed'&&o.eventDate&&accepted(o.eventAssessment.sourceIds??[]))resolved.push({field:'Dated event / milestone',finding:`${o.eventTitle} · ${o.eventDate}`,limit:'The event establishes only its stated scope; it does not independently establish a new device order.',sources:o.documents.filter((d:RecordData)=>o.eventAssessment.sourceIds.includes(d.id)).map((d:RecordData)=>({url:d.url,title:d.title}))});
@@ -26,5 +40,5 @@ export function qualificationFindings(o:RecordData,account:RecordData):RecordDat
   ];
   const committed=['awarded','closed','canceled','superseded'].includes(o.procurement?.status);
   const readinessReason=o.score.readiness==='Blocked or excluded'?'Product, territory or analyst exclusion applies; retain the record for its documented reason.':committed?'This purchasing package is already committed or closed. Retain its sourced scope and commercial context; do not count it as open pipeline.':o.score.readiness==='Watchlist'?o.score.gates.find((g:RecordData)=>g.label==='Evidence review'&&g.status!=='pass')?.reason??(o.eventAssessment?.status==='hypothesis'?'Only standing company / operating context is established; no dated equipment project or buying window is evidenced.':o.score.freshness==='stale'?'The supporting event is dated or undated beyond the freshness policy; no current equipment buying window is established.':'An unresolved readiness gate prevents advancement.'):o.score.readiness==='Triggered qualification'?'A reviewed event or purchasing notice supports qualification. Remaining supply and commercial conditions prevent treating it as a fully qualified pursuit.':'Readiness follows the documented evidence and gates.';
-  return{resolved,remaining,quantity,value,readinessReason,publicProcessEstablished:process,headline:[quantity?`${quantity.amount} ${quantity.unit}`:null,money??'budget not established',committed?'committed / closed':null].filter(Boolean).join(' · '),reviewNote:o.qualificationNote??null};
+  return{resolved,remaining,buyerFindings,quantity,value,readinessReason,publicProcessEstablished:process,headline:[quantity?`${quantity.amount} ${quantity.unit}`:null,money??'budget not established',committed?'committed / closed':null].filter(Boolean).join(' · '),reviewNote:o.qualificationNote??null};
 }

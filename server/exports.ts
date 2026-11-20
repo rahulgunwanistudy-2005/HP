@@ -21,7 +21,11 @@ export function brief(a:RecordData,territory:RecordData,presentation?:RecordData
     if(o.buyingContext){const p=o.buyingContext;lines.push('','Opportunity-specific buyer:',`- Entity: ${p.operatingEntity}`,`- Purchasing route: ${p.procurementTeam}`,`- Process: ${p.supplierProcess}`,`- Scope: ${p.scopeBoundary}`,`- Approval check: ${p.approvalCheck}`,...list(p.contacts).map(c=>`- ${c.label}: ${c.email??c.phone??c.url} — ${c.purpose}`));}
     if(o.qualification){const q=o.qualification;lines.push('','Qualification findings:',q.readinessReason,...list(q.resolved).map(f=>`- Established — ${f.field}: ${f.finding}. ${f.limit??''} Sources: ${list(f.sources).map(s=>s.url).join(', ')}`),...list(q.remaining).map(f=>`- Open — ${f.field}: ${f.finding} Next: ${f.next}`));if(q.reviewNote)lines.push(`Review basis: ${q.reviewNote}`);}
     if(!list(o.buyers).length)lines.push('- No buying roles identified; authority and contracting entity unresolved.');
-    for(const buyer of list(o.buyers))lines.push(`- ${words(buyer.role,'Role unresolved')} · ${words(buyer.scope,'scope unresolved')} · ${words(buyer.organization,'organization unresolved')} · ${words(buyer.status,'unresolved')}${buyer.person?` · published person ${buyer.person} · source ${words(buyer.sourceUrl,'unresolved')} · role verified ${words(buyer.verifiedAt,'not recorded')}`:''}; ${words(buyer.authority,'Purchasing authority unverified; a role is a qualification target.')}`);
+    for(const buyer of list(o.buyers)){
+      lines.push(`- ${words(buyer.role,'Role unresolved')} · ${words(buyer.scope,'scope unresolved')} · ${words(buyer.organization,'organization unresolved')} · ${words(buyer.status,'unresolved')}${buyer.person?` · published person ${buyer.person} · source ${words(buyer.sourceUrl,'unresolved')} · role verified ${words(buyer.verifiedAt,'not recorded')}`:''}; ${words(buyer.authority,'Purchasing authority unverified; a role is a qualification target.')}`);
+      const finding=list(o.qualification?.buyerFindings).find(f=>f.buyerId===buyer.id);
+      if(finding)lines.push(`  Finding: ${finding.finding}`,`  Next check: ${finding.next}`);
+    }
     lines.push('','Barriers:',...bullets(o.barriers),'','Unknowns:',...bullets(o.unknowns),'','Evidence:');
     if(!list(o.documents).length)lines.push('- No linked source documents. Hypothesis remains unsupported pending review.');
     for(const document of list(o.documents))lines.push(source(document,relationship(o,document),presentation));

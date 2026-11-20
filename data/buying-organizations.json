@@ -73,6 +73,12 @@
           "title": "Sunway 2026 prospectus part 2 — CFO responsibilities, printed pp.299–300",
           "checkedAt": "2026-10-17T08:11:47.503834+00:00",
           "reviewBasis": "Reviewed official published source; the stated function and period do not establish a current device budget or delegated sign-off."
+        },
+        {
+          "url": "https://www.sunwayhealthcaregroup.com/senior-management/",
+          "title": "Sunway Healthcare Group — published senior management",
+          "checkedAt": "2026-11-20T20:00:49.911914+00:00",
+          "reviewBasis": "Undated current leadership directory reviewed. Role publication establishes the named office, with project ownership, delegated purchasing approval and a specific hospital equipment budget requiring customer confirmation."
         }
       ],
       "checkedAt": "2026-10-17T07:55:24.719726+00:00",
@@ -151,9 +157,9 @@
       "domain": "thkmc.org.sg",
       "operatingEntity": "Thye Hua Kwan Moral Charities Limited",
       "entityStatus": "documented operating company / group identity",
-      "procurementTeam": "THKMC's issuing procurement / tender function for notice THK/CS/16/T/FY26.",
+      "procurementTeam": "THKMC operational procurement / tender owner, with Tender Award Committee oversight for packages above the Board-approved threshold.",
       "procurementBasis": "published",
-      "supplierProcess": "Obtain the buyer's notice and tender pack through SESAMi. Use the designated tender contact and conditions in that pack, rather than a guessed individual buyer.",
+      "supplierProcess": "Use the notice-specific buyer contact and conditions through SESAMi. THKMC’s governance page documents the Tender Award Committee advising the Board and reviewing tenders above its approved threshold. Confirm the applicable threshold, operational contact and notice status before pursuit.",
       "supplierUrl": "https://sesami.online/bizopps/businessOpportunities.jsp",
       "scopeBoundary": "The printer notice names THKMC as buyer. The full pack controls the signatory, mandatory requirements, amendments and bid eligibility; these are not established by the public listing alone.",
       "technicalOwner": "Print security / workplace document-services owner",
@@ -166,6 +172,12 @@
           "title": "Official purchasing / supplier source",
           "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
           "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://www.thkmc.org.sg/environmental-social-and-governance-esg/",
+          "title": "THKMC — Tender Award Committee governance",
+          "checkedAt": "2026-11-20T20:00:49.911914+00:00",
+          "reviewBasis": "Undated governance page. The approval threshold is not published, and the committee is not the operational contact for every tender. A current MFP sourcing window, budget, quantity and eligible bidder route still require notice-specific confirmation."
         }
       ],
       "checkedAt": "2026-10-17T07:55:24.719726+00:00",
@@ -410,11 +422,11 @@
       "domain": "ihhhealthcare.com",
       "operatingEntity": "IHH Healthcare Berhad",
       "entityStatus": "documented operating company / group identity",
-      "procurementTeam": "The selected Malaysian hospital's purchasing and IT / clinical-administration functions, within the healthcare group's sourcing policies.",
-      "procurementBasis": "qualification-target",
-      "supplierProcess": "Use IHH’s published Group Responsible Sourcing Policy and identify the selected Malaysian hospital’s authorized purchasing team. The policy sets supplier requirements but does not name an endpoint budget holder or establish universal open registration.",
-      "supplierUrl": "https://www.ihhhealthcare.com/our-company/overview",
-      "scopeBoundary": "IHH is the healthcare parent. Pantai, Gleneagles and other hospitals can have distinct operating companies, clinical requirements and procurement delegations; select the actual hospital before naming a contract buyer.",
+      "procurementTeam": "IHH Healthcare Malaysia procurement function covering Pharma and Non-Pharma, with the selected hospital’s purchasing and workplace IT owners.",
+      "procurementBasis": "published",
+      "supplierProcess": "The Malaysian management biography documents consolidated Pharma and Non-Pharma procurement. Use that organizational route together with the Group Responsible Sourcing Policy. Establish the selected hospital operator, non-pharma equipment category and current procurement owner before proposing scope.",
+      "supplierUrl": "https://www.ihhhealthcare.com/my/our-company/our-people/management/tan-yew-aik",
+      "scopeBoundary": "Malaysia procurement context is established. Tan Yew Aik’s published current role is Regional CEO for Southern and East Malaysia; his procurement role is described historically. The selected hospital and device-category approval still require confirmation.",
       "technicalOwner": "Print security / workplace document-services owner",
       "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
       "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
@@ -431,9 +443,15 @@
           "title": "IHH Group Responsible Sourcing Policy — published issuer document",
           "checkedAt": "2026-10-17T08:11:47.503834+00:00",
           "reviewBasis": "Reviewed official published source; the stated function and period do not establish a current device budget or delegated sign-off."
+        },
+        {
+          "url": "https://www.ihhhealthcare.com/my/our-company/our-people/management/tan-yew-aik",
+          "title": "IHH Healthcare Malaysia management profile — procurement function",
+          "checkedAt": "2026-11-20T19:57:15.062438+00:00",
+          "reviewBasis": "The biography uses past-tense wording for Head of Procurement. It cannot identify the current procurement incumbent, an endpoint purchasing mandate, hospital-specific signing authority, quantity or budget."
         }
       ],
-      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "checkedAt": "2026-11-20T19:57:15.062438+00:00",
       "presentationDate": "2026-10-15"
     },
     "tenaga": {
@@ -691,11 +709,11 @@
       "domain": "scg.com",
       "operatingEntity": "The Siam Cement Public Company Limited",
       "entityStatus": "documented operating company / group identity",
-      "procurementTeam": "SCG corporate purchasing and the corporate workplace IT requisitioner; identify the responsible group-company buyer before a proposal.",
-      "procurementBasis": "qualification-target",
-      "supplierProcess": "Start from SCG's official corporate profile and request the corporate-office supplier / purchasing route. Do not substitute an SCG Chemicals or external trading-company supplier process for the corporate workplace requirement.",
-      "supplierUrl": "https://www.scg.com/en/company-profile",
-      "scopeBoundary": "The profile identifies the Bangkok holding-company office. SCG businesses and subsidiaries have separate purchasing scopes; their plant and engineering fleets are not automatically the holding company's demand.",
+      "procurementTeam": "SCG Smart Procurement and the requesting corporate-office purchasing unit; confirm the legal issuer and category at invitation.",
+      "procurementBasis": "published",
+      "supplierProcess": "Use SCG’s official Smart Procurement supplier entry. The portal separates internal procurement access from supplier access. Ask the requesting unit to confirm which SCG company, device category and invitation apply before supplier onboarding.",
+      "supplierUrl": "https://owapps.scg.com/RFQFrontWeb/SCG_template/scg-landing.jsp",
+      "scopeBoundary": "The SCG-hosted route is documented. The public page does not identify participating legal entities. Avoid assigning SCG Packaging or SCG Chemicals purchasing authority to the parent-company workplace scope.",
       "technicalOwner": "Workplace IT / endpoint standards owner",
       "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
       "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
@@ -706,9 +724,15 @@
           "title": "SCG corporate profile",
           "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
           "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://owapps.scg.com/RFQFrontWeb/SCG_template/scg-landing.jsp",
+          "title": "SCG Smart Procurement — procurement and supplier access",
+          "checkedAt": "2026-11-20T19:57:15.062438+00:00",
+          "reviewBasis": "Only the public landing page was reviewed. Authenticated functions, invitations, participating legal entities and device categories were not accessed. Presence of a portal does not establish supplier approval or a new equipment requirement."
         }
       ],
-      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "checkedAt": "2026-11-20T19:57:15.062438+00:00",
       "presentationDate": "2026-10-15"
     },
     "ptt": {
@@ -860,11 +884,11 @@
       "domain": "bdo.com.ph",
       "operatingEntity": "BDO Unibank, Inc.",
       "entityStatus": "documented operating company / group identity",
-      "procurementTeam": "The bank's own purchasing function and workplace / information-technology owner, separately from SM corporate procurement.",
-      "procurementBasis": "qualification-target",
-      "supplierProcess": "Use BDO's official corporate-office directory to identify the appropriate bank purchasing team and approved-vendor process. The public investor-relations address is not a supplier-registration or sales contact.",
-      "supplierUrl": "https://www.bdo.com.ph/about-bdo/investor-relations/contact-information",
-      "scopeBoundary": "BDO identifies SM Group membership and separate professional bank management. The available corporate profile does not publish a named endpoint budget holder or universal supplier portal. The bank’s 14 October 2026 Procurement Officer posting is in the Office of the President and concerns mechanical contractors / construction materials; it does not identify the endpoint-device category buyer.",
+      "procurementTeam": "Administrative Services under the Office of the President, coordinating with Procurement, IT Operations and Facilities for head-office and branch IT-equipment requests.",
+      "procurementBasis": "published",
+      "supplierProcess": "The published Administrative Services role reviews IT-equipment requests and checks the accountable person, delivery address and required approval. IT Operations, Facilities and Procurement participate in evaluating requests. Ask the corporate office to route the enquiry to this function and establish the current supplier-onboarding and category owner.",
+      "supplierUrl": "https://www.careers.bdo.com.ph/job/Mandaluyong-City-Admin_-Services-Assistant-(Office-of-the-Chief-of-Staff)-Nati/1365870966/",
+      "scopeBoundary": "The source explicitly covers BDO head-office and branch IT-equipment requests. It does not establish that an equipment package is open or that the advertised role has contract-signing authority. The separate construction-role posting does not identify the endpoint-device category buyer.",
       "technicalOwner": "Workplace IT / endpoint standards owner",
       "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
       "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
@@ -894,9 +918,15 @@
           "title": "BDO published procurement role — construction scope",
           "checkedAt": "2026-10-17T08:11:47.503834+00:00",
           "reviewBasis": "Reviewed official published source; the stated function and period do not establish a current device budget or delegated sign-off."
+        },
+        {
+          "url": "https://www.careers.bdo.com.ph/job/Mandaluyong-City-Admin_-Services-Assistant-(Office-of-the-Chief-of-Staff)-Nati/1365870966/",
+          "title": "BDO Administrative Services role — IT equipment requests",
+          "checkedAt": "2026-11-20T19:57:15.062438+00:00",
+          "reviewBasis": "Official role description supports functional responsibilities. It supplies no named incumbent, delegated signing limit, open device package, quantity or budget. The page displays 10 November 2026; earlier indexed versions displayed 12 October. Hiring is retained as organizational context."
         }
       ],
-      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "checkedAt": "2026-11-20T19:57:15.062438+00:00",
       "presentationDate": "2026-10-15"
     },
     "ayala-land": {
@@ -1036,11 +1066,11 @@
       "domain": "vingroup.net",
       "operatingEntity": "Vingroup Joint Stock Company",
       "entityStatus": "documented operating company / group identity",
-      "procurementTeam": "The parent company's purchasing function and corporate workplace owner; subsidiaries must be addressed separately.",
-      "procurementBasis": "qualification-target",
-      "supplierProcess": "Use Vingroup's official headquarters contact to request the parent-company purchasing route. The reviewed contact page identifies the company and office; it does not publish open supplier registration or an individual endpoint approver.",
-      "supplierUrl": "https://www.vingroup.net/en/contact",
-      "scopeBoundary": "This hypothesis is the Vietnam holding-company workplace. VinFast, Vinhomes, Vinpearl and other group companies are separate operating and purchasing contexts.",
+      "procurementTeam": "Vingroup Group procurement department, with the parent-company workplace IT requester and authorized legal issuer.",
+      "procurementBasis": "published",
+      "supplierProcess": "The 2024 annual report assigns supplier evaluation to the Group procurement department using compliance, quality, capacity and sustainability criteria. Ask the headquarters route to identify that department’s current corporate-workplace category owner and supplier process.",
+      "supplierUrl": "https://ircdn.vingroup.net/storage/Uploads/0_Bao%20cao%20thuong%20nien/2024/ENG_%20Vingroup%20AR24_250418.pdf",
+      "scopeBoundary": "The report documents Group procurement supplier selection. VinFast, Vinhomes and other operating-company buyer mandates remain separate. The historical process does not establish a current corporate device order.",
       "technicalOwner": "Corporate workplace IT / meeting-room owner",
       "technicalOwnerStatus": "Qualification role; an individual and delegated authority are not inferred.",
       "approvalCheck": "Confirm the legal issuer, approved supplier category, budget owner and authorized signatory in the actual invitation / purchase order before a commercial commitment.",
@@ -1058,9 +1088,15 @@
           "title": "Vingroup corporate contact page",
           "reviewBasis": "Public primary-source review; cached or previously reviewed pages may be reused. A source is not proof of a current buying project.",
           "checkedAt": "2026-10-17T07:55:24.719726+00:00"
+        },
+        {
+          "url": "https://ircdn.vingroup.net/storage/Uploads/0_Bao%20cao%20thuong%20nien/2024/ENG_%20Vingroup%20AR24_250418.pdf",
+          "title": "Vingroup Annual Report 2024 — supplier selection",
+          "checkedAt": "2026-11-20T19:57:15.062438+00:00",
+          "reviewBasis": "Narrow indexed primary-report passage reviewed. Direct PDF retrieval returned 403 and the web reader rejected the full file size. This historical policy supports the existence of a purchasing function, with current category delegation, endpoint demand and approval limits still requiring confirmation."
         }
       ],
-      "checkedAt": "2026-10-17T07:55:24.719726+00:00",
+      "checkedAt": "2026-11-20T19:57:15.062438+00:00",
       "presentationDate": "2026-10-15"
     },
     "vinamilk": {

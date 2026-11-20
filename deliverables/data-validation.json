@@ -1,5 +1,5 @@
 {
-  "validatedAt": "2026-10-17T12:20:27.518Z",
+  "validatedAt": "2026-11-20T20:02:21.702Z",
   "mode": "deterministic corpus integrity; not independently measured predictive accuracy",
   "accounts": 35,
   "territoryProspects": 35,
@@ -10,14 +10,14 @@
   "opportunities": 39,
   "uniqueEvents": 38,
   "sourceFamilies": 9,
-  "publisherOrigins": 45,
+  "publisherOrigins": 46,
   "independentOrigins": 34,
-  "staleFindings": 12,
-  "unresolvedBuyers": 116,
+  "staleFindings": 14,
+  "unresolvedBuyers": 114,
   "failedRuns": 0,
   "activeProcurement": 0,
-  "logicalDocuments": 56,
-  "uniqueCanonicalUrls": 55,
+  "logicalDocuments": 62,
+  "uniqueCanonicalUrls": 61,
   "productFamilies": 9,
   "productSources": 14,
   "evidenceRelationships": 45,
@@ -35,12 +35,12 @@
         "access": 10,
         "feasibility": 10
       },
-      "leader": "Qualify one professional workstation for TNB Research — Q26A/2026",
-      "leaderAccount": "Tenaga Nasional",
+      "leader": "Qualify engineering workstation requirements for Singapore expansion",
+      "leaderAccount": "Micron Technology",
       "leadingIds": [
-        "tnbr-workstation-q26a",
         "micron-engineering",
-        "thk-print-procurement"
+        "sunway-endpoints",
+        "kasikornbank-workplace-fit"
       ],
       "changed": false,
       "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
@@ -55,12 +55,12 @@
         "access": 10,
         "feasibility": 10
       },
-      "leader": "Qualify one professional workstation for TNB Research — Q26A/2026",
-      "leaderAccount": "Tenaga Nasional",
+      "leader": "Qualify engineering workstation requirements for Singapore expansion",
+      "leaderAccount": "Micron Technology",
       "leadingIds": [
-        "tnbr-workstation-q26a",
         "micron-engineering",
-        "thk-print-procurement"
+        "sunway-endpoints",
+        "kasikornbank-workplace-fit"
       ],
       "changed": false,
       "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
@@ -75,12 +75,12 @@
         "access": 15,
         "feasibility": 10
       },
-      "leader": "Qualify one professional workstation for TNB Research — Q26A/2026",
-      "leaderAccount": "Tenaga Nasional",
+      "leader": "Qualify engineering workstation requirements for Singapore expansion",
+      "leaderAccount": "Micron Technology",
       "leadingIds": [
-        "tnbr-workstation-q26a",
         "micron-engineering",
-        "thk-print-procurement"
+        "sunway-endpoints",
+        "kasikornbank-workplace-fit"
       ],
       "changed": false,
       "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
@@ -95,12 +95,12 @@
         "access": 10,
         "feasibility": 10
       },
-      "leader": "Qualify one professional workstation for TNB Research — Q26A/2026",
-      "leaderAccount": "Tenaga Nasional",
+      "leader": "Qualify engineering workstation requirements for Singapore expansion",
+      "leaderAccount": "Micron Technology",
       "leadingIds": [
-        "tnbr-workstation-q26a",
-        "thk-print-procurement",
-        "micron-engineering"
+        "micron-engineering",
+        "sunway-endpoints",
+        "kasikornbank-workplace-fit"
       ],
       "changed": false,
       "explanation": "Eligibility and readiness gates remain unchanged. Sample comparison only; weights have not been empirically calibrated."
@@ -110,7 +110,7 @@
     "All evidence links resolve inside the correct account.",
     "Supporting passages checked for metadata, maximum source quote budget, chronology and explicit limitations.",
     "No private buyers, invented quantities, prices or win probabilities.",
-    "Two reviewed current notice hypotheses (THK and TNB Research); HP supply eligibility remains unverified. Standing screened-company profiles do not establish open procurement.",
+    "Dated THK and TNB Research notices retain their actual deadlines. Current procurement readiness is recomputed at runtime; HP supply eligibility still needs assessment.",
     "Source support reviewed by project analysts; this integrity script cannot establish truth independently."
   ]
 }
